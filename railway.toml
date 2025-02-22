@@ -1,8 +1,8 @@
 [build]
 builder = "nixpacks"
-buildCommand = "yarn build"
+buildCommand = "npm run build"
 
 [deploy]
-startCommand = "yarn serve"
+startCommand = "npm run serve"
 healthcheckPath = "/"
 healthcheckTimeout = 100
