@@ -6,5 +6,3 @@ buildCommand = "yarn build"
 startCommand = "yarn serve"
 healthcheckPath = "/"
 healthcheckTimeout = 100
-restartPolicyType = "on-failure"
-restartPolicyMaxRetries = 10
