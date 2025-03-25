@@ -6,25 +6,141 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-color-primary: #00c6e0;
+  --ifm-color-primary-dark: #00b2ca;
+  --ifm-color-primary-darker: #00a8be;
+  --ifm-color-primary-darkest: #008a9c;
+  --ifm-color-primary-light: #00daf6;
+  --ifm-color-primary-lighter: #0de4ff;
+  --ifm-color-primary-lightest: #2ee7ff;
   --ifm-code-font-size: 95%;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --docusaurus-highlighted-code-line-bg: rgba(0, 198, 224, 0.1);
+  
+  /* Custom variables */
+  --atomik-black: #000000;
+  --atomik-dark-gray: #121212;
+  --atomik-gray: #1e1e1e;
+  --atomik-light-gray: rgba(255, 255, 255, 0.1);
+  --atomik-cyan: rgba(0, 198, 224, 1);
+  --atomik-cyan-transparent: rgba(0, 198, 224, 0.1);
+  --atomik-border: rgba(255, 255, 255, 0.18);
+  --atomik-backdrop-filter: blur(10px);
+  
+  /* Glassmorphism card */
+  --atomik-card-bg: rgba(255, 255, 255, 0.05);
+  --atomik-card-border: rgba(255, 255, 255, 0.18);
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --ifm-color-primary: #00c6e0;
+  --ifm-color-primary-dark: #00b2ca;
+  --ifm-color-primary-darker: #00a8be;
+  --ifm-color-primary-darkest: #008a9c;
+  --ifm-color-primary-light: #00daf6;
+  --ifm-color-primary-lighter: #0de4ff;
+  --ifm-color-primary-lightest: #2ee7ff;
+  --ifm-background-color: var(--atomik-black);
+  --ifm-background-surface-color: var(--atomik-gray);
+  --ifm-navbar-background-color: rgba(0, 0, 0, 0.8);
+  --ifm-footer-background-color: var(--atomik-black);
+  --ifm-card-background-color: var(--atomik-card-bg);
+  --ifm-menu-color-active: var(--atomik-cyan);
+  --docusaurus-highlighted-code-line-bg: rgba(0, 198, 224, 0.3);
+}
+
+/* Apply backdrop filter to navbar when scrolled */
+.navbar--fixed-top {
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Completely hide the theme toggle button */
+.clean-btn.navbar__item.navbar__theme-toggle,
+.theme-toggle,
+.navbar__theme-toggle,
+.toggleButton_node_modules-\@docusaurus-theme-classic-lib-theme-Navbar-ColorModeToggle-styles-module,
+div[class*="colorModeToggle"],
+div[class*="toggleButton"],
+button[class*="toggleButton"] {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  width: 0 !important;
+  height: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  position: absolute !important;
+  overflow: hidden !important;
+  clip: rect(0, 0, 0, 0) !important;
+}
+
+/* Navbar logo styling */
+.navbar__logo {
+  height: 32px; /* Adjust based on your logo */
+  margin-right: 0; /* Remove right margin if you don't have a title */
+}
+
+.navbar__brand {
+  margin-right: 1rem;
+}
+
+/* Hide default Docusaurus title if needed */
+.navbar__title {
+  display: none;
+}
+
+/* Gradient text highlight effect */
+.gradient-text {
+  background: linear-gradient(to right, rgba(0, 198, 224, 1), rgba(0, 198, 224, 0.6));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  display: inline;
+}
+
+/* Card styling with glassmorphism effect */
+.card {
+  background: var(--atomik-card-bg);
+  backdrop-filter: var(--atomik-backdrop-filter);
+  border: 1px solid var(--atomik-card-border);
+  border-radius: 1rem;
+  transition: all 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 198, 224, 0.1);
+}
+
+/* Button styling to match Atomik branding */
+.button--primary {
+  background-color: var(--atomik-cyan);
+  border-color: var(--atomik-cyan);
+}
+
+.button--secondary {
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.button--secondary:hover {
+  background-color: rgba(0, 198, 224, 0.1);
+  border-color: var(--atomik-cyan);
+  color: var(--atomik-cyan);
+}
+
+/* Custom glass button style */
+.button--glass {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  color: white;
+  transition: all 0.3s;
+}
+
+.button--glass:hover {
+  background: rgba(0, 198, 224, 0.1);
+  border-color: rgba(0, 198, 224, 0.3);
+  color: var(--atomik-cyan);
 }
