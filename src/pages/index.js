@@ -126,9 +126,9 @@ function ResourceGrid() {
 function QuickLinks() {
   const links = [
     { title: 'Introduction', link: '/docs/intro' },
-    { title: 'Guides', link: '/docs/category/guides' },
-    { title: 'API References', link: '/docs/api' },
-    { title: 'Broker Integrations', link: '/docs/brokers' },
+    { title: 'Getting Started', link: '/docs/intro' }, // Changed to an existing page
+    { title: 'Documentation', link: '/docs' }, // Changed to an existing page
+    { title: 'Blog', link: '/blog' }, // Changed to an existing page
   ];
 
   return (
