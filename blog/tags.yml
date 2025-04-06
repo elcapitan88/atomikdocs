@@ -1,19 +1,19 @@
-facebook:
-  label: Facebook
-  permalink: /facebook
-  description: Facebook tag description
+automated-trading:
+  label: Automated Trading
+  permalink: /automated-trading
+  description: Posts about automating your trading strategies
 
-hello:
-  label: Hello
-  permalink: /hello
-  description: Hello tag description
+copy-trading:
+  label: Copy Trading
+  permalink: /copy-trading
+  description: Learn about copy trading techniques and platforms
 
-docusaurus:
-  label: Docusaurus
-  permalink: /docusaurus
-  description: Docusaurus tag description
+trading-fundamentals:
+  label: Trading Fundamentals
+  permalink: /trading-fundamentals
+  description: Core concepts and fundamentals of trading
 
-hola:
-  label: Hola
-  permalink: /hola
-  description: Hola tag description
+presidents-thoughts:
+  label: President's Thoughts
+  permalink: /presidents-thoughts
+  description: Market insights, analysis and company updates directly from the President of AtomikTrading

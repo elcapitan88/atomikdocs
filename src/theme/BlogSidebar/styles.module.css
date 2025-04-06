@@ -1,0 +1,94 @@
+/* src/theme/BlogSidebar/styles.module.css */
+.sidebar {
+    max-height: calc(100vh - (var(--ifm-navbar-height) + 2rem));
+    overflow-y: auto;
+    position: sticky;
+    /* Significantly lowered position */
+    top: calc(var(--ifm-navbar-height) + 18rem);
+    padding: 0 0 1.5rem 0;
+  }
+  
+  .sidebarHeader {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .sidebarTitle {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--ifm-color-primary);
+    margin-bottom: 0.5rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding-bottom: 0.75rem;
+  }
+  
+  .categoriesList {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 1.5rem 0;
+  }
+  
+  .categoryItem {
+    margin-bottom: 0.5rem;
+  }
+  
+  .categoryLink {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.75rem 1rem;
+    border-radius: 0.5rem;
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+    transition: all 0.2s ease;
+  }
+  
+  .categoryLink:hover {
+    background: rgba(0, 198, 224, 0.1);
+    color: var(--ifm-color-primary);
+    text-decoration: none;
+  }
+  
+  .categoryName {
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  
+  .categoryCount {
+    background: rgba(0, 198, 224, 0.1);
+    color: var(--ifm-color-primary);
+    font-size: 0.75rem;
+    font-weight: 500;
+    padding: 0.2rem 0.5rem;
+    border-radius: 1rem;
+    border: 1px solid rgba(0, 198, 224, 0.2);
+  }
+  
+  .viewAllButton {
+    display: block;
+    text-align: center;
+    margin: 0 1rem;
+    padding: 0.75rem;
+    background: rgba(0, 198, 224, 0.1);
+    border-radius: 0.5rem;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: var(--ifm-color-primary);
+    transition: all 0.2s ease;
+    text-decoration: none;
+    border: 1px solid rgba(0, 198, 224, 0.2);
+  }
+  
+  .viewAllButton:hover {
+    background: rgba(0, 198, 224, 0.2);
+    text-decoration: none;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 996px) {
+    .sidebar {
+      top: var(--ifm-navbar-height);
+      padding-top: 1rem;
+    }
+  }
