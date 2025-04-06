@@ -181,8 +181,8 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           routeBasePath: 'docs',
           // Add SEO-friendly metadata to document pages
-          showLastUpdateTime: true,
-          showLastUpdateAuthor: true,
+          showLastUpdateTime: false,
+          showLastUpdateAuthor: false,
         },
         blog: {
           showReadingTime: true,
