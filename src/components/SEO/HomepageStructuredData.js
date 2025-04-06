@@ -1,8 +1,12 @@
-// src/components/SEO/HomepageStructuredData.js
 import React from 'react';
 import Head from '@docusaurus/Head';
+import ExecutionEnvironment from '@docusaurus/ExecutionEnvironment';
+
 
 export default function HomepageStructuredData() {
+    if (!ExecutionEnvironment.canUseDOM) {
+        return null;
+      }
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "WebSite",

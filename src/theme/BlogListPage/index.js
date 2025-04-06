@@ -12,6 +12,8 @@ import BlogListPaginator from '@theme/BlogListPaginator';
 import SearchMetadata from '@theme/SearchMetadata';
 import { translate } from '@docusaurus/Translate';
 import Link from '@docusaurus/Link';
+import { useLocation } from '@docusaurus/router';
+import ExecutionEnvironment from '@docusaurus/ExecutionEnvironment';
 import styles from './styles.module.css';
 
 // Automated Trading icon
@@ -59,16 +61,6 @@ function TradingFundamentalsIcon() {
   );
 }
 
-// API Integration icon
-function ApiIntegrationIcon() {
-  return (
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" width="32" height="32">
-      <rect x="2" y="7" width="20" height="14" rx="2" ry="2" />
-      <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16" />
-    </svg>
-  );
-}
-
 // Category card component
 function CategoryCard({ title, description, icon: Icon, link, count }) {
   return (
@@ -91,7 +83,7 @@ function CategoryCard({ title, description, icon: Icon, link, count }) {
   );
 }
 
-// Blog post card component for category pages - Updated
+// Blog post card component for category pages
 function BlogPostCard({ post }) {
   if (!post || !post.metadata) {
     return null;
@@ -170,6 +162,7 @@ function BlogPostCard({ post }) {
 function CustomBlogListPage(props) {
   const { metadata, items, sidebar } = props || {};
   const { blogDescription, blogTitle } = metadata || {};
+  const location = useLocation();
   
   // Define our categories
   const categories = [
@@ -203,17 +196,19 @@ function CustomBlogListPage(props) {
     },
   ];
   
-  // Check if we're on the main blog page
-  const isMainBlogPage = window.location.pathname === '/blog' || 
-                         window.location.pathname === '/blog/';
+  // Check if we're on the main blog page - safely check without using window directly
+  const isMainBlogPage = 
+    ExecutionEnvironment.canUseDOM ? 
+    (location.pathname === '/blog' || location.pathname === '/blog/') : 
+    false;
   
   // Update the page title for category pages
   let pageTitle = blogTitle || 'Blog';
   let pageSubtitle = 'Latest insights, updates, and guides on trading automation';
   
-  // For category pages, update the title to show which category we're viewing
-  if (!isMainBlogPage && window.location.pathname.includes('/blog/tags/')) {
-    const categoryPath = window.location.pathname.split('/blog/tags/')[1].replace(/\/$/, '');
+  // For category pages, update the title to show which category we're viewing - safely check using location
+  if (!isMainBlogPage && ExecutionEnvironment.canUseDOM && location.pathname.includes('/blog/tags/')) {
+    const categoryPath = location.pathname.split('/blog/tags/')[1]?.replace(/\/$/, '') || '';
     const currentCategory = categories.find(cat => cat.link.includes(categoryPath));
     
     if (currentCategory) {

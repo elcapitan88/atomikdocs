@@ -3,6 +3,7 @@ import React from 'react';
 import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import { translate } from '@docusaurus/Translate';
+import ExecutionEnvironment from '@docusaurus/ExecutionEnvironment';
 import styles from './styles.module.css';
 
 // List of custom categories we want to show
@@ -35,8 +36,9 @@ export default function BlogSidebar({ sidebar }) {
   }
   
   // Check if we're on the main blog page
-  const isMainBlogPage = window.location.pathname === '/blog' || 
-                         window.location.pathname === '/blog/';
+  const isMainBlogPage = 
+    ExecutionEnvironment.canUseDOM && 
+    (window.location.pathname === '/blog' || window.location.pathname === '/blog/');
   
   // Don't show sidebar on main blog page
   if (isMainBlogPage) {
