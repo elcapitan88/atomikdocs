@@ -2,7 +2,7 @@
 const config = {
   title: 'AtomikTrading Documentation',
   tagline: 'Professional Trading Automation Platform',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/favicon.png',
   
   // Set the production url of your site here
   url: 'https://docs.atomiktrading.io',
