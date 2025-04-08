@@ -7,7 +7,7 @@ authors:
     url: https://atomiktrading.io
     image_url: /img/Cruz-Atomik-Profile.jpg
 tags: [automated-trading, algorithmic-trading, trading-fundamentals, beginner-traders]
-image: /img/blog/automated-trading-header.jpg
+image: static\img\Automated-trading
 description: Learn how to harness the power of automated trading in 2025 without coding experience or massive capital. Discover step-by-step instructions to build, test, and deploy your first trading algorithm.
 ---
 
@@ -16,7 +16,7 @@ description: Learn how to harness the power of automated trading in 2025 without
 
 *Last updated: April 8, 2025*
 
-![Automated trading dashboard on computer screens](https://via.placeholder.com/800x400)
+![Automated trading](/img/automated-trading.png)
 
 ## Introduction: The New Reality of Trading
 
@@ -98,7 +98,7 @@ In 2025, beginners have several approachable options:
 |--------------|----------|----------|--------------|
 | No-code Platforms | TradeStation, TradingView | Beginners with no coding experience | $30-100/month |
 | Low-code Solutions | Quantconnect, TradingBots | Those willing to learn some basic concepts | $50-150/month |
-| API-based Systems | Alpaca, Interactive Brokers API | Those with programming skills | Varies by trading volume |
+| API-based Systems | Alpaca, Interactive Brokers API, AtomikTrading | Those with programming skills | Varies by trading volume |
 | Cloud Platforms | AWS Trading Solutions, Google Cloud Trading | Enterprise-grade solutions | $200+/month |
 
 **The 2025 beginner-friendly recommendation**: Start with a visual strategy builder like TradeStation or TradingView, which offers the lowest barrier to entry while still providing powerful capabilities.
