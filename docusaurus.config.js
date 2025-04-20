@@ -4,33 +4,31 @@ const config = {
   tagline: 'Professional Trading Automation Platform',
   favicon: 'img/favicon.png',
   
-  // Set the production url of your site here
-  url: 'https://docs.atomiktrading.io',
-  // Set the /<baseUrl>/ pathname under which your site is served
-  baseUrl: '/',
+  // Update the URL to your main domain
+  url: 'https://atomiktrading.io',
+  // Change the baseUrl to '/docs/' for subdirectory
+  baseUrl: '/docs/',
   
   // GitHub pages deployment config
   organizationName: 'atomiktrading',
   projectName: 'docs',
   
-  // SEO optimization settings
-  trailingSlash: false, // Better for SEO to avoid duplicate content
-  noIndex: false, // Ensure search engines index your site
+  // SEO settings remain the same
+  trailingSlash: false,
+  noIndex: false,
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   onBrokenAnchors: 'warn',
   onDuplicateRoutes: 'warn',
   
-  // Even if you don't use internationalization, you can use this field to set useful
-  // metadata like html lang
   i18n: {
     defaultLocale: 'en',
     locales: ['en'],
   },
   
-  // Enhanced metadata for SEO
+  // Update URLs in metadata
   headTags: [
-    // Standard meta tags
+    // Standard meta tags stay the same
     {
       tagName: 'meta',
       attributes: {
@@ -52,16 +50,16 @@ const config = {
         content: 'index, follow',
       },
     },
-    // Favicon enhancements for different devices
+    // Favicon links
     {
       tagName: 'link',
       attributes: {
         rel: 'apple-touch-icon',
-        href: '/img/apple-touch-icon.png',
+        href: '/docs/img/apple-touch-icon.png', // Updated path
         sizes: '180x180',
       },
     },
-    // Structured data for better search results
+    // Update structured data with new URL
     {
       tagName: 'script',
       attributes: {
@@ -71,24 +69,23 @@ const config = {
         '@context': 'https://schema.org',
         '@type': 'WebSite',
         'name': 'AtomikTrading Documentation',
-        'url': 'https://docs.atomiktrading.io',
+        'url': 'https://atomiktrading.io/docs', // Updated URL
         'potentialAction': {
           '@type': 'SearchAction',
-          'target': 'https://docs.atomiktrading.io/search?q={search_term_string}',
+          'target': 'https://atomiktrading.io/docs/search?q={search_term_string}', // Updated URL
           'query-input': 'required name=search_term_string'
         }
       }),
     },
   ],
   
-  // Theme configuration for dark mode only
   themeConfig: {
-    // SEO metadata for social media sharing
+    // Update social media metadata URLs
     metadata: [
       {property: 'og:type', content: 'website'},
       {property: 'og:title', content: 'AtomikTrading Documentation'},
       {property: 'og:description', content: 'Professional-grade webhook-based trading automation platform. Connect your favorite broker and automate your trading strategies with ease.'},
-      {property: 'og:image', content: 'https://docs.atomiktrading.io/img/atomik-social-card.png'},
+      {property: 'og:image', content: 'https://atomiktrading.io/docs/img/atomik-social-card.png'}, // Updated URL
       {property: 'twitter:card', content: 'summary_large_image'},
       {property: 'twitter:site', content: '@atomiktrades'},
     ],
@@ -97,7 +94,7 @@ const config = {
       disableSwitch: true,
       respectPrefersColorScheme: false,
     },
-    // The rest of your theme config
+    // The navbar config stays the same
     navbar: {
       title: '',
       hideOnScroll: false,
@@ -155,13 +152,11 @@ const config = {
       ],
       copyright: `Copyright © ${new Date().getFullYear()} AtomikTrading.`,
     },
-    // Apply your dark theme
     prism: {
       theme: require('prism-react-renderer').themes.dracula,
     },
-    // Enhance SEO for search engines
+    // Algolia config remains but you'll need to update index later
     algolia: {
-      // If you decide to use Algolia DocSearch
       appId: 'YOUR_APP_ID',
       apiKey: 'YOUR_API_KEY',
       indexName: 'atomiktrading',
@@ -169,7 +164,6 @@ const config = {
     }
   },
   
-  // Plugins for enhanced SEO
   plugins: [
   ],
   
@@ -179,22 +173,19 @@ const config = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          routeBasePath: 'docs',
-          // Add SEO-friendly metadata to document pages
+          routeBasePath: 'docs', // This is already correct!
           showLastUpdateTime: false,
           showLastUpdateAuthor: false,
         },
         blog: {
           showReadingTime: true,
-          // Add author pages
           authorsMapPath: 'blog/authors.yml',
-          // Create blog archive pages
           blogArchiveComponent: '@theme/BlogArchivePage',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
-        // Enable SEO-friendly sitemap
+        // Update sitemap configuration
         sitemap: {
           changefreq: 'weekly',
           priority: 0.5,
