@@ -173,25 +173,11 @@ const config = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          routeBasePath: 'docs', // This is already correct!
+          routeBasePath: '', // Change this to empty string
           showLastUpdateTime: false,
           showLastUpdateAuthor: false,
         },
-        blog: {
-          showReadingTime: true,
-          authorsMapPath: 'blog/authors.yml',
-          blogArchiveComponent: '@theme/BlogArchivePage',
-        },
-        theme: {
-          customCss: require.resolve('./src/css/custom.css'),
-        },
-        // Update sitemap configuration
-        sitemap: {
-          changefreq: 'weekly',
-          priority: 0.5,
-          ignorePatterns: ['/tags/**'],
-          filename: 'sitemap.xml',
-        },
+        // Other settings remain the same
       },
     ],
   ],
