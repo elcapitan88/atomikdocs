@@ -1,7 +1,7 @@
 // docusaurus.config.js
 const config = {
-  title: 'AtomikTrading Documentation',
-  tagline: 'Professional Trading Automation Platform',
+  title: 'Atomik Trading Documentation & Learning Center',
+  tagline: 'Complete Documentation, Tutorials & Guides for Trading Automation',
   favicon: 'img/favicon.png',
   
   // Update the URL to your main domain
@@ -33,7 +33,7 @@ const config = {
       tagName: 'meta',
       attributes: {
         name: 'keywords',
-        content: 'trading automation, copy trading, webhook trading, automated trading, trading bots, multi-account trading, futures trading, algorithmic trading',
+        content: 'trading automation, automated trading documentation, trading platform guides, webhook trading, copy trading, prop trading, TradingView integration, trading tutorials',
       },
     },
     {
@@ -59,7 +59,7 @@ const config = {
         sizes: '180x180',
       },
     },
-    // Update structured data with new URL
+    // Comprehensive structured data for documentation, tutorials, and blog
     {
       tagName: 'script',
       attributes: {
@@ -67,14 +67,58 @@ const config = {
       },
       innerHTML: JSON.stringify({
         '@context': 'https://schema.org',
-        '@type': 'WebSite',
-        'name': 'AtomikTrading Documentation',
-        'url': 'https://atomiktrading.io/docs', // Updated URL
-        'potentialAction': {
-          '@type': 'SearchAction',
-          'target': 'https://atomiktrading.io/docs/search?q={search_term_string}', // Updated URL
-          'query-input': 'required name=search_term_string'
-        }
+        '@graph': [
+          {
+            '@type': 'WebSite',
+            '@id': 'https://atomiktrading.io/docs#website',
+            'name': 'Atomik Trading Documentation & Learning Center',
+            'url': 'https://atomiktrading.io/docs',
+            'description': 'Complete documentation, tutorials, and guides for trading automation',
+            'publisher': {
+              '@type': 'Organization',
+              'name': 'Atomik Trading'
+            },
+            'potentialAction': {
+              '@type': 'SearchAction',
+              'target': 'https://atomiktrading.io/docs/search?q={search_term_string}',
+              'query-input': 'required name=search_term_string'
+            }
+          },
+          {
+            '@type': 'LearningResource',
+            '@id': 'https://atomiktrading.io/docs#learning-resource',
+            'name': 'Trading Automation Learning Center',
+            'description': 'Comprehensive tutorials and guides for learning trading automation',
+            'educationalLevel': ['Beginner', 'Intermediate', 'Advanced'],
+            'teaches': [
+              'Trading Automation',
+              'TradingView Integration', 
+              'Webhook Configuration',
+              'Risk Management',
+              'Prop Trading Strategies'
+            ],
+            'learningResourceType': ['Tutorial', 'Documentation', 'Guide'],
+            'provider': {
+              '@type': 'Organization',
+              'name': 'Atomik Trading',
+              'url': 'https://atomiktrading.io'
+            }
+          },
+          {
+            '@type': 'TechArticle',
+            '@id': 'https://atomiktrading.io/docs#documentation',
+            'name': 'Atomik Trading Platform Documentation',
+            'description': 'Technical documentation and API reference for the Atomik Trading platform',
+            'about': {
+              '@type': 'SoftwareApplication',
+              'name': 'Atomik Trading Platform'
+            },
+            'audience': {
+              '@type': 'Audience',
+              'audienceType': ['Developers', 'Traders', 'Financial Professionals']
+            }
+          }
+        ]
       }),
     },
   ],
@@ -83,8 +127,8 @@ const config = {
     // Update social media metadata URLs
     metadata: [
       {property: 'og:type', content: 'website'},
-      {property: 'og:title', content: 'AtomikTrading Documentation'},
-      {property: 'og:description', content: 'Professional-grade webhook-based trading automation platform. Connect your favorite broker and automate your trading strategies with ease.'},
+      {property: 'og:title', content: 'Atomik Trading Documentation & Learning Center'},
+      {property: 'og:description', content: 'Complete documentation, tutorials, and guides for trading automation. From beginner tutorials to advanced reference materials for prop traders and automation experts.'},
       {property: 'og:image', content: 'https://atomiktrading.io/docs/img/atomik-social-card.png'}, // Updated URL
       {property: 'twitter:card', content: 'summary_large_image'},
       {property: 'twitter:site', content: '@atomiktrades'},
