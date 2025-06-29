@@ -1,4 +1,19 @@
+---
+slug: complete-beginners-guide-automated-trading
+title: "Complete Beginner's Guide to Automated Trading"
+authors:
+  - name: Cruz Hernandez
+    title: Founder & President Atomiktrading.io
+    url: https://atomiktrading.io
+    image_url: /img/Cruz-Atomik-Profile.jpg
+tags: [automated-trading, trading-fundamentals, beginner-traders, algorithmic-trading]
+image: /img/automated-trading.png
+description: Learn how to start automated trading with no programming skills required. This comprehensive guide covers everything from choosing a broker to creating your first strategy, with setup taking as little as 30 minutes.
+---
+
 # Complete Beginner's Guide to Automated Trading
+
+*Last updated: June 29, 2025*
 
 ## Key Takeaways
 
