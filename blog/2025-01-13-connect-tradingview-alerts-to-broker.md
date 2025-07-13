@@ -1,7 +1,7 @@
 ---
 slug: connect-tradingview-alerts-to-broker
 title: How to Connect TradingView Alerts to Any Broker
-authors: [atomik]
+authors: [Cruz]
 tags: [tradingview, alerts, automation, broker, webhook, tutorial]
 date: 2025-01-13
 description: Complete step-by-step guide to connect TradingView alerts to your broker using webhooks and automation platforms. 15-30 minute setup, no coding required.
