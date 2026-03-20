@@ -129,7 +129,7 @@ const config = {
       {property: 'og:type', content: 'website'},
       {property: 'og:title', content: 'Atomik Trading Documentation & Learning Center'},
       {property: 'og:description', content: 'Complete documentation, tutorials, and guides for trading automation. From beginner tutorials to advanced reference materials for prop traders and automation experts.'},
-      {property: 'og:image', content: 'https://atomiktrading.io/docs/img/atomik-social-card.png'}, // Updated URL
+      {property: 'og:image', content: 'https://atomiktrading.io/docs/img/docusaurus-social-card.jpg'},
       {property: 'twitter:card', content: 'summary_large_image'},
       {property: 'twitter:site', content: '@atomiktrades'},
     ],
@@ -168,11 +168,11 @@ const config = {
             },
             {
               label: 'Guides',
-              to: '/docs/category/guides',
+              to: '/docs/guides/first-trade',
             },
             {
-              label: 'Policy',
-              to: '/docs/category/policy',
+              label: 'Legal',
+              to: '/docs/legal/privacy-policy',
             },
           ],
         },
@@ -199,13 +199,6 @@ const config = {
     prism: {
       theme: require('prism-react-renderer').themes.dracula,
     },
-    // Algolia config remains but you'll need to update index later
-    algolia: {
-      appId: 'YOUR_APP_ID',
-      apiKey: 'YOUR_API_KEY',
-      indexName: 'atomiktrading',
-      contextualSearch: true,
-    }
   },
   
   plugins: [

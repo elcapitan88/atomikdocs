@@ -7,7 +7,18 @@ const sidebars = {
       id: 'intro',
       label: 'Introduction',
     },
-    // Legal Section
+    // Guides
+    {
+      type: 'category',
+      label: 'Guides',
+      items: [
+        'guides/first-trade',
+        'guides/webhook-setup',
+        'guides/trading-strategies',
+        'guides/security',
+      ],
+    },
+    // Legal
     {
       type: 'category',
       label: 'Legal',
@@ -15,28 +26,6 @@ const sidebars = {
         'legal/privacy-policy',
         'legal/terms-of-service',
         'legal/cookie-policy',
-      ],
-    },
-    // Tutorial Basics (these come with Docusaurus by default)
-    {
-      type: 'category',
-      label: 'Tutorial Basics',
-      items: [
-        'tutorial-basics/create-a-blog-post',
-        'tutorial-basics/create-a-document',
-        'tutorial-basics/create-a-page',
-        'tutorial-basics/deploy-your-site',
-        'tutorial-basics/markdown-features',
-        'tutorial-basics/congratulations',
-      ],
-    },
-    // Tutorial Extras (these come with Docusaurus by default)
-    {
-      type: 'category',
-      label: 'Tutorial Extras',
-      items: [
-        'tutorial-extras/manage-docs-versions',
-        'tutorial-extras/translate-your-site',
       ],
     },
   ],

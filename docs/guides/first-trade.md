@@ -13,10 +13,10 @@ This comprehensive guide will walk you through setting up and executing your fir
 
 Before you begin automating your trading, make sure you have:
 
-- An active [Atomik Trading account](https://atomiktrading.io) 
-- A connected broker account (see our [broker setup guide](/docs/guides/broker-connection))
+- An active [Atomik Trading account](https://atomiktrading.io)
+- A connected broker account (configured in the dashboard under Settings)
 - Basic familiarity with trading concepts
-- Understanding of [risk management principles](/docs/guides/risk-management)
+- Understanding of risk management principles
 
 ## Step 1: Setting Up a Simple Trade
 
@@ -35,11 +35,11 @@ Now, let's automate this trade with a simple trigger. This is where the power of
 ### 2.1 Create a Webhook for Automation
 
 1. Go to the **Automation** section
-2. Select **Webhooks** from the submenu  
+2. Select **Webhooks** from the submenu
 3. Click **Create New Webhook**
-4. Follow our detailed [webhook setup guide](/docs/guides/webhook-setup) for complete configuration
+4. Follow our detailed [webhook setup guide](./webhook-setup) for complete configuration
 
-> **Pro Tip**: Start with [TradingView alerts](/docs/integrations/tradingview) for reliable automation signals.
+> **Pro Tip**: Start with TradingView alerts for reliable automation signals.
 
 ### 2.2 Connect TradingView Alerts (Recommended)
 
@@ -49,8 +49,6 @@ For beginners, we recommend starting with TradingView integration:
 2. Create alert conditions
 3. Use the webhook URL from Step 2.1
 4. Test with paper trading first
-
-Learn more in our [TradingView automation tutorial](/docs/integrations/tradingview-automation).
 
 ## Step 3: Going Live with Automated Trading
 
@@ -71,7 +69,6 @@ Before activating your automated trading system:
 Once your automation is live:
 
 - Monitor initial trades closely
-- Check our [monitoring best practices](/docs/guides/monitoring-automation)
 - Keep a trading journal of automated decisions
 - Review performance regularly
 
@@ -79,17 +76,15 @@ Once your automation is live:
 
 Congratulations on setting up your first automated trade! Here's what to explore next:
 
-- **[Advanced Automation Strategies](/docs/guides/advanced-strategies)** - More sophisticated automation techniques
-- **[Risk Management for Automated Trading](/docs/guides/automation-risk-management)** - Protect your capital
-- **[Copy Trading Features](/docs/features/copy-trading)** - Learn from successful automated traders
-- **[Prop Trading Automation](/docs/guides/prop-trading-automation)** - Use automation with funded accounts
+- **[Trading Strategies](./trading-strategies)** - Explore strategy configuration and management
+- **[Security Best Practices](./security)** - Protect your account and API keys
+- **[Webhook Setup](./webhook-setup)** - Deep dive into webhook configuration
 
 ## Need Help?
 
 If you need assistance with your **automated trading setup**:
 
-- Check our [FAQ section](/docs/faq)
-- Join our [community discussions](/docs/community)
-- Contact our [support team](https://atomiktrading.io/support)
+- Browse the other [guides](./webhook-setup) in our documentation
+- Contact our [support team](mailto:support@atomiktrading.io)
 
 Remember: **Successful trading automation requires patience, testing, and continuous learning.** Start small, learn the system, and gradually increase your automation complexity.

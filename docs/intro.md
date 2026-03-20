@@ -1,3 +1,4 @@
+---
 sidebar_position: 1
 ---
 
@@ -24,12 +25,11 @@ AtomikTrading is a professional-grade webhook-based trading automation platform 
 ## Getting Started
 
 1. [Create an Account](https://atomiktrading.io)
-2. [Connect Your Broker](/docs/guides/broker-connection)
-3. [Set Up Your First Webhook](/docs/webhooks/setup)
-4. [Start Trading](/docs/guides/first-trade)
+2. [Set Up Your First Webhook](./guides/webhook-setup)
+3. [Execute Your First Trade](./guides/first-trade)
 
 ## Need Help?
 
-- Check our [FAQ](/docs/guides/faq)
-- View [API Documentation](/docs/api/overview)
-- Contact [Support](mailto:support@atomiktrading.io)" > intro.md
+- Review our [Security Best Practices](./guides/security)
+- Explore [Trading Strategies](./guides/trading-strategies)
+- Contact [Support](mailto:support@atomiktrading.io)
