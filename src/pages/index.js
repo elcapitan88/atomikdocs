@@ -94,11 +94,11 @@ function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
 
   const links = [
-    { title: 'Introduction', link: '/docs/intro' },
-    { title: 'Webhook Setup', link: '/docs/guides/webhook-setup' },
-    { title: 'Marketplace', link: '/docs/guides/marketplace' },
-    { title: 'Copy Trading', link: '/docs/guides/copy-trading' },
-    { title: 'FAQ', link: '/docs/guides/faq' },
+    { title: 'Introduction', link: '/intro' },
+    { title: 'Webhook Setup', link: '/guides/webhook-setup' },
+    { title: 'Marketplace', link: '/guides/marketplace' },
+    { title: 'Copy Trading', link: '/guides/copy-trading' },
+    { title: 'FAQ', link: '/guides/faq' },
     { title: 'Blog', link: '/blog' },
   ];
 
@@ -166,25 +166,25 @@ function DocsIntroSection() {
             <div className={styles.startCard}>
               <h3 className={styles.startCardTitle}>New Users</h3>
               <p className={styles.startCardText}>Just getting started with AtomikTrading?</p>
-              <Link to="/docs/intro" className={styles.startButton}>Begin Here &rarr;</Link>
+              <Link to="/intro" className={styles.startButton}>Begin Here &rarr;</Link>
             </div>
 
             <div className={styles.startCard}>
               <h3 className={styles.startCardTitle}>Broker Setup</h3>
               <p className={styles.startCardText}>Connect your Tradovate, IB, or Binance account.</p>
-              <Link to="/docs/guides/broker-connection" className={styles.startButton}>Connect Broker &rarr;</Link>
+              <Link to="/guides/broker-connection" className={styles.startButton}>Connect Broker &rarr;</Link>
             </div>
 
             <div className={styles.startCard}>
               <h3 className={styles.startCardTitle}>Webhook Setup</h3>
               <p className={styles.startCardText}>Ready to configure your webhooks?</p>
-              <Link to="/docs/guides/webhook-setup" className={styles.startButton}>Setup Guide &rarr;</Link>
+              <Link to="/guides/webhook-setup" className={styles.startButton}>Setup Guide &rarr;</Link>
             </div>
 
             <div className={styles.startCard}>
               <h3 className={styles.startCardTitle}>Marketplace</h3>
               <p className={styles.startCardText}>Browse or sell trading strategies.</p>
-              <Link to="/docs/guides/marketplace" className={styles.startButton}>Explore &rarr;</Link>
+              <Link to="/guides/marketplace" className={styles.startButton}>Explore &rarr;</Link>
             </div>
           </div>
         </div>
@@ -222,10 +222,10 @@ function SearchSection() {
         </form>
         <div className={styles.popularSearches}>
           <span className={styles.popularLabel}>Popular searches:</span>
-          <Link to="/docs/guides/webhook-setup" className={styles.popularLink}>Webhook Setup</Link>
-          <Link to="/docs/guides/broker-connection" className={styles.popularLink}>Broker Connection</Link>
-          <Link to="/docs/guides/copy-trading" className={styles.popularLink}>Copy Trading</Link>
-          <Link to="/docs/guides/marketplace" className={styles.popularLink}>Marketplace</Link>
+          <Link to="/guides/webhook-setup" className={styles.popularLink}>Webhook Setup</Link>
+          <Link to="/guides/broker-connection" className={styles.popularLink}>Broker Connection</Link>
+          <Link to="/guides/copy-trading" className={styles.popularLink}>Copy Trading</Link>
+          <Link to="/guides/marketplace" className={styles.popularLink}>Marketplace</Link>
         </div>
       </div>
     </section>
@@ -262,9 +262,9 @@ function DocsStructureSection() {
       description: 'Everything you need to start using AtomikTrading',
       icon: DocumentIcon,
       links: [
-        { title: 'Introduction', url: '/docs/intro' },
-        { title: 'First Automated Trade', url: '/docs/guides/first-trade' },
-        { title: 'Broker Connection', url: '/docs/guides/broker-connection' },
+        { title: 'Introduction', url: '/intro' },
+        { title: 'First Automated Trade', url: '/guides/first-trade' },
+        { title: 'Broker Connection', url: '/guides/broker-connection' },
       ],
     },
     {
@@ -272,9 +272,9 @@ function DocsStructureSection() {
       description: 'Connect your trading signals to AtomikTrading',
       icon: WebhookIcon,
       links: [
-        { title: 'Webhook Setup', url: '/docs/guides/webhook-setup' },
-        { title: 'Trading Strategies', url: '/docs/guides/trading-strategies' },
-        { title: 'Subscription & Pricing', url: '/docs/guides/subscription-pricing' },
+        { title: 'Webhook Setup', url: '/guides/webhook-setup' },
+        { title: 'Trading Strategies', url: '/guides/trading-strategies' },
+        { title: 'Subscription & Pricing', url: '/guides/subscription-pricing' },
       ],
     },
     {
@@ -282,9 +282,9 @@ function DocsStructureSection() {
       description: 'Scale your strategy and discover new ones',
       icon: CopyTradingIcon,
       links: [
-        { title: 'Copy Trading Guide', url: '/docs/guides/copy-trading' },
-        { title: 'Strategy Marketplace', url: '/docs/guides/marketplace' },
-        { title: 'FAQ', url: '/docs/guides/faq' },
+        { title: 'Copy Trading Guide', url: '/guides/copy-trading' },
+        { title: 'Strategy Marketplace', url: '/guides/marketplace' },
+        { title: 'FAQ', url: '/guides/faq' },
       ],
     },
     {
@@ -292,9 +292,9 @@ function DocsStructureSection() {
       description: 'Best practices for secure trading automation',
       icon: SecurityIcon,
       links: [
-        { title: 'Security Best Practices', url: '/docs/guides/security' },
-        { title: 'Webhook Security', url: '/docs/guides/webhook-setup' },
-        { title: 'Broker Security', url: '/docs/guides/broker-connection' },
+        { title: 'Security Best Practices', url: '/guides/security' },
+        { title: 'Webhook Security', url: '/guides/webhook-setup' },
+        { title: 'Broker Security', url: '/guides/broker-connection' },
       ],
     },
   ];
@@ -318,17 +318,17 @@ function RecentUpdatesSection() {
     {
       title: 'New: Broker Connection Guide',
       date: 'March 2026',
-      url: '/docs/guides/broker-connection',
+      url: '/guides/broker-connection',
     },
     {
       title: 'New: Copy Trading & Marketplace Guides',
       date: 'March 2026',
-      url: '/docs/guides/copy-trading',
+      url: '/guides/copy-trading',
     },
     {
       title: 'Rewritten: Webhook Setup Guide with Full Payload Reference',
       date: 'March 2026',
-      url: '/docs/guides/webhook-setup',
+      url: '/guides/webhook-setup',
     },
   ];
 
@@ -356,10 +356,10 @@ function RecentUpdatesSection() {
 
 function QuickLinks() {
   const links = [
-    { title: 'Introduction', link: '/docs/intro' },
-    { title: 'Webhook Setup', link: '/docs/guides/webhook-setup' },
-    { title: 'Security', link: '/docs/guides/security' },
-    { title: 'Trading Strategies', link: '/docs/guides/trading-strategies' },
+    { title: 'Introduction', link: '/intro' },
+    { title: 'Webhook Setup', link: '/guides/webhook-setup' },
+    { title: 'Security', link: '/guides/security' },
+    { title: 'Trading Strategies', link: '/guides/trading-strategies' },
     { title: 'Blog', link: '/blog' },
   ];
 

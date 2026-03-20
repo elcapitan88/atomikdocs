@@ -179,5 +179,5 @@ See the [Security Guide](./security) for full details.
 
 ## Still Need Help?
 
-- Browse the other [guides](/docs/intro) in this documentation
+- Browse the other [guides](/intro) in this documentation
 - Email [support@atomiktrading.io](mailto:support@atomiktrading.io)

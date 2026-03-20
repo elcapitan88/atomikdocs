@@ -10,7 +10,7 @@ sidebar_position: 2
 
 These Terms of Service ("Terms") constitute a legally binding agreement between you ("you" or "User") and Atomik Trading LLC ("Atomik Trading," "we," "our," or "us"), a Delaware limited liability company, governing your access to and use of the Atomik Trading platform, website at atomiktrading.io, and all related services (collectively, the "Service").
 
-By creating an account, accessing, or using the Service, you agree to be bound by these Terms and our [Privacy Policy](/docs/legal/privacy-policy). If you do not agree to these Terms, do not use the Service.
+By creating an account, accessing, or using the Service, you agree to be bound by these Terms and our [Privacy Policy](/legal/privacy-policy). If you do not agree to these Terms, do not use the Service.
 
 You must be at least 18 years of age to use the Service. By using the Service, you represent and warrant that you are at least 18 years old and have the legal capacity to enter into this agreement.
 

@@ -88,7 +88,7 @@ Congratulations on setting up your first automated trade! Here's what to explore
 If you need assistance with your **automated trading setup**:
 
 - Check the [FAQ](./faq) for common questions
-- Browse the other [guides](/docs/intro) in our documentation
+- Browse the other [guides](/intro) in our documentation
 - Contact our [support team](mailto:support@atomiktrading.io)
 
 Remember: **Successful trading automation requires patience, testing, and continuous learning.** Start small, learn the system, and gradually increase your automation complexity.

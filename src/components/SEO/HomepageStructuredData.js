@@ -11,14 +11,14 @@ export default function HomepageStructuredData() {
     "@context": "https://schema.org",
     "@type": "WebSite",
     "name": "AtomikTrading Documentation",
-    "url": "https://atomiktrading.io/docs",
+    "url": "https://docs.atomiktrading.io",
     "description": "Comprehensive documentation for AtomikTrading's webhook-based trading automation platform.",
     "publisher": {
       "@type": "Organization",
       "name": "AtomikTrading",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://atomiktrading.io/docs/img/atomik-logo.svg"
+        "url": "https://docs.atomiktrading.io/img/atomik-logo.svg"
       }
     },
     "hasPart": [
@@ -26,48 +26,48 @@ export default function HomepageStructuredData() {
         "@type": "TechArticle",
         "headline": "Webhook Setup Guide",
         "description": "Learn how to create, configure, and manage webhooks to automate your trading strategies.",
-        "url": "https://atomiktrading.io/docs/guides/webhook-setup"
+        "url": "https://docs.atomiktrading.io/guides/webhook-setup"
       },
       {
         "@type": "TechArticle",
         "headline": "Security Best Practices",
         "description": "Ensure your trading automation is secure with recommended security practices.",
-        "url": "https://atomiktrading.io/docs/guides/security"
+        "url": "https://docs.atomiktrading.io/guides/security"
       },
       {
         "@type": "TechArticle",
         "headline": "Trading Strategies Guide",
         "description": "Implement various trading strategies using AtomikTrading.",
-        "url": "https://atomiktrading.io/docs/guides/trading-strategies"
+        "url": "https://docs.atomiktrading.io/guides/trading-strategies"
       },
       {
         "@type": "TechArticle",
         "headline": "Broker Connection Guide",
         "description": "Connect your Tradovate, Interactive Brokers, Binance, or Polymarket broker account.",
-        "url": "https://atomiktrading.io/docs/guides/broker-connection"
+        "url": "https://docs.atomiktrading.io/guides/broker-connection"
       },
       {
         "@type": "TechArticle",
         "headline": "Copy Trading Guide",
         "description": "Replicate your strategy across multiple broker accounts simultaneously.",
-        "url": "https://atomiktrading.io/docs/guides/copy-trading"
+        "url": "https://docs.atomiktrading.io/guides/copy-trading"
       },
       {
         "@type": "TechArticle",
         "headline": "Strategy Marketplace",
         "description": "Browse, subscribe to, and sell trading strategies on the Atomik Marketplace.",
-        "url": "https://atomiktrading.io/docs/guides/marketplace"
+        "url": "https://docs.atomiktrading.io/guides/marketplace"
       },
       {
         "@type": "TechArticle",
         "headline": "FAQ",
         "description": "Frequently asked questions about Atomik Trading platform.",
-        "url": "https://atomiktrading.io/docs/guides/faq"
+        "url": "https://docs.atomiktrading.io/guides/faq"
       }
     ],
     "potentialAction": {
       "@type": "SearchAction",
-      "target": "https://atomiktrading.io/docs/search?q={search_term_string}",
+      "target": "https://docs.atomiktrading.io/search?q={search_term_string}",
       "query-input": "required name=search_term_string"
     }
   };

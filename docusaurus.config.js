@@ -4,10 +4,8 @@ const config = {
   tagline: 'Complete Documentation, Tutorials & Guides for Trading Automation',
   favicon: 'img/favicon.png',
   
-  // Update the URL to your main domain
-  url: 'https://atomiktrading.io',
-  // Change the baseUrl to '/docs/' for subdirectory
-  baseUrl: '/docs/',
+  url: 'https://docs.atomiktrading.io',
+  baseUrl: '/',
   
   // GitHub pages deployment config
   organizationName: 'atomiktrading',
@@ -60,7 +58,7 @@ const config = {
       tagName: 'link',
       attributes: {
         rel: 'apple-touch-icon',
-        href: '/docs/img/apple-touch-icon.png', // Updated path
+        href: '/img/apple-touch-icon.png',
         sizes: '180x180',
       },
     },
@@ -75,9 +73,9 @@ const config = {
         '@graph': [
           {
             '@type': 'WebSite',
-            '@id': 'https://atomiktrading.io/docs#website',
+            '@id': 'https://docs.atomiktrading.io#website',
             'name': 'Atomik Trading Documentation & Learning Center',
-            'url': 'https://atomiktrading.io/docs',
+            'url': 'https://docs.atomiktrading.io',
             'description': 'Complete documentation, tutorials, and guides for trading automation',
             'publisher': {
               '@type': 'Organization',
@@ -85,13 +83,13 @@ const config = {
             },
             'potentialAction': {
               '@type': 'SearchAction',
-              'target': 'https://atomiktrading.io/docs/search?q={search_term_string}',
+              'target': 'https://docs.atomiktrading.io/search?q={search_term_string}',
               'query-input': 'required name=search_term_string'
             }
           },
           {
             '@type': 'LearningResource',
-            '@id': 'https://atomiktrading.io/docs#learning-resource',
+            '@id': 'https://docs.atomiktrading.io#learning-resource',
             'name': 'Trading Automation Learning Center',
             'description': 'Comprehensive tutorials and guides for learning trading automation',
             'educationalLevel': ['Beginner', 'Intermediate', 'Advanced'],
@@ -111,7 +109,7 @@ const config = {
           },
           {
             '@type': 'TechArticle',
-            '@id': 'https://atomiktrading.io/docs#documentation',
+            '@id': 'https://docs.atomiktrading.io#documentation',
             'name': 'Atomik Trading Platform Documentation',
             'description': 'Technical documentation and API reference for the Atomik Trading platform',
             'about': {
@@ -134,7 +132,7 @@ const config = {
       {property: 'og:type', content: 'website'},
       {property: 'og:title', content: 'Atomik Trading Documentation & Learning Center'},
       {property: 'og:description', content: 'Complete documentation, tutorials, and guides for trading automation. From beginner tutorials to advanced reference materials for prop traders and automation experts.'},
-      {property: 'og:image', content: 'https://atomiktrading.io/docs/img/docusaurus-social-card.jpg'},
+      {property: 'og:image', content: 'https://docs.atomiktrading.io/img/docusaurus-social-card.jpg'},
       {property: 'twitter:card', content: 'summary_large_image'},
       {property: 'twitter:site', content: '@atomiktrades'},
     ],
@@ -169,27 +167,27 @@ const config = {
           items: [
             {
               label: 'Introduction',
-              to: '/docs/intro',
+              to: '/intro',
             },
             {
               label: 'First Trade Guide',
-              to: '/docs/guides/first-trade',
+              to: '/guides/first-trade',
             },
             {
               label: 'Broker Setup',
-              to: '/docs/guides/broker-connection',
+              to: '/guides/broker-connection',
             },
             {
               label: 'Webhook Setup',
-              to: '/docs/guides/webhook-setup',
+              to: '/guides/webhook-setup',
             },
             {
               label: 'Marketplace',
-              to: '/docs/guides/marketplace',
+              to: '/guides/marketplace',
             },
             {
               label: 'FAQ',
-              to: '/docs/guides/faq',
+              to: '/guides/faq',
             },
           ],
         },
