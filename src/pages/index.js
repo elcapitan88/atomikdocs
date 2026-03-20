@@ -92,15 +92,16 @@ function ClockIcon() {
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
-  
+
   const links = [
     { title: 'Introduction', link: '/docs/intro' },
     { title: 'Webhook Setup', link: '/docs/guides/webhook-setup' },
-    { title: 'Security', link: '/docs/guides/security' },
-    { title: 'Trading Strategies', link: '/docs/guides/trading-strategies' },
+    { title: 'Marketplace', link: '/docs/guides/marketplace' },
+    { title: 'Copy Trading', link: '/docs/guides/copy-trading' },
+    { title: 'FAQ', link: '/docs/guides/faq' },
     { title: 'Blog', link: '/blog' },
   ];
-  
+
   return (
     <header className={styles.heroBanner}>
       <div className="container">
@@ -111,13 +112,13 @@ function HomepageHeader() {
           <p className={styles.heroTagline}>
             Professional-grade webhook-based trading automation platform documentation
           </p>
-          
+
           {/* Quick Links moved to header */}
           <div className={styles.headerQuickLinks}>
             {links.map((link, idx) => (
-              <Link 
-                key={idx} 
-                to={link.link} 
+              <Link
+                key={idx}
+                to={link.link}
                 className={styles.headerQuickLink}
               >
                 {link.title}
@@ -138,46 +139,52 @@ function DocsIntroSection() {
           <div className={styles.introContent}>
             <h2 className={styles.sectionTitle}>AtomikTrading Documentation</h2>
             <p className={styles.introText}>
-              This documentation will help you set up and use AtomikTrading's webhook-based trading automation platform. 
+              This documentation will help you set up and use AtomikTrading's webhook-based trading automation platform.
               Learn how to connect your brokers, set up automated trades, and implement professional copy trading strategies.
             </p>
-            
+
             <h3 className={styles.subSectionTitle}>Key Concepts</h3>
             <dl className={styles.keyConceptsList}>
               <div className={styles.conceptItem}>
                 <dt>Webhooks</dt>
                 <dd>HTTP callbacks that deliver data to other applications in real-time when triggered by specific events. AtomikTrading uses webhooks to receive trading signals and execute trades across multiple accounts.</dd>
               </div>
-              
+
               <div className={styles.conceptItem}>
                 <dt>Copy Trading</dt>
                 <dd>A strategy that allows traders to replicate trades across multiple accounts simultaneously. Unlike social trading, professional copy trading multiplies your own strategy rather than following others.</dd>
               </div>
-              
+
               <div className={styles.conceptItem}>
                 <dt>Trading Automation</dt>
                 <dd>The process of using technology to execute trading decisions without manual intervention. AtomikTrading provides the infrastructure to automate your existing trading strategies.</dd>
               </div>
             </dl>
           </div>
-          
+
           <div className={styles.startOptions}>
             <div className={styles.startCard}>
               <h3 className={styles.startCardTitle}>New Users</h3>
               <p className={styles.startCardText}>Just getting started with AtomikTrading?</p>
-              <Link to="/docs/intro" className={styles.startButton}>Begin Here →</Link>
+              <Link to="/docs/intro" className={styles.startButton}>Begin Here &rarr;</Link>
             </div>
-            
+
+            <div className={styles.startCard}>
+              <h3 className={styles.startCardTitle}>Broker Setup</h3>
+              <p className={styles.startCardText}>Connect your Tradovate, IB, or Binance account.</p>
+              <Link to="/docs/guides/broker-connection" className={styles.startButton}>Connect Broker &rarr;</Link>
+            </div>
+
             <div className={styles.startCard}>
               <h3 className={styles.startCardTitle}>Webhook Setup</h3>
               <p className={styles.startCardText}>Ready to configure your webhooks?</p>
-              <Link to="/docs/guides/webhook-setup" className={styles.startButton}>Setup Guide →</Link>
+              <Link to="/docs/guides/webhook-setup" className={styles.startButton}>Setup Guide &rarr;</Link>
             </div>
-            
+
             <div className={styles.startCard}>
-              <h3 className={styles.startCardTitle}>Security Guide</h3>
-              <p className={styles.startCardText}>Learn best practices for secure trading.</p>
-              <Link to="/docs/guides/security" className={styles.startButton}>Security Docs →</Link>
+              <h3 className={styles.startCardTitle}>Marketplace</h3>
+              <p className={styles.startCardText}>Browse or sell trading strategies.</p>
+              <Link to="/docs/guides/marketplace" className={styles.startButton}>Explore &rarr;</Link>
             </div>
           </div>
         </div>
@@ -216,9 +223,9 @@ function SearchSection() {
         <div className={styles.popularSearches}>
           <span className={styles.popularLabel}>Popular searches:</span>
           <Link to="/docs/guides/webhook-setup" className={styles.popularLink}>Webhook Setup</Link>
-          <Link to="/docs/guides/first-trade" className={styles.popularLink}>First Trade</Link>
-          <Link to="/docs/guides/security" className={styles.popularLink}>Security</Link>
-          <Link to="/docs/guides/trading-strategies" className={styles.popularLink}>Trading Strategies</Link>
+          <Link to="/docs/guides/broker-connection" className={styles.popularLink}>Broker Connection</Link>
+          <Link to="/docs/guides/copy-trading" className={styles.popularLink}>Copy Trading</Link>
+          <Link to="/docs/guides/marketplace" className={styles.popularLink}>Marketplace</Link>
         </div>
       </div>
     </section>
@@ -257,7 +264,7 @@ function DocsStructureSection() {
       links: [
         { title: 'Introduction', url: '/docs/intro' },
         { title: 'First Automated Trade', url: '/docs/guides/first-trade' },
-        { title: 'Account Setup', url: '/docs/intro' },
+        { title: 'Broker Connection', url: '/docs/guides/broker-connection' },
       ],
     },
     {
@@ -266,18 +273,18 @@ function DocsStructureSection() {
       icon: WebhookIcon,
       links: [
         { title: 'Webhook Setup', url: '/docs/guides/webhook-setup' },
-        { title: 'Webhook Parameters', url: '/docs/guides/webhook-setup' },
-        { title: 'Testing Webhooks', url: '/docs/guides/webhook-setup' },
+        { title: 'Trading Strategies', url: '/docs/guides/trading-strategies' },
+        { title: 'Subscription & Pricing', url: '/docs/guides/subscription-pricing' },
       ],
     },
     {
-      title: 'Copy Trading',
-      description: 'Multiply your trading strategy across accounts',
+      title: 'Copy Trading & Marketplace',
+      description: 'Scale your strategy and discover new ones',
       icon: CopyTradingIcon,
       links: [
-        { title: 'Copy Trading Fundamentals', url: '/docs/guides/trading-strategies' },
-        { title: 'Account Linking', url: '/docs/guides/trading-strategies' },
-        { title: 'Position Sizing', url: '/docs/guides/trading-strategies' },
+        { title: 'Copy Trading Guide', url: '/docs/guides/copy-trading' },
+        { title: 'Strategy Marketplace', url: '/docs/guides/marketplace' },
+        { title: 'FAQ', url: '/docs/guides/faq' },
       ],
     },
     {
@@ -285,9 +292,9 @@ function DocsStructureSection() {
       description: 'Best practices for secure trading automation',
       icon: SecurityIcon,
       links: [
-        { title: 'Security Fundamentals', url: '/docs/guides/security' },
-        { title: 'API Security', url: '/docs/guides/security' },
-        { title: 'Account Protection', url: '/docs/guides/security' },
+        { title: 'Security Best Practices', url: '/docs/guides/security' },
+        { title: 'Webhook Security', url: '/docs/guides/webhook-setup' },
+        { title: 'Broker Security', url: '/docs/guides/broker-connection' },
       ],
     },
   ];
@@ -309,19 +316,19 @@ function DocsStructureSection() {
 function RecentUpdatesSection() {
   const updates = [
     {
-      title: 'Webhook Security Best Practices',
-      date: 'April 2, 2024',
-      url: '/docs/guides/security',
+      title: 'New: Broker Connection Guide',
+      date: 'March 2026',
+      url: '/docs/guides/broker-connection',
     },
     {
-      title: 'New Copy Trading Features Guide',
-      date: 'March 28, 2024',
-      url: '/docs/guides/trading-strategies',
+      title: 'New: Copy Trading & Marketplace Guides',
+      date: 'March 2026',
+      url: '/docs/guides/copy-trading',
     },
     {
-      title: 'Multi-Broker Setup Guide',
-      date: 'March 15, 2024',
-      url: '/docs/guides/first-trade',
+      title: 'Rewritten: Webhook Setup Guide with Full Payload Reference',
+      date: 'March 2026',
+      url: '/docs/guides/webhook-setup',
     },
   ];
 
@@ -361,9 +368,9 @@ function QuickLinks() {
       <h2 className={styles.quickLinksTitle}>Quick Links</h2>
       <div className={styles.quickLinks}>
         {links.map((link, idx) => (
-          <Link 
-            key={idx} 
-            to={link.link} 
+          <Link
+            key={idx}
+            to={link.link}
             className={styles.quickLink}
           >
             {link.title}
@@ -376,10 +383,10 @@ function QuickLinks() {
 
 export default function Home() {
   const {siteConfig} = useDocusaurusContext();
-  
+
   // Check if HomepageStructuredData is a valid component
   const hasStructuredData = typeof HomepageStructuredData === 'function';
-  
+
   return (
     <Layout
       title={`${siteConfig.title} - Trading Automation Documentation`}

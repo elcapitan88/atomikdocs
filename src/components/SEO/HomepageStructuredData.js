@@ -39,6 +39,30 @@ export default function HomepageStructuredData() {
         "headline": "Trading Strategies Guide",
         "description": "Implement various trading strategies using AtomikTrading.",
         "url": "https://atomiktrading.io/docs/guides/trading-strategies"
+      },
+      {
+        "@type": "TechArticle",
+        "headline": "Broker Connection Guide",
+        "description": "Connect your Tradovate, Interactive Brokers, Binance, or Polymarket broker account.",
+        "url": "https://atomiktrading.io/docs/guides/broker-connection"
+      },
+      {
+        "@type": "TechArticle",
+        "headline": "Copy Trading Guide",
+        "description": "Replicate your strategy across multiple broker accounts simultaneously.",
+        "url": "https://atomiktrading.io/docs/guides/copy-trading"
+      },
+      {
+        "@type": "TechArticle",
+        "headline": "Strategy Marketplace",
+        "description": "Browse, subscribe to, and sell trading strategies on the Atomik Marketplace.",
+        "url": "https://atomiktrading.io/docs/guides/marketplace"
+      },
+      {
+        "@type": "TechArticle",
+        "headline": "FAQ",
+        "description": "Frequently asked questions about Atomik Trading platform.",
+        "url": "https://atomiktrading.io/docs/guides/faq"
       }
     ],
     "potentialAction": {

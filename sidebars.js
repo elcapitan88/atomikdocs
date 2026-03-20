@@ -13,9 +13,14 @@ const sidebars = {
       label: 'Guides',
       items: [
         'guides/first-trade',
+        'guides/broker-connection',
         'guides/webhook-setup',
         'guides/trading-strategies',
+        'guides/copy-trading',
+        'guides/marketplace',
         'guides/security',
+        'guides/subscription-pricing',
+        'guides/faq',
       ],
     },
     // Legal

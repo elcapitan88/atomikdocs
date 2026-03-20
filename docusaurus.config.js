@@ -16,10 +16,15 @@ const config = {
   // SEO settings remain the same
   trailingSlash: false,
   noIndex: false,
-  onBrokenLinks: 'warn',
-  onBrokenMarkdownLinks: 'warn',
+  onBrokenLinks: 'throw',
   onBrokenAnchors: 'warn',
   onDuplicateRoutes: 'warn',
+
+  markdown: {
+    hooks: {
+      onBrokenMarkdownLinks: 'throw',
+    },
+  },
   
   i18n: {
     defaultLocale: 'en',
@@ -167,12 +172,24 @@ const config = {
               to: '/docs/intro',
             },
             {
-              label: 'Guides',
+              label: 'First Trade Guide',
               to: '/docs/guides/first-trade',
             },
             {
-              label: 'Legal',
-              to: '/docs/legal/privacy-policy',
+              label: 'Broker Setup',
+              to: '/docs/guides/broker-connection',
+            },
+            {
+              label: 'Webhook Setup',
+              to: '/docs/guides/webhook-setup',
+            },
+            {
+              label: 'Marketplace',
+              to: '/docs/guides/marketplace',
+            },
+            {
+              label: 'FAQ',
+              to: '/docs/guides/faq',
             },
           ],
         },
@@ -202,6 +219,16 @@ const config = {
   },
   
   plugins: [
+    [
+      require.resolve('@easyops-cn/docusaurus-search-local'),
+      {
+        hashed: true,
+        language: ['en'],
+        indexBlog: true,
+        indexDocs: true,
+        docsRouteBasePath: '/',
+      },
+    ],
   ],
   
   presets: [

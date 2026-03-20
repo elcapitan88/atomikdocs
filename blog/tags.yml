@@ -17,3 +17,58 @@ presidents-thoughts:
   label: President's Thoughts
   permalink: /presidents-thoughts
   description: Market insights, analysis and company updates directly from the President of AtomikTrading
+
+algorithmic-trading:
+  label: Algorithmic Trading
+  permalink: /algorithmic-trading
+  description: Posts about algorithmic and systematic trading approaches
+
+beginner-traders:
+  label: Beginner Traders
+  permalink: /beginner-traders
+  description: Guides and resources for traders just getting started
+
+trading-platform:
+  label: Trading Platform
+  permalink: /trading-platform
+  description: Posts about trading platforms and technology
+
+platform-evaluation:
+  label: Platform Evaluation
+  permalink: /platform-evaluation
+  description: How to evaluate and choose trading platforms
+
+trading-styles:
+  label: Trading Styles
+  permalink: /trading-styles
+  description: Different approaches and styles of trading
+
+tradingview:
+  label: TradingView
+  permalink: /tradingview
+  description: TradingView integration guides and tips
+
+alerts:
+  label: Alerts
+  permalink: /alerts
+  description: Setting up and managing trading alerts
+
+automation:
+  label: Automation
+  permalink: /automation
+  description: Trading automation tools and techniques
+
+broker:
+  label: Broker
+  permalink: /broker
+  description: Broker connections and configuration
+
+webhook:
+  label: Webhook
+  permalink: /webhook
+  description: Webhook setup and management
+
+tutorial:
+  label: Tutorial
+  permalink: /tutorial
+  description: Step-by-step tutorials and walkthroughs

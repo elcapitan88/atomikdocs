@@ -1,11 +1,7 @@
 ---
 slug: copy-trading-guide
 title: "Copy Trading: The Ultimate Guide to Multiplying Your Trading Power"
-authors:
-  - name: Cruz Hernandez
-    title: Founder & President Atomiktrading.io
-    url: https://atomiktrading.io
-    image_url: /img/Cruz-Atomik-Profile.jpg
+authors: [Cruz]
 tags: [copy-trading, automated-trading, trading-fundamentals]
 image: /img/blog/copy-trading-header.jpg
 description: Discover how professional traders use copy trading to multiply their profits while reducing risk. Learn the truth about copy trading apps and how to leverage them properly.
@@ -14,6 +10,8 @@ description: Discover how professional traders use copy trading to multiply thei
 # Copy Trading: The Ultimate Guide to Multiplying Your Trading Power
 
 Imagine hitting a perfect trade that nets you $500 in profit. Now imagine that same trade automatically executing across five different accounts simultaneously, turning that $500 into $2,500 without any additional analysis or screen time. This isn't fantasy—it's the reality of proper copy trading, and it's revolutionizing how professional traders approach the markets.
+
+<!-- truncate -->
 
 But here's the thing: most traders completely misunderstand what copy trading really is. And that misunderstanding is costing them dearly.
 

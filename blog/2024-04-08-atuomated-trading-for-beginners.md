@@ -1,22 +1,19 @@
 ---
 slug: automated-trading-beginners-guide
 title: "Automated Trading for Beginners: A Complete Guide in 2025"
-authors:
-  - name: Cruz Hernandez
-    title: Founder & President Atomiktrading.io
-    url: https://atomiktrading.io
-    image_url: /img/Cruz-Atomik-Profile.jpg
+authors: [Cruz]
 tags: [automated-trading, algorithmic-trading, trading-fundamentals, beginner-traders]
 image: /img/automated-trading.png
 description: Learn how to harness the power of automated trading in 2025 without coding experience or massive capital. Discover step-by-step instructions to build, test, and deploy your first trading algorithm.
 ---
-
 
 # Automated Trading for Beginners: A Complete Guide in 2025
 
 *Last updated: April 8, 2025*
 
 ![Automated trading](/img/automated-trading.png)
+
+<!-- truncate -->
 
 ## Introduction: The New Reality of Trading
 

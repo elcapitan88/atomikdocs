@@ -55,9 +55,9 @@ function Footer() {
   ];
 
   const legalLinks = [
-    { label: 'Privacy Policy', href: '/docs/policy/privacy-policy' },
-    { label: 'Terms of Service', href: '/docs/policy/terms-of-service' },
-    { label: 'Cookie Policy', href: '/docs/policy/cookie-policy' },
+    { label: 'Privacy Policy', href: '/docs/legal/privacy-policy' },
+    { label: 'Terms of Service', href: '/docs/legal/terms-of-service' },
+    { label: 'Cookie Policy', href: '/docs/legal/cookie-policy' },
   ];
 
   const socialLinks = [

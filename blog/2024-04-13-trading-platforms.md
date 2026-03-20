@@ -1,22 +1,19 @@
 ---
 slug: how-to-evaluate-trading-platforms-key-features
 title: "How to Evaluate Trading Platforms: Key Features for Different Trading Styles"
-authors:
-  - name: Cruz Hernandez
-    title: Founder & President Atomiktrading.io
-    url: https://atomiktrading.io
-    image_url: /img/Cruz-Atomik-Profile.jpg
+authors: [Cruz]
 tags: [trading-platform, platform-evaluation, trading-fundamentals, trading-styles]
 image: /img/automated-platform.png
 description: Discover how to select the perfect trading platform for your specific trading style in 2025. Learn the essential features that match your strategy, avoid costly platform mistakes, and maximize your trading performance.
 ---
-
 
 # How to Evaluate Trading Platforms: Key Features for Different Trading Styles
 
 *Last updated: April 13, 2025*
 
 ![Trading platform evaluation](/img/automated-platform.png)
+
+<!-- truncate -->
 
 ## Introduction: Why Your Platform Choice Can Make or Break Your Trading Success
 

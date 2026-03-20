@@ -1,11 +1,7 @@
 ---
 slug: complete-beginners-guide-automated-trading
 title: "Complete Beginner's Guide to Automated Trading"
-authors:
-  - name: Cruz Hernandez
-    title: Founder & President Atomiktrading.io
-    url: https://atomiktrading.io
-    image_url: /img/Cruz-Atomik-Profile.jpg
+authors: [Cruz]
 tags: [automated-trading, trading-fundamentals, beginner-traders, algorithmic-trading]
 image: /img/automated-trading.png
 description: Learn how to start automated trading with no programming skills required. This comprehensive guide covers everything from choosing a broker to creating your first strategy, with setup taking as little as 30 minutes.
@@ -26,6 +22,8 @@ description: Learn how to start automated trading with no programming skills req
 - **Fully regulated** - Automated trading is legal and regulated in the United States, with FINRA and SEC providing oversight and guidelines
 
 - **Built-in protection** - Risk management features like automatic stop losses and position sizing help protect capital, making it safer than emotional manual trading for beginners
+
+<!-- truncate -->
 
 ## What Is Automated Trading?
 

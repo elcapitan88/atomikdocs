@@ -16,7 +16,7 @@ const CUSTOM_CATEGORIES = [
   },
   {
     name: 'Copy Trading',
-    count: 2,
+    count: 1,
     href: '/blog/tags/copy-trading',
   },
   {
@@ -25,14 +25,14 @@ const CUSTOM_CATEGORIES = [
     href: '/blog/tags/trading-fundamentals',
   },
   {
-    name: 'API Integration',
+    name: 'Beginner Traders',
     count: 2,
-    href: '/blog/tags/api-integration',
+    href: '/blog/tags/beginner-traders',
   },
   {
-    name: "President's Thoughts",
-    count: 2,
-    href: '/blog/tags/presidents-thoughts',
+    name: 'TradingView',
+    count: 1,
+    href: '/blog/tags/tradingview',
   },
 ];
 

@@ -76,15 +76,19 @@ Once your automation is live:
 
 Congratulations on setting up your first automated trade! Here's what to explore next:
 
-- **[Trading Strategies](./trading-strategies)** - Explore strategy configuration and management
-- **[Security Best Practices](./security)** - Protect your account and API keys
-- **[Webhook Setup](./webhook-setup)** - Deep dive into webhook configuration
+- **[Broker Connection Guide](./broker-connection)** — Connect additional broker accounts
+- **[Trading Strategies](./trading-strategies)** — Explore strategy configuration and management
+- **[Copy Trading](./copy-trading)** — Scale your strategy across multiple accounts
+- **[Security Best Practices](./security)** — Protect your account and API keys
+- **[Webhook Setup](./webhook-setup)** — Deep dive into webhook configuration
+- **[FAQ](./faq)** — Common questions and troubleshooting
 
 ## Need Help?
 
 If you need assistance with your **automated trading setup**:
 
-- Browse the other [guides](./webhook-setup) in our documentation
+- Check the [FAQ](./faq) for common questions
+- Browse the other [guides](/docs/intro) in our documentation
 - Contact our [support team](mailto:support@atomiktrading.io)
 
 Remember: **Successful trading automation requires patience, testing, and continuous learning.** Start small, learn the system, and gradually increase your automation complexity.
