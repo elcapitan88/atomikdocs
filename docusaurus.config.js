@@ -132,7 +132,7 @@ const config = {
       {property: 'og:type', content: 'website'},
       {property: 'og:title', content: 'Atomik Trading Documentation & Learning Center'},
       {property: 'og:description', content: 'Complete documentation, tutorials, and guides for trading automation. From beginner tutorials to advanced reference materials for prop traders and automation experts.'},
-      {property: 'og:image', content: 'https://docs.atomiktrading.io/img/docusaurus-social-card.jpg'},
+      {property: 'og:image', content: 'https://docs.atomiktrading.io/img/social-card.png'},
       {property: 'twitter:card', content: 'summary_large_image'},
       {property: 'twitter:site', content: '@atomiktrades'},
     ],
