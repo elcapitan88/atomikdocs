@@ -176,6 +176,8 @@ You retain ownership of content you create on the platform (webhook configuratio
 
 ## 9. Trading Risks and Disclaimers
 
+For a comprehensive overview of the risks associated with trading and using our platform, please read our [Risk Disclosure Statement](/legal/risk-disclosure) in its entirety.
+
 ### 9.1 Trading Risk Acknowledgment
 
 **BY USING THE SERVICE, YOU ACKNOWLEDGE AND AGREE THAT:**
