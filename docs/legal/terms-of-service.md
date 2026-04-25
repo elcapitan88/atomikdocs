@@ -4,8 +4,6 @@ sidebar_position: 2
 
 # Terms of Service
 
-*Last updated: April 25, 2026*
-
 ## 1. Agreement to Terms
 
 These Terms of Service ("Terms") constitute a legally binding agreement between you ("you" or "User") and Atomik Trading LLC ("Atomik Trading," "we," "our," or "us"), a Delaware limited liability company, governing your access to and use of the Atomik Trading platform, website at atomiktrading.io, and all related services (collectively, the "Service").
@@ -95,6 +93,7 @@ We may offer a free trial period for new users. The free trial is granted **once
 You may change your subscription tier at any time through your account settings, subject to the following:
 
 - **Upgrades** take effect **immediately**. Your payment method on file will be charged the full price of the new tier at the time of the change. The amount paid for your previous tier in the current billing period is **not prorated, credited, or refunded**, and the higher tier begins a new billing cycle from the date of upgrade.
+- **Upgrading during a free trial** ends your trial. The new (higher) tier becomes your active membership and is **charged immediately** at the standard, non-trial rate of that tier. Upgrading does not preserve, extend, or transfer any remaining trial days, nor does it grant a new trial on the new tier.
 - **Downgrades** take effect at the **end of your current billing cycle**. You will retain access to your current tier's features and limits through the remainder of the period you have already paid for. The new (lower) tier and its limits will apply starting at the next billing date.
 - **Tier changes do not grant a new free trial.** You may not switch tiers in order to obtain or extend a trial period. Upgrades from a tier you have already paid for and downgrades from any paid tier are billed at the standard, non-trial rate of the new tier.
 - **Resource limits at downgrade:** When a downgrade takes effect, your connected broker accounts, webhooks, strategies, copy-trading groups, and other resources that exceed the limits of the new tier will **not be automatically removed or disconnected**. It is **your sole responsibility** to bring your usage into compliance with the new tier's limits. Resources exceeding the new tier's limits may stop functioning, may be made read-only, or may be disabled by Atomik Trading without further notice. Atomik Trading is not responsible for trading outcomes, missed executions, or any losses resulting from resources operating outside the limits of your active tier following a downgrade.
