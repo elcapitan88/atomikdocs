@@ -72,3 +72,13 @@ tutorial:
   label: Tutorial
   permalink: /tutorial
   description: Step-by-step tutorials and walkthroughs
+
+databento:
+  label: Databento
+  permalink: /databento
+  description: Working with Databento market data
+
+backtesting:
+  label: Backtesting
+  permalink: /backtesting
+  description: Backtesting strategies and historical data workflows
