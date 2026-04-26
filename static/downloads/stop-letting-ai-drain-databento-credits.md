@@ -15,23 +15,6 @@ I've personally burned through hundreds of dollars in a single weekend of backte
 
 <!--truncate-->
 
-<a
-  href="/downloads/stop-letting-ai-drain-databento-credits.md"
-  download="stop-letting-ai-drain-databento-credits.md"
-  style={{
-    display: 'inline-block',
-    padding: '10px 18px',
-    background: '#00C6E0',
-    color: '#000',
-    fontWeight: 600,
-    borderRadius: '8px',
-    textDecoration: 'none',
-    marginBottom: '1.5rem',
-  }}
->
-  ⬇ Download as Markdown (.md)
-</a>
-
 ---
 
 ## Who Is This For?
