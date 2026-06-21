@@ -88,7 +88,16 @@ We may offer a free trial period for new users. The free trial is granted **once
 - By subscribing, you authorize Atomik Trading to charge your payment method on file through PayPal, our payment processor, on each billing date.
 - Subscriptions automatically renew at the end of each billing period unless you cancel before the renewal date.
 
-### 5.4 Plan Changes (Upgrades and Downgrades)
+### 5.4 Failed Payments and Past-Due Amounts
+
+- You are responsible for maintaining a valid, funded payment method on file for as long as your subscription remains active.
+- If a scheduled payment is declined or otherwise fails to process on the billing date, your subscription **remains active** and the amount owed **remains due**. A failed payment does not, by itself, cancel your subscription, pause your billing, or relieve you of the obligation to pay for the period during which the Service remained available to you.
+- Payments that do not clear on the scheduled billing date may be **automatically reattempted** by PayPal in accordance with the recurring billing agreement you authorized. Any past-due amounts may be **collected together once a payment method successfully processes**, including as a single combined charge covering more than one billing period.
+- We may attempt to notify you of failed payments, but you acknowledge that PayPal's payment-failure and retry notifications, sent to the email associated with your PayPal account, constitute notice of the outstanding balance. It is your responsibility to monitor your payment method and account status.
+- We reserve the right, but are **not obligated**, to suspend or limit access to the Service during any period in which your account has an outstanding balance. Continued access to the Service while a balance is outstanding does not waive the amounts owed.
+- **To stop further billing, you must cancel your subscription** through your account settings or directly through PayPal (see Section 5.6, Cancellation). Allowing a payment to fail is not a substitute for cancellation and will not stop recurring billing.
+
+### 5.5 Plan Changes (Upgrades and Downgrades)
 
 You may change your subscription tier at any time through your account settings, subject to the following:
 
@@ -98,7 +107,7 @@ You may change your subscription tier at any time through your account settings,
 - **Tier changes do not grant a new free trial.** You may not switch tiers in order to obtain or extend a trial period. Upgrades from a tier you have already paid for and downgrades from any paid tier are billed at the standard, non-trial rate of the new tier.
 - **Resource limits at downgrade:** When a downgrade takes effect, your connected broker accounts, webhooks, strategies, copy-trading groups, and other resources that exceed the limits of the new tier will **not be automatically removed or disconnected**. It is **your sole responsibility** to bring your usage into compliance with the new tier's limits. Resources exceeding the new tier's limits may stop functioning, may be made read-only, or may be disabled by Atomik Trading without further notice. Atomik Trading is not responsible for trading outcomes, missed executions, or any losses resulting from resources operating outside the limits of your active tier following a downgrade.
 
-### 5.5 Cancellation
+### 5.6 Cancellation
 
 You may cancel your subscription at any time through your account settings. Upon cancellation:
 - If you cancel during a free trial period, your access ends immediately.
@@ -106,13 +115,13 @@ You may cancel your subscription at any time through your account settings. Upon
 - Automated trade executions will cease at the end of the billing period unless you reconnect with an active subscription.
 - No further charges will be applied after cancellation takes effect.
 
-### 5.6 Refunds
+### 5.7 Refunds
 
 Refund requests are evaluated on a case-by-case basis. To request a refund, contact us at support@atomiktrading.io. We reserve the right to approve or deny refund requests at our sole discretion. Refunds, if approved, will be processed through the original payment method.
 
 Subscription fees paid for the use of any tier — including amounts charged following a tier upgrade — are **generally non-refundable** once charged, except where required by law. Voluntarily downgrading or canceling a subscription after a charge has been made does not, by itself, entitle you to a full or partial refund of that charge. Atomik Trading may, at its sole discretion, issue partial credits or refunds in cases of duplicate charges, billing errors, or other extenuating circumstances.
 
-### 5.7 Price Changes
+### 5.8 Price Changes
 
 We may adjust subscription pricing at any time. If we increase the price of your current plan, we will provide at least 30 days' advance notice via email. Your continued use of the Service after the price change takes effect constitutes acceptance of the new pricing. If you do not agree with the new pricing, you may cancel your subscription before the next billing cycle.
 
