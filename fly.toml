@@ -1,0 +1,30 @@
+app = 'atomik-docs'
+primary_region = 'iad'
+
+[build]
+  dockerfile = "Dockerfile.fly"
+
+# docusaurus serve reads $PORT; pin it so it matches Fly's internal_port
+# (the recurring "Fly doesn't inject PORT like Railway" gotcha).
+[env]
+  PORT = "8080"
+
+[http_service]
+  internal_port = 8080
+  force_https = true
+  auto_stop_machines = 'stop'
+  auto_start_machines = true
+  min_machines_running = 0
+  processes = ['app']
+
+  [[http_service.checks]]
+    interval = "15s"
+    timeout = "3s"
+    grace_period = "15s"
+    method = "GET"
+    path = "/"
+
+[[vm]]
+  cpu_kind = 'shared'
+  cpus = 1
+  memory_mb = 512

@@ -1,0 +1,22 @@
+# Fly.io build for atomik-docs (Docusaurus static site).
+# Named Dockerfile.fly (not Dockerfile) so Railway's nixpacks build is unaffected.
+ARG NODE_VERSION=22.21.1
+
+FROM node:${NODE_VERSION}-slim AS build
+WORKDIR /app
+# Install deps first for layer caching
+COPY package.json package-lock.json ./
+RUN npm ci
+# Build the static site
+COPY . .
+RUN npm run build
+
+FROM node:${NODE_VERSION}-slim
+LABEL fly_launch_runtime="Node.js"
+WORKDIR /app
+ENV NODE_ENV=production
+# Bring over deps + built site; `docusaurus serve` needs node_modules
+COPY --from=build /app /app
+EXPOSE 8080
+# serve script is: docusaurus serve --port $PORT --host 0.0.0.0
+CMD ["npm", "run", "serve"]
