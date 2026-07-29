@@ -40,12 +40,13 @@ https://api.atomiktrading.io/api/v1/webhooks/{your-token}?secret={your-secret-ke
 
 ## Webhook Payload Format
 
-Atomik expects a JSON body with two fields:
+Atomik expects a JSON body with these fields:
 
 | Field | Type | Required | Description |
 |-------|------|----------|-------------|
 | `action` | string | Yes | `"BUY"` or `"SELL"` (case-insensitive) |
 | `comment` | string | No | Exit signal type (see below) |
+| `quantity` | number | No | Order size — only read by strategies set to **From the alert JSON** (see [Where the quantity comes from](#where-the-quantity-comes-from)) |
 
 ### Basic Examples
 
@@ -87,6 +88,46 @@ The `comment` field controls partial and full exits:
 | *(no comment)* | Defaults to full exit (100%) |
 
 Quantities are rounded up using `math.ceil()` to avoid leaving fractional shares.
+
+## Where the quantity comes from
+
+Every strategy you activate chooses this for itself, in the activation dialog:
+
+**Set in Atomik** (the default) — the quantity you typed when you activated the
+strategy is what trades, on every signal. A `quantity` in the alert is ignored.
+This is how webhooks have always worked, and nothing changes for you.
+
+**From the alert JSON** — your alert sends `"quantity"` and that is what trades.
+Use this when the strategy itself decides position size. In TradingView,
+`{{strategy.order.contracts}}` gives the right number on both entries and exits:
+
+```json
+{
+  "action": "{{strategy.order.action}}",
+  "comment": "{{strategy.order.comment}}",
+  "quantity": "{{strategy.order.contracts}}"
+}
+```
+
+Two things to know before switching a strategy over:
+
+- **Exits use it too.** `{"action": "SELL", "quantity": 1}` closes **1 contract**,
+  not the whole position. If you leave `quantity` out of an exit, the `comment`
+  percentages above still apply as normal.
+- **Max per signal.** Set it when you switch, and any alert asking for more
+  trades that cap instead. Leave it blank and a platform maximum of 50 contracts
+  applies. This bounds a typo in your strategy — or anyone who gets hold of your
+  webhook URL.
+
+If an alert sends no quantity, or sends something unusable, the strategy falls
+back to the quantity configured in Atomik rather than skipping the trade.
+
+The setting lives on each activated strategy, not on the webhook — so if you
+share a strategy, every subscriber still controls the size traded in their own
+account.
+
+Payload quantities apply to single-account strategies only. Multi-account groups
+keep the per-account quantities you configured for them.
 
 ## TradingView Integration
 
