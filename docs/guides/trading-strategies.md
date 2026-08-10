@@ -91,10 +91,9 @@ This lets you scale one strategy across multiple accounts without increasing per
 
 | Tier | Active Strategies |
 |------|------------------|
-| Free | 0 |
-| Starter ($49/mo) | 3 |
-| Trader ($129/mo) | 10 |
-| Unlimited ($249/mo) | Unlimited |
+| Starter ($89/mo) | 3 |
+| Pro ($199/mo) | 15 |
+| Elite ($349/mo) | Unlimited |
 
 ## Best Practices
 

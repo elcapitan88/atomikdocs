@@ -97,10 +97,9 @@ Activate the same webhook on different accounts with different position sizes â€
 
 | Tier | Copy Trading Groups | Followers per Group |
 |------|--------------------|--------------------|
-| Free | 0 | 0 |
-| Starter ($49/mo) | 1 | 2 |
-| Trader ($129/mo) | 3 | 5 |
-| Unlimited ($249/mo) | Unlimited | Unlimited |
+| Starter ($89/mo) | 0 | 0 |
+| Pro ($199/mo) | 3 | 10 |
+| Elite ($349/mo) | Unlimited | Unlimited |
 
 ## Best Practices
 

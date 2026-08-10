@@ -90,9 +90,9 @@ No. Atomik's broker access is limited to the **trading** scope — it can place/
 ### I hit my account limit. What do I do?
 
 Either disconnect an unused account or upgrade your plan:
-- Starter: 2 accounts
-- Trader: 10 accounts
-- Unlimited: No limit
+- Starter: 3 accounts
+- Pro: 10 accounts
+- Elite: 25 accounts
 
 ## Strategies & Trading
 

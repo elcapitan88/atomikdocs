@@ -7,36 +7,51 @@ keywords: ["Atomik pricing", "subscription tiers", "trading plan", "free trial",
 
 # Subscription & Pricing
 
-Atomik Trading offers four tiers designed for different levels of trading automation. All paid plans include a **7-day free trial**.
+Atomik Trading offers three plans designed for different levels of trading automation. All plans include a **7-day free trial**.
+
+There is no free tier — marketplace browsing is public, and every account has a plan.
 
 ## Plan Comparison
 
-| | Free | Starter | Trader | Unlimited |
-|---|---|---|---|---|
-| **Monthly Price** | $0 | $49 | $129 | $249 |
-| **Yearly Price** | — | $468 ($39/mo) | $1,188 ($99/mo) | $2,388 ($199/mo) |
-| **Yearly Savings** | — | $120/yr (20%) | $360/yr (23%) | $600/yr (20%) |
-| **Connected Accounts** | 0 | 2 | 10 | Unlimited |
-| **Active Webhooks** | 0 | 3 | 10 | Unlimited |
-| **Active Strategies** | 0 | 3 | 10 | Unlimited |
-| **Trade Execution** | No | Yes | Yes | Yes |
-| **Marketplace (Subscribe)** | No | Yes | Yes | Yes |
-| **Marketplace (Sell)** | No | No | Yes | Yes |
-| **Copy Trading** | No | Yes (1 group, 2 followers) | Yes (3 groups, 5 followers) | Yes (Unlimited) |
+| | Starter | Pro | Elite |
+|---|---|---|---|
+| **Monthly Price** | $89 | $199 | $349 |
+| **Yearly Price** | $890 ($74/mo) | $1,990 ($166/mo) | $3,490 ($291/mo) |
+| **Connected Accounts** | 3 | 10 | 25 |
+| **Active Webhooks** | 3 | 10 | Unlimited |
+| **Active Strategies** | 3 | 15 | Unlimited |
+| **Trade Execution** | Yes | Yes | Yes |
+| **AI credits / month** | 75 | 300 | 600 |
+| **Backtests / month** | 30 | 200 | 500 |
+| **Premium AI model** | No | Yes | Yes |
+| **Marketplace (Subscribe)** | Yes | Yes | Yes |
+| **Marketplace (Sell)** | Yes | Yes | Yes |
+| **Copy Trading** | No | Yes (3 groups, 10 followers) | Yes (Unlimited) |
+
+### AI credits
+
+AI work is billed in credits, priced by what each action actually costs:
+
+| Action | Credits |
+|---|---|
+| Build a new strategy | 3 |
+| Adjust an existing strategy | 1 |
+| **Ask a question about your strategy** | **0 — always free** |
+
+Credits reset at the start of each billing month. Each plan also has a daily
+ceiling so a single busy day can't consume the whole month.
 
 ## Which Plan Is Right for You?
 
-**Free** — Explore the dashboard and documentation. No trading capabilities.
+**Starter** — For individual traders automating up to three strategies across three broker accounts. Includes the AI Strategy Builder and marketplace selling.
 
-**Starter** — Best for individual traders automating 1-3 strategies on up to 2 broker accounts. Good for testing the platform with real money after your trial.
+**Pro** — For traders running a stack of funded or evaluation accounts. Copy trading fans one signal out across all ten, and the premium AI model handles longer, more intricate strategies.
 
-**Trader** — For active traders running multiple strategies across several accounts. Includes marketplace selling and expanded copy trading groups. The most popular plan.
-
-**Unlimited** — For professional traders and firms with no limits on accounts, webhooks, or strategies. Full copy trading and marketplace access.
+**Elite** — For professional traders and firms: 25 accounts, unlimited webhooks and strategies, and unlimited copy trading groups.
 
 ## 7-Day Free Trial
 
-All paid plans (Starter, Trader, Unlimited) include a 7-day free trial:
+All plans (Starter, Pro, Elite) include a 7-day free trial:
 
 - Full access to all features of the selected plan
 - No charge until the trial period ends
@@ -91,13 +106,13 @@ If a payment fails (expired card, insufficient funds, etc.):
 
 ## Yearly vs. Monthly
 
-Yearly billing saves 20-23% compared to monthly:
+Yearly billing saves about 17% compared to monthly — two months free:
 
 | Plan | Monthly | Yearly (per month) | Annual Savings |
 |------|---------|-------------------|----------------|
-| Starter | $49/mo | $39/mo | $120 |
-| Trader | $129/mo | $99/mo | $360 |
-| Unlimited | $249/mo | $199/mo | $600 |
+| Starter | $89/mo | $74/mo | $178 |
+| Pro | $199/mo | $166/mo | $398 |
+| Elite | $349/mo | $291/mo | $698 |
 
 You can switch between monthly and yearly billing at any time through the billing portal.
 

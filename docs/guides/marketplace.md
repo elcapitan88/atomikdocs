@@ -38,9 +38,9 @@ View and manage your marketplace subscriptions in **Strategies**:
 
 | Action | Required Tier |
 |--------|--------------|
-| Browse marketplace | Any (including Free) |
-| Subscribe to strategies | Starter ($49/mo) or higher |
-| Sell strategies | Trader ($129/mo) or higher |
+| Browse marketplace | Anyone — no account needed |
+| Subscribe to strategies | Any plan |
+| Sell strategies | Any plan |
 
 ## For Creators
 

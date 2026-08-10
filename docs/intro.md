@@ -45,14 +45,15 @@ See [Broker Connection Guide](./guides/broker-connection) for setup instructions
 
 ## Subscription Tiers
 
-| | Free | Starter | Trader | Unlimited |
-|---|---|---|---|---|
-| **Price** | $0 | $49/mo | $129/mo | $249/mo |
-| **Broker Accounts** | 0 | 2 | 10 | Unlimited |
-| **Webhooks** | 0 | 3 | 10 | Unlimited |
-| **Trade Execution** | No | Yes | Yes | Yes |
-| **Marketplace** | No | Subscribe | Subscribe + Sell | Subscribe + Sell |
-| **Free Trial** | — | 7 days | 7 days | 7 days |
+| | Starter | Pro | Elite |
+|---|---|---|---|
+| **Price** | $89/mo | $199/mo | $349/mo |
+| **Broker Accounts** | 3 | 10 | 25 |
+| **Webhooks** | 3 | 10 | Unlimited |
+| **Trade Execution** | Yes | Yes | Yes |
+| **Copy Trading** | No | 3 groups | Unlimited |
+| **Marketplace** | Subscribe + Sell | Subscribe + Sell | Subscribe + Sell |
+| **Free Trial** | 7 days | 7 days | 7 days |
 
 All paid plans include a 7-day free trial. See [Subscription & Pricing](./guides/subscription-pricing) for full details including yearly discounts.
 
