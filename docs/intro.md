@@ -47,7 +47,7 @@ See [Broker Connection Guide](./guides/broker-connection) for setup instructions
 
 | | Starter | Pro | Elite |
 |---|---|---|---|
-| **Price** | $89/mo | $199/mo | $349/mo |
+| **Price** | $89/mo | $129/mo | $349/mo |
 | **Broker Accounts** | 3 | 10 | 25 |
 | **Webhooks** | 3 | 10 | Unlimited |
 | **Trade Execution** | Yes | Yes | Yes |

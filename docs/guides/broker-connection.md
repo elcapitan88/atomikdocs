@@ -80,7 +80,7 @@ Each connected account appears in **Settings > Broker Accounts** with its status
 | Tier | Connected Accounts |
 |------|-------------------|
 | Starter ($89/mo) | 3 |
-| Pro ($199/mo) | 10 |
+| Pro ($129/mo) | 10 |
 | Elite ($349/mo) | 25 |
 
 ## Disconnecting an Account

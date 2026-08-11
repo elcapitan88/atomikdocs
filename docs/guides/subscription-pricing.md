@@ -15,8 +15,8 @@ There is no free tier — marketplace browsing is public, and every account has 
 
 | | Starter | Pro | Elite |
 |---|---|---|---|
-| **Monthly Price** | $89 | $199 | $349 |
-| **Yearly Price** | $890 ($74/mo) | $1,990 ($166/mo) | $3,490 ($291/mo) |
+| **Monthly Price** | $89 | $129 | $349 |
+| **Yearly Price** | $890 ($74/mo) | $1,290 ($107/mo) | — (monthly only) |
 | **Connected Accounts** | 3 | 10 | 25 |
 | **Active Webhooks** | 3 | 10 | Unlimited |
 | **Active Strategies** | 3 | 15 | Unlimited |
@@ -111,8 +111,8 @@ Yearly billing saves about 17% compared to monthly — two months free:
 | Plan | Monthly | Yearly (per month) | Annual Savings |
 |------|---------|-------------------|----------------|
 | Starter | $89/mo | $74/mo | $178 |
-| Pro | $199/mo | $166/mo | $398 |
-| Elite | $349/mo | $291/mo | $698 |
+| Pro | $129/mo | $166/mo | $398 |
+| Elite | $349/mo | — (monthly only) | — |
 
 You can switch between monthly and yearly billing at any time through the billing portal.
 
