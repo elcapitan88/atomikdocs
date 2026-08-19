@@ -18,6 +18,17 @@ primary_region = 'iad'
   min_machines_running = 0
   processes = ['app']
 
+  # Without this block fly-proxy applies its default ~25-connection hard
+  # limit and 503s the overflow — a Docusaurus page load prefetches 25+
+  # asset chunks in parallel (via Cloudflare, one origin connection each),
+  # so every fresh visit dropped a handful of JS chunks. Observed live
+  # 2026-08-19: failed chunks never appeared in nginx's access log.
+  # nginx serves static files; hundreds of concurrent requests are nothing.
+  [http_service.concurrency]
+    type = "requests"
+    soft_limit = 200
+    hard_limit = 250
+
   [[http_service.checks]]
     interval = "15s"
     timeout = "3s"
