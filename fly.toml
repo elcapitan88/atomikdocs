@@ -4,8 +4,9 @@ primary_region = 'iad'
 [build]
   dockerfile = "Dockerfile.fly"
 
-# docusaurus serve reads $PORT; pin it so it matches Fly's internal_port
-# (the recurring "Fly doesn't inject PORT like Railway" gotcha).
+# nginx listens on 8080 (nginx.conf), matching internal_port. PORT env kept
+# only as a no-op safeguard against the recurring "Fly doesn't inject PORT"
+# gotcha if serving ever moves back to a Node process.
 [env]
   PORT = "8080"
 

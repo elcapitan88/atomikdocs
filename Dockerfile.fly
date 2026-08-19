@@ -11,12 +11,10 @@ RUN npm ci
 COPY . .
 RUN npm run build
 
-FROM node:${NODE_VERSION}-slim
-LABEL fly_launch_runtime="Node.js"
-WORKDIR /app
-ENV NODE_ENV=production
-# Bring over deps + built site; `docusaurus serve` needs node_modules
-COPY --from=build /app /app
+# Serve with nginx: instant boot on Fly machine wake (docusaurus serve took
+# seconds to start, 503ing the first visitor's asset requests after idle) and
+# the image ships only the built site, not node_modules.
+FROM nginx:1.27-alpine
+COPY nginx.conf /etc/nginx/conf.d/default.conf
+COPY --from=build /app/build /usr/share/nginx/html
 EXPOSE 8080
-# serve script is: docusaurus serve --port $PORT --host 0.0.0.0
-CMD ["npm", "run", "serve"]
