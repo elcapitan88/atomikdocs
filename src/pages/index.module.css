@@ -573,3 +573,48 @@
     grid-template-columns: 1fr;
   }
 }
+
+/* Hero primary CTAs — the unmistakable front door into the docs */
+.heroCtas {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 1.75rem 0 0.5rem;
+}
+
+.heroPrimaryBtn {
+  background: var(--ifm-color-primary);
+  color: #000;
+  font-weight: 700;
+  font-size: 1.05rem;
+  padding: 0.8rem 1.75rem;
+  border-radius: 0.6rem;
+  transition: all 0.2s ease;
+}
+
+.heroPrimaryBtn:hover {
+  background: var(--ifm-color-primary-light);
+  color: #000;
+  text-decoration: none;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(0, 198, 224, 0.35);
+}
+
+.heroSecondaryBtn {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.05rem;
+  padding: 0.8rem 1.75rem;
+  border-radius: 0.6rem;
+  transition: all 0.2s ease;
+}
+
+.heroSecondaryBtn:hover {
+  border-color: var(--ifm-color-primary);
+  color: var(--ifm-color-primary);
+  text-decoration: none;
+}

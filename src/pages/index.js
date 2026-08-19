@@ -89,6 +89,15 @@ function HomepageHeader() {
             {siteConfig.tagline}
           </p>
 
+          <div className={styles.heroCtas}>
+            <Link to="/intro" className={styles.heroPrimaryBtn}>
+              Browse the Docs &rarr;
+            </Link>
+            <Link to="/guides/first-trade" className={styles.heroSecondaryBtn}>
+              First trade in 10 minutes
+            </Link>
+          </div>
+
           <div className={styles.headerQuickLinks}>
             {links.map((link, idx) => (
               <Link
