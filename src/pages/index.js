@@ -1,12 +1,10 @@
 // src/pages/index.js
 import React from 'react';
-import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import Heading from '@theme/Heading';
 import ParticleBackground from '../components/ParticleBackground';
-import { useHistory } from '@docusaurus/router';
 import styles from './index.module.css';
 
 // Try importing with error handling
@@ -42,41 +40,19 @@ function WebhookIcon() {
   );
 }
 
-function CopyTradingIcon() {
+function BuildIcon() {
   return (
     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-      <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
-      <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+      <polyline points="16 18 22 12 16 6"></polyline>
+      <polyline points="8 6 2 12 8 18"></polyline>
     </svg>
   );
 }
 
-function SecurityIcon() {
+function AccountIcon() {
   return (
     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
       <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
-    </svg>
-  );
-}
-
-function SearchIcon() {
-  return (
-    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-      <circle cx="11" cy="11" r="8"></circle>
-      <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
-    </svg>
-  );
-}
-
-function ApiIcon() {
-  return (
-    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-      <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
-      <line x1="6" y1="9" x2="6" y2="4"></line>
-      <line x1="10" y1="9" x2="10" y2="4"></line>
-      <line x1="14" y1="9" x2="14" y2="4"></line>
-      <line x1="18" y1="9" x2="18" y2="4"></line>
-      <rect x="2" y="9" width="20" height="3" rx="1" ry="1"></rect>
     </svg>
   );
 }
@@ -94,9 +70,9 @@ function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
 
   const links = [
-    { title: 'Introduction', link: '/intro' },
+    { title: 'First Trade', link: '/guides/first-trade' },
     { title: 'Webhook Setup', link: '/guides/webhook-setup' },
-    { title: 'Marketplace', link: '/guides/marketplace' },
+    { title: 'Strategy Builder', link: '/guides/strategy-builder' },
     { title: 'Copy Trading', link: '/guides/copy-trading' },
     { title: 'FAQ', link: '/guides/faq' },
     { title: 'Blog', link: '/blog' },
@@ -110,10 +86,9 @@ function HomepageHeader() {
             <span className="gradient-text">{siteConfig.title}</span>
           </Heading>
           <p className={styles.heroTagline}>
-            Guides and reference for the Atomik Trading automation platform
+            {siteConfig.tagline}
           </p>
 
-          {/* Quick Links moved to header */}
           <div className={styles.headerQuickLinks}>
             {links.map((link, idx) => (
               <Link
@@ -131,101 +106,45 @@ function HomepageHeader() {
   );
 }
 
-function DocsIntroSection() {
+function StartHereSection() {
+  const cards = [
+    {
+      title: 'New to Atomik?',
+      text: 'Your first automated trade, on a paper account, in ten minutes.',
+      cta: 'Start Here',
+      link: '/guides/first-trade',
+    },
+    {
+      title: 'Connect a Broker',
+      text: 'Tradovate, funded accounts, IB — or the built-in paper account.',
+      cta: 'Connect',
+      link: '/guides/broker-connection',
+    },
+    {
+      title: 'Wire Up TradingView',
+      text: 'Webhook URLs, payloads, exits, and partial exits.',
+      cta: 'Setup Guide',
+      link: '/guides/webhook-setup',
+    },
+    {
+      title: 'Build with AI',
+      text: 'Describe a strategy; get validated, backtested Python.',
+      cta: 'Builder Guide',
+      link: '/guides/strategy-builder',
+    },
+  ];
+
   return (
     <section className={styles.docsIntroSection}>
       <div className="container">
-        <div className={styles.twoColumn}>
-          <div className={styles.introContent}>
-            <h2 className={styles.sectionTitle}>AtomikTrading Documentation</h2>
-            <p className={styles.introText}>
-              This documentation will help you set up and use AtomikTrading's webhook-based trading automation platform.
-              Learn how to connect your brokers, set up automated trades, and implement professional copy trading strategies.
-            </p>
-
-            <h3 className={styles.subSectionTitle}>Key Concepts</h3>
-            <dl className={styles.keyConceptsList}>
-              <div className={styles.conceptItem}>
-                <dt>Webhooks</dt>
-                <dd>HTTP callbacks that deliver data to other applications in real-time when triggered by specific events. AtomikTrading uses webhooks to receive trading signals and execute trades across multiple accounts.</dd>
-              </div>
-
-              <div className={styles.conceptItem}>
-                <dt>Copy Trading</dt>
-                <dd>A strategy that allows traders to replicate trades across multiple accounts simultaneously. Unlike social trading, professional copy trading multiplies your own strategy rather than following others.</dd>
-              </div>
-
-              <div className={styles.conceptItem}>
-                <dt>Trading Automation</dt>
-                <dd>The process of using technology to execute trading decisions without manual intervention. AtomikTrading provides the infrastructure to automate your existing trading strategies.</dd>
-              </div>
-            </dl>
-          </div>
-
-          <div className={styles.startOptions}>
-            <div className={styles.startCard}>
-              <h3 className={styles.startCardTitle}>New Users</h3>
-              <p className={styles.startCardText}>Just getting started with AtomikTrading?</p>
-              <Link to="/intro" className={styles.startButton}>Begin Here &rarr;</Link>
+        <div className={styles.startGrid}>
+          {cards.map((card, idx) => (
+            <div key={idx} className={styles.startCard}>
+              <h3 className={styles.startCardTitle}>{card.title}</h3>
+              <p className={styles.startCardText}>{card.text}</p>
+              <Link to={card.link} className={styles.startButton}>{card.cta} &rarr;</Link>
             </div>
-
-            <div className={styles.startCard}>
-              <h3 className={styles.startCardTitle}>Broker Setup</h3>
-              <p className={styles.startCardText}>Connect your Tradovate, IB, or Binance account.</p>
-              <Link to="/guides/broker-connection" className={styles.startButton}>Connect Broker &rarr;</Link>
-            </div>
-
-            <div className={styles.startCard}>
-              <h3 className={styles.startCardTitle}>Webhook Setup</h3>
-              <p className={styles.startCardText}>Ready to configure your webhooks?</p>
-              <Link to="/guides/webhook-setup" className={styles.startButton}>Setup Guide &rarr;</Link>
-            </div>
-
-            <div className={styles.startCard}>
-              <h3 className={styles.startCardTitle}>Marketplace</h3>
-              <p className={styles.startCardText}>Browse or sell trading strategies.</p>
-              <Link to="/guides/marketplace" className={styles.startButton}>Explore &rarr;</Link>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-  );
-}
-
-function SearchSection() {
-  const history = useHistory();
-  const [searchQuery, setSearchQuery] = React.useState('');
-
-  const handleSearch = (e) => {
-    e.preventDefault();
-    if (searchQuery.trim()) {
-      history.push(`/search?q=${encodeURIComponent(searchQuery)}`);
-    }
-  };
-
-  return (
-    <section className={styles.searchSection}>
-      <div className="container">
-        <h2 className={styles.sectionTitle}>Find Documentation</h2>
-        <form onSubmit={handleSearch} className={styles.searchBox}>
-          <input
-            type="text"
-            placeholder="Search documentation..."
-            value={searchQuery}
-            onChange={(e) => setSearchQuery(e.target.value)}
-            className={styles.searchInput}
-          />
-          <button type="submit" className={styles.searchButton} aria-label="Search">
-            <SearchIcon />
-          </button>
-        </form>
-        <div className={styles.popularSearches}>
-          <span className={styles.popularLabel}>Popular searches:</span>
-          <Link to="/guides/webhook-setup" className={styles.popularLink}>Webhook Setup</Link>
-          <Link to="/guides/broker-connection" className={styles.popularLink}>Broker Connection</Link>
-          <Link to="/guides/copy-trading" className={styles.popularLink}>Copy Trading</Link>
-          <Link to="/guides/marketplace" className={styles.popularLink}>Marketplace</Link>
+          ))}
         </div>
       </div>
     </section>
@@ -259,42 +178,44 @@ function DocsStructureSection() {
   const categories = [
     {
       title: 'Getting Started',
-      description: 'Everything you need to start using AtomikTrading',
+      description: 'Accounts, brokers, and your first automated trade',
       icon: DocumentIcon,
       links: [
-        { title: 'Introduction', url: '/intro' },
-        { title: 'First Automated Trade', url: '/guides/first-trade' },
+        { title: 'Your First Automated Trade', url: '/guides/first-trade' },
         { title: 'Broker Connection', url: '/guides/broker-connection' },
+        { title: 'Paper Trading', url: '/guides/paper-trading' },
+        { title: 'Prop-Firm Accounts', url: '/guides/prop-firms' },
       ],
     },
     {
-      title: 'Webhook Integration',
-      description: 'Connect your trading signals to AtomikTrading',
+      title: 'Automation',
+      description: 'Signals in, executions out',
       icon: WebhookIcon,
       links: [
         { title: 'Webhook Setup', url: '/guides/webhook-setup' },
         { title: 'Trading Strategies', url: '/guides/trading-strategies' },
-        { title: 'Subscription & Pricing', url: '/guides/subscription-pricing' },
+        { title: 'Copy Trading', url: '/guides/copy-trading' },
       ],
     },
     {
-      title: 'Copy Trading & Marketplace',
-      description: 'Scale your strategy and discover new ones',
-      icon: CopyTradingIcon,
+      title: 'Build & Test',
+      description: 'From idea to validated, backtested strategy',
+      icon: BuildIcon,
       links: [
-        { title: 'Copy Trading Guide', url: '/guides/copy-trading' },
+        { title: 'AI Strategy Builder', url: '/guides/strategy-builder' },
+        { title: 'How Backtesting Works', url: '/guides/backtesting' },
+        { title: 'MCP Connector (Claude)', url: '/guides/mcp-connector' },
+      ],
+    },
+    {
+      title: 'Marketplace & Account',
+      description: 'Strategies, plans, and keeping things secure',
+      icon: AccountIcon,
+      links: [
         { title: 'Strategy Marketplace', url: '/guides/marketplace' },
+        { title: 'Subscription & Pricing', url: '/guides/subscription-pricing' },
+        { title: 'Security', url: '/guides/security' },
         { title: 'FAQ', url: '/guides/faq' },
-      ],
-    },
-    {
-      title: 'Security',
-      description: 'Best practices for secure trading automation',
-      icon: SecurityIcon,
-      links: [
-        { title: 'Security Best Practices', url: '/guides/security' },
-        { title: 'Webhook Security', url: '/guides/webhook-setup' },
-        { title: 'Broker Security', url: '/guides/broker-connection' },
       ],
     },
   ];
@@ -302,7 +223,7 @@ function DocsStructureSection() {
   return (
     <section className={styles.docsStructureSection}>
       <div className="container">
-        <h2 className={styles.sectionTitle}>Documentation Structure</h2>
+        <h2 className={styles.sectionTitle}>Browse the Docs</h2>
         <div className={styles.docCategoriesGrid}>
           {categories.map((category, index) => (
             <DocCategory key={index} {...category} />
@@ -316,19 +237,19 @@ function DocsStructureSection() {
 function RecentUpdatesSection() {
   const updates = [
     {
+      title: 'New: Strategy Builder, Backtesting, Paper Trading, Prop-Firm, and MCP Connector guides',
+      date: 'August 2026',
+      url: '/guides/strategy-builder',
+    },
+    {
       title: 'New: Atomik vs PickMyTrade, vs TradersPost, and the field — honest comparisons',
       date: 'August 2026',
       url: '/compare/atomik-vs-pickmytrade',
     },
     {
-      title: 'Updated: Subscription & Pricing — current plans, no free trial, 7-day guarantee',
+      title: 'Rewritten: First Automated Trade — real UI, real screenshots, paper-first',
       date: 'August 2026',
-      url: '/guides/subscription-pricing',
-    },
-    {
-      title: 'Rewritten: Webhook Setup Guide with full payload reference',
-      date: 'March 2026',
-      url: '/guides/webhook-setup',
+      url: '/guides/first-trade',
     },
   ];
 
@@ -354,33 +275,6 @@ function RecentUpdatesSection() {
   );
 }
 
-function QuickLinks() {
-  const links = [
-    { title: 'Introduction', link: '/intro' },
-    { title: 'Webhook Setup', link: '/guides/webhook-setup' },
-    { title: 'Security', link: '/guides/security' },
-    { title: 'Trading Strategies', link: '/guides/trading-strategies' },
-    { title: 'Blog', link: '/blog' },
-  ];
-
-  return (
-    <div className={styles.quickLinksContainer}>
-      <h2 className={styles.quickLinksTitle}>Quick Links</h2>
-      <div className={styles.quickLinks}>
-        {links.map((link, idx) => (
-          <Link
-            key={idx}
-            to={link.link}
-            className={styles.quickLink}
-          >
-            {link.title}
-          </Link>
-        ))}
-      </div>
-    </div>
-  );
-}
-
 export default function Home() {
   const {siteConfig} = useDocusaurusContext();
 
@@ -389,8 +283,8 @@ export default function Home() {
 
   return (
     <Layout
-      title={`${siteConfig.title} - Trading Automation Documentation`}
-      description="Comprehensive documentation for AtomikTrading's webhook-based trading automation platform. Learn how to set up webhooks, implement copy trading, secure your accounts, and scale your trading strategies.">
+      title={`${siteConfig.title} — Trading Automation Documentation`}
+      description="Documentation for the Atomik Trading platform: webhook execution, broker connections, AI strategy building, backtesting, paper trading, copy trading, and the strategy marketplace.">
       {/* Only render if it's a valid component */}
       {hasStructuredData && <HomepageStructuredData />}
       <div className={styles.homeContainer}>
@@ -398,8 +292,7 @@ export default function Home() {
         <div className={styles.pageContent}>
           <HomepageHeader />
           <main className={styles.homeMain}>
-            <DocsIntroSection />
-            <SearchSection />
+            <StartHereSection />
             <DocsStructureSection />
             <RecentUpdatesSection />
           </main>

@@ -555,3 +555,21 @@
   text-decoration: none;
   transform: translateY(-2px);
 }
+/* Start-here cards as a standalone responsive row (homepage 2026-08 compress) */
+.startGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+
+@media screen and (max-width: 996px) {
+  .startGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .startGrid {
+    grid-template-columns: 1fr;
+  }
+}
