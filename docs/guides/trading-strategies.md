@@ -26,15 +26,15 @@ See the [Webhook Setup Guide](./webhook-setup) for creating webhooks and configu
 
 Browse strategies published by other traders in the [Marketplace](./marketplace). When you subscribe to a marketplace strategy, it creates an activated strategy linked to your broker account — signals from the creator's webhook automatically execute on your account.
 
-### 3. Strategy Engine (Real-Time)
+### 3. Engine Strategies (your Python, running on Atomik)
 
-Atomik's built-in Strategy Engine connects to live market data and evaluates strategy logic on every tick. When conditions are met, it sends execution signals directly to the backend — no webhook needed.
+Choose **Engine Strategy** in the dashboard's Create flow (or build one in the [Strategy Builder](./strategy-builder)) and your own Python runs directly on Atomik's strategy engine against live market data — no external service, no alerts to wire up.
 
-This is used for Atomik's proprietary strategies and is not yet available for custom user strategies.
+Your code is validated in the same sandbox the live engine runs, backtested against real historical data, and then activated on a paper or live account like any other strategy. Strategies you write with the AI Builder or save through the [MCP connector](./mcp-connector) follow this same path.
 
 ## Activated Strategies
 
-An **activated strategy** is the link between a signal source (webhook or marketplace subscription) and your broker account. It defines:
+An **activated strategy** is the link between a signal source (webhook, engine strategy, or marketplace subscription) and your broker account. It defines:
 
 - Which webhook or strategy code generates the signals
 - Which broker account receives the trades
@@ -42,12 +42,11 @@ An **activated strategy** is the link between a signal source (webhook or market
 
 ### Creating an Activated Strategy
 
-1. Go to **Strategies** in the dashboard
-2. Click **Activate Strategy**
-3. Select the webhook (or marketplace strategy) to use as the signal source
-4. Choose the broker account to trade on
-5. Configure the quantity (number of contracts/shares per signal)
-6. Toggle **Active** to start receiving trades
+1. In the dashboard's **Strategies** panel, click **Activate**
+2. Select the signal source — a webhook, an engine strategy, or a marketplace strategy
+3. Choose the account to trade on (paper first is a good habit)
+4. Configure the quantity (contracts per signal)
+5. Turn the strategy on — the card shows its symbol, account, and quantity, with a toggle to pause any time
 
 Only strategies marked as active will execute incoming signals. You can pause a strategy at any time by toggling it off.
 

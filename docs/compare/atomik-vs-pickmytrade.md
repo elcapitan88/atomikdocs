@@ -23,8 +23,8 @@ If all you want is "TradingView alert in, order out" on as many accounts as poss
 | **Pricing** | $89–$349/mo depending on plan | $50/mo or $500/yr flat |
 | **Free trial** | No — 7-day money-back guarantee | 5-day free trial |
 | **Connected accounts** | 3 (Starter) / 10 (Pro) / 25 (Elite), no per-account fees | Unlimited |
-| **Brokers** | Tradovate, Interactive Brokers, TopstepX (funded), Binance, Polymarket | Tradovate, Rithmic, Interactive Brokers, TradeStation, TradeLocker, ProjectX, Matchtrader, Tradier |
-| **Prop / funded accounts** | Yes — TopstepX direct + Tradovate-powered firms | Yes — Tradovate/ProjectX-powered firms (Apex, TopStep, Alpha, etc.) |
+| **Brokers** | Tradovate, Interactive Brokers, TopstepX (private beta), built-in paper account | Tradovate, Rithmic, Interactive Brokers, TradeStation, TradeLocker, ProjectX, Matchtrader, Tradier |
+| **Prop / funded accounts** | Yes — Tradovate-powered firms + TopstepX (private beta) | Yes — Tradovate/ProjectX-powered firms (Apex, TopStep, Alpha, etc.) |
 | **Webhook execution** | Yes — partial exits (25% / 50% / remainder) via alert comments | Yes |
 | **Copy trading** | Built in (Pro+): leader/follower groups, per-follower size ratios, auto-flatten protection | Trade copier: one signal to multiple accounts |
 | **Strategy builder** | Yes — AI builds the code from visual cards, no programming | No |
@@ -59,7 +59,7 @@ Be clear-eyed about this:
 
 ### Can I use either platform with a funded / prop account?
 
-Yes — both. Atomik connects TopstepX directly and Tradovate-powered evaluations; PickMyTrade covers Tradovate- and ProjectX-powered firms. Always confirm automation is permitted under your specific prop firm's rules.
+Yes — both. Atomik connects Tradovate-powered evaluations (TopstepX direct connection is in private beta); PickMyTrade covers Tradovate- and ProjectX-powered firms. Always confirm automation is permitted under your specific prop firm's rules.
 
 ### Does Atomik have a free trial like PickMyTrade?
 

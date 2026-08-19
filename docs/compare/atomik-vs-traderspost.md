@@ -23,9 +23,9 @@ If you trade stocks and options across several brokers, TradersPost covers groun
 | **Pricing** | $89 / $129 / $349 per month | Starter ~$42/mo (1 live account) to Premium ~$254/mo (6 live accounts), billed yearly |
 | **Extra accounts** | Included in plan: 3 / 10 / 25 | +$10/mo per live account, +$5/mo per paper account |
 | **Free trial** | No — 7-day money-back guarantee | Free plan / trial available |
-| **Asset classes** | Futures first; crypto (Binance), prediction markets (Polymarket) | Stocks, options, futures, crypto |
-| **Brokers** | Tradovate, Interactive Brokers, TopstepX (funded), Binance, Polymarket | TradeStation, Alpaca, Interactive Brokers, Tradier, Tradovate, Coinbase, Robinhood, Bybit |
-| **Prop / funded accounts** | Yes — TopstepX direct, Tradovate-powered firms | Via Tradovate where permitted |
+| **Asset classes** | Futures first | Stocks, options, futures, crypto |
+| **Brokers** | Tradovate, Interactive Brokers, TopstepX (private beta), built-in paper account | TradeStation, Alpaca, Interactive Brokers, Tradier, Tradovate, Coinbase, Robinhood, Bybit |
+| **Prop / funded accounts** | Yes — Tradovate-powered firms, TopstepX in private beta | Via Tradovate where permitted |
 | **Copy trading** | Built in (Pro+): leader/follower groups, size ratios, auto-flatten | Parallel execution across connected accounts |
 | **Strategy builder** | Yes — AI generates the code from visual cards | No — bring your own strategy |
 | **Backtesting** | Yes — tick-accurate, in-platform (30–500 runs/mo by plan) | No — rely on TradingView backtests |
@@ -62,7 +62,7 @@ Atomik is built around that workflow: TopstepX connects directly, Tradovate-powe
 
 ### Does Atomik support stocks and options?
 
-No. Atomik is futures-first (plus crypto via Binance and prediction markets via Polymarket). For stock/options automation, TradersPost is the better fit today.
+Atomik is futures-first. Interactive Brokers is connectable for other asset classes, but for stock/options automation specifically, TradersPost is the better fit today.
 
 ### Does either platform hold my funds?
 

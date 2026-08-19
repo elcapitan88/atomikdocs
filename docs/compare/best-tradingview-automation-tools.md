@@ -19,18 +19,18 @@ This guide is published by Atomik Trading, so yes, we have a horse in this race.
 | Running **many prop/funded accounts** and want flat pricing + copy trading | **Atomik** (10 accounts on one $129 plan) or **PickMyTrade** (unlimited accounts, $50) |
 | A pure executor shopper: finished strategy, want the **cheapest reliable pipe** | **PickMyTrade** or **Copygram** |
 | Trading **stocks and options**, not just futures | **TradersPost** |
-| Automating **crypto exchanges** primarily | **Autoview** (or Atomik for Binance) |
+| Automating **crypto exchanges** primarily | **Autoview** |
 | A **NinjaTrader** user | **CrossTrade** |
 
 ## The tools
 
 ### Atomik Trading
 
-**What it is:** A trading platform with webhook execution built in, rather than a webhook pipe alone. TradingView alerts (or any HTTP POST) execute on Tradovate, Interactive Brokers, TopstepX funded accounts, Binance, or Polymarket — and the same product includes an AI strategy builder (visual cards in, working code out), tick-accurate backtesting, a built-in paper-trading engine on the identical execution pipeline, copy trading with per-follower size ratios and auto-flatten protection, and a marketplace where strategy performance is platform-verified from live signals, not vendor backtests.
+**What it is:** A trading platform with webhook execution built in, rather than a webhook pipe alone. TradingView alerts (or any HTTP POST) execute on Tradovate (including many prop/funded accounts), Interactive Brokers, or TopstepX (private beta) — and the same product includes an AI strategy builder (plain English in, working code out), backtesting on real historical data, a built-in paper-trading engine on the identical execution pipeline, copy trading with per-follower sizing and auto-flatten protection, and a marketplace where strategy performance is platform-verified from live signals, not vendor backtests.
 
 **Pricing:** Starter $89/mo (3 accounts) · Pro $129/mo (10 accounts, copy trading) · Elite $349/mo (25 accounts). No free trial — full access from day one with a 7-day money-back guarantee. Accounts are included in the plan; there are no per-account add-on fees.
 
-**Weaknesses, honestly:** No stocks or options. No Rithmic, TradeStation, or ProjectX connectivity today. Not the cheapest option if execution is all you need.
+**Weaknesses, honestly:** No stocks or options. No crypto exchanges. No Rithmic, TradeStation, or ProjectX connectivity today. Not the cheapest option if execution is all you need.
 
 **Best for:** Futures and funded-account traders who want the whole workflow — build → backtest → paper → live → (optionally) sell — in one product.
 
@@ -97,7 +97,7 @@ Yes — webhook alerts require a paid TradingView subscription (Essential or hig
 
 ### Can I automate a funded (prop) account?
 
-Often yes — Atomik (TopstepX direct + Tradovate-powered firms) and PickMyTrade (Tradovate/ProjectX firms) both target this. The gating factor is your prop firm's automation policy, not the tool.
+Often yes — Atomik (Tradovate-powered firms, plus TopstepX in private beta) and PickMyTrade (Tradovate/ProjectX firms) both target this. The gating factor is your prop firm's automation policy, not the tool.
 
 ### Do any of these run without my computer on?
 

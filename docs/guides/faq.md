@@ -11,7 +11,7 @@ keywords: ["Atomik FAQ", "trading automation FAQ", "webhook help", "broker conne
 
 ### How do I create an account?
 
-Go to [atomiktrading.io](https://atomiktrading.io), click **Get Started**, choose a plan, and complete the Stripe checkout. Your account is immediately activated.
+Go to [atomiktrading.io](https://atomiktrading.io), click **Get Started**, choose a plan, and complete checkout. Your account is immediately activated.
 
 ### Is there a free trial?
 
@@ -19,16 +19,20 @@ No — Atomik doesn't offer a free trial. Instead, every plan (Starter, Pro, Eli
 
 ### What brokers do you support?
 
-- **Tradovate** — Futures (ES, NQ, MNQ, MES, etc.)
-- **Interactive Brokers** — Stocks, Options, Futures, Forex
-- **Binance** — Crypto spot and futures
-- **Polymarket** — Prediction markets
+- **Tradovate** — Futures (ES, NQ, MNQ, MES, etc.) — the most-used broker on Atomik, and the route in for many prop/funded accounts
+- **Atomik Paper** — built-in simulated account, no broker needed
+- **Interactive Brokers** — Stocks, options, futures, forex
+- **TopstepX** — Funded futures accounts (private beta)
 
 See the [Broker Connection Guide](./broker-connection) for setup instructions.
 
 ### Can I use Atomik with a demo/paper trading account?
 
-Yes. When connecting Tradovate, you can choose "Demo" environment. We strongly recommend testing with paper trading before going live.
+Yes, two ways: the built-in **Atomik Paper** account ($100k virtual funds, one click, no broker — see [Paper Trading](./paper-trading)), or Tradovate's **Demo** environment when connecting Tradovate. We strongly recommend testing on paper before going live.
+
+### Can Atomik work with my prop firm / funded account?
+
+If your funded account comes with a Tradovate login — as many futures prop programs provide — it connects like any Tradovate account. Direct TopstepX connection is in private beta. See [Prop-Firm Accounts](./prop-firms).
 
 ## Webhooks
 
@@ -40,7 +44,7 @@ Check these in order:
 2. **Secret key** — Verify the secret in your TradingView URL matches the webhook secret
 3. **Activated strategy** — Confirm a strategy is active and linked to a broker account for this webhook
 4. **Broker connection** — Ensure the linked broker account is connected and active
-5. **Subscription status** — Your subscription must be active or trialing
+5. **Subscription status** — Your subscription must be active
 
 ### I'm getting duplicate trades. How do I fix this?
 
@@ -81,7 +85,7 @@ For Tradovate: The Token Refresh Service automatically keeps connections alive. 
 2. Clear browser cookies
 3. Reconnect via OAuth
 
-For API-based brokers (IB, Binance): Verify your API credentials haven't expired or been revoked.
+For other connections: reconnect via OAuth (IB) or verify your API key hasn't been revoked (TopstepX).
 
 ### Can Atomik withdraw funds from my broker account?
 
@@ -123,9 +127,9 @@ Requires Starter tier or higher.
 
 ### How do I sell my strategy?
 
-You need Trader tier or higher plus a Stripe Connect account:
-1. Go to **Settings > Creator**
-2. Set up Stripe Connect
+Every plan can sell on the marketplace. You need a creator profile with payouts set up:
+1. Go to **Settings > Creator** and complete creator onboarding
+2. Set up payouts
 3. Publish your strategy with pricing
 
 See the [Marketplace Guide](./marketplace) for full details.
@@ -152,7 +156,7 @@ You get a grace period with full access while we retry. If unresolved, you'll re
 
 ### Can I get a refund?
 
-Contact [support@atomiktrading.io](mailto:support@atomiktrading.io) within 30 days for refund requests.
+Every plan has a **7-day money-back guarantee**: email [support@atomiktrading.io](mailto:support@atomiktrading.io) within 7 days of your first charge for a full refund. For billing problems outside that window (duplicate charges, errors), contact support and we'll make it right.
 
 ### Do yearly plans auto-renew?
 
@@ -176,6 +180,20 @@ Yes. Cancel anytime before renewal through the billing portal.
 5. Contact [support@atomiktrading.io](mailto:support@atomiktrading.io)
 
 See the [Security Guide](./security) for full details.
+
+## Strategy Builder & AI
+
+### Can Atomik write a trading strategy for me?
+
+Yes — the [Strategy Builder](./strategy-builder) turns a plain-English description into working Python strategy code, validates it, and backtests it against up to two years of real market data. Building costs 3 AI credits, adjustments cost 1, and questions about your strategy are always free.
+
+### Can I use Claude or another AI assistant with Atomik?
+
+Yes. Atomik has an [MCP connector](./mcp-connector) — connect it to Claude and your AI can write, validate, backtest, and save Atomik strategies directly from a chat, using your account's quotas. Going live always happens in the Atomik app, never from chat.
+
+### Can I run my own Python strategy on Atomik?
+
+Yes — choose **Engine Strategy** in the dashboard's Create flow, or write it in the [Strategy Builder](./strategy-builder). Your code is validated in the same sandbox the live engine runs, backtested, and can then be activated on a paper or live account. See [Trading Strategies](./trading-strategies).
 
 ## Still Need Help?
 

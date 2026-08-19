@@ -61,7 +61,7 @@ There is no free trial. Instead, every plan (Starter, Pro, Elite) comes with a 7
 
 1. Go to [atomiktrading.io](https://atomiktrading.io) and click **Get Started**
 2. Choose your plan and billing cycle (monthly or yearly)
-3. Complete checkout via Stripe (credit/debit card)
+3. Complete checkout (credit/debit card)
 4. Your account is immediately activated with full access
 
 ## Managing Your Subscription

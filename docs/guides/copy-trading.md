@@ -31,20 +31,19 @@ When a webhook signal arrives for a strategy that's activated on multiple accoun
 
 ### Step 1: Connect Multiple Accounts
 
-Connect two or more broker accounts in **Settings > Broker Accounts**. These can be:
+Connect two or more accounts via **Dashboard → Accounts panel → + Connect Account**. These can be:
 
-- Multiple accounts at the same broker (e.g., 3 Tradovate accounts)
-- Accounts across different brokers (e.g., Tradovate + Interactive Brokers)
-- Mix of demo and live accounts
+- Multiple accounts at the same broker (e.g., 3 Tradovate accounts — including funded/prop accounts)
+- Accounts across different brokers
+- A mix of demo, paper, and live accounts
 
 See [Broker Connection Guide](./broker-connection) for setup instructions.
 
 ### Step 2: Activate the Same Strategy on Multiple Accounts
 
-1. Go to **Strategies** in the dashboard
-2. Create or select a webhook
-3. **Activate** the strategy on each broker account you want to trade
-4. Set the position size independently for each account
+1. In the dashboard's **Strategies** panel, create or select a webhook strategy
+2. **Activate** it on each account you want to trade
+3. Set the position size independently for each account
 
 For example, you might trade 2 contracts on your main account and 1 contract on each of two smaller accounts.
 

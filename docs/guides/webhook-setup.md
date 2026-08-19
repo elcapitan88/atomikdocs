@@ -22,15 +22,18 @@ TradingView Alert → HTTP POST → Atomik Webhook URL → Match Strategy → Ex
 
 ## Creating a Webhook
 
-1. Log in to your Atomik Trading dashboard
-2. Navigate to **Webhooks** in the sidebar
-3. Click **Create New Webhook**
-4. Configure settings:
-   - **Name**: A descriptive label (e.g., "ES Long Entry")
-   - **Description**: Optional notes about what this webhook does
-5. Click **Save** — you'll receive:
+Webhooks are created from the dashboard's **Strategies panel** (bottom right):
+
+![Webhooks tab in the dashboard strategies panel](/img/screenshots/webhooks-panel.png)
+
+1. Click **+ Create** and choose **Webhook Strategy**
+2. Pick your intent — **Personal Use** for your own trading (you can share or monetize later)
+3. On the **Configuration** step, name the strategy, pick the closest strategy type, and choose **TradingView Pine Script** (or **Custom Implementation** for any other HTTP source) as the signal source
+4. Review and create — you'll receive:
    - A **webhook token** (the unique URL path)
-   - A **secret key** (for request validation — save this immediately, it won't be shown again)
+   - A **secret key** (for request validation — copy the full URL immediately, the secret won't be shown again)
+
+Your webhooks live in the **Webhooks** tab of the same panel, each with its delivery logs.
 
 Your full webhook URL will be:
 

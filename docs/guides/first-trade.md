@@ -1,95 +1,119 @@
 ---
 sidebar_position: 1
 sidebar_label: "First Automated Trade"
-title: "Your First Automated Trade - Complete Beginner Guide"
-description: "Learn how to set up and execute your first automated trade with Atomik Trading. Step-by-step tutorial for trading automation beginners."
-keywords: ["automated trading", "first automated trade", "trading automation tutorial", "beginner trading guide", "TradingView automation"]
+title: "Your First Automated Trade"
+description: "Set up and execute your first automated trade with Atomik Trading — from a paper account to a live TradingView signal, step by step with screenshots."
+keywords: ["automated trading", "first automated trade", "TradingView webhook tutorial", "paper trading", "trading automation tutorial"]
 ---
 
-# Your First Automated Trade - Complete Beginner Guide
+# Your First Automated Trade
 
-This comprehensive guide will walk you through setting up and executing your first automated trade with Atomik Trading. Perfect for beginners looking to start their **trading automation journey**.
+This walkthrough takes you from a fresh account to your first automatically executed trade. It uses a **paper account** — real market data, virtual money — so nothing here risks a dollar. The whole setup takes about ten minutes.
 
-## Prerequisites for Trading Automation
+**What you'll do:**
 
-Before you begin automating your trading, make sure you have:
+1. Add an Atomik Paper account (no broker needed)
+2. Create a webhook strategy and get your webhook URL
+3. Activate the strategy on your paper account
+4. Point a TradingView alert at your webhook
+5. Watch the trade execute on the dashboard
 
-- An active [Atomik Trading account](https://atomiktrading.io)
-- A connected broker account (configured in the dashboard under Settings)
-- Basic familiarity with trading concepts
-- Understanding of risk management principles
+## Step 1: Add a paper account
 
-## Step 1: Setting Up a Simple Trade
+Everything happens on the **Dashboard** — chart on the left, your accounts and strategies on the right.
 
-Let's create a basic automated trade to get you started.
+![The Atomik dashboard: chart, trading panel, accounts and strategies](/img/screenshots/dashboard.png)
 
-### 1.1 Access the Trading Dashboard
+1. In the **Accounts** panel (top right), click **+ Connect Account**
+2. Choose **Atomik Paper** — a simulated account with $100,000 in virtual funds, no broker required
 
-1. Log in to your AtomikTrading account
-2. Navigate to the **Trading** section from the main menu
-3. Select **New Trade** to begin
+![Broker selection: Tradovate, IB, TopstepX, and Atomik Paper](/img/screenshots/broker-select.png)
 
-## Step 2: Setting Up Trading Automation Triggers
+The new account appears in your Accounts panel as `ATMK-…` with a `PAPER` badge. Paper accounts run through the same execution pipeline as live accounts, so what you learn here transfers directly.
 
-Now, let's automate this trade with a simple trigger. This is where the power of **automated trading** really shines!
+(If you'd rather connect a real broker first, see the [Broker Connection Guide](./broker-connection) — Tradovate takes about two minutes via OAuth.)
 
-### 2.1 Create a Webhook for Automation
+## Step 2: Create a webhook strategy
 
-1. Go to the **Automation** section
-2. Select **Webhooks** from the submenu
-3. Click **Create New Webhook**
-4. Follow our detailed [webhook setup guide](./webhook-setup) for complete configuration
+1. In the **Strategies** panel (bottom right), click **+ Create**
+2. Choose **Webhook Strategy** — your signals will come from TradingView and POST to an Atomik webhook URL
 
-> **Pro Tip**: Start with TradingView alerts for reliable automation signals.
+![Create a strategy: webhook or engine](/img/screenshots/create-strategy.png)
 
-### 2.2 Connect TradingView Alerts (Recommended)
+3. Pick **Personal Use** (you can share or monetize a strategy later — see the [Marketplace guide](./marketplace))
+4. On the **Configuration** step, give the strategy a name (e.g. "My First Strategy"), pick the closest strategy type, and choose **TradingView Pine Script** as the signal source
+5. Review and create
 
-For beginners, we recommend starting with TradingView integration:
+When the strategy is created you get its **webhook URL** with an embedded secret. **Copy it now** — for security, the full URL with the secret is only shown at creation. It looks like:
 
-1. Set up your strategy in TradingView
-2. Create alert conditions
-3. Use the webhook URL from Step 2.1
-4. Test with paper trading first
+```
+https://api.atomiktrading.io/api/v1/webhooks/{token}?secret={secret}
+```
 
-## Step 3: Going Live with Automated Trading
+Your webhooks are always visible in the **Webhooks** tab of the same panel, where you can check delivery logs later.
 
-Now you're ready to go live with your first automated trade. This is an exciting milestone in your **trading automation journey**!
+## Step 3: Activate it on your paper account
 
-### 3.1 Final Automation Review
+A strategy trades only when it's **activated** on a specific account:
 
-Before activating your automated trading system:
+1. In the Strategies panel, click **Activate**
+2. Select your new webhook strategy as the signal source
+3. Select your paper account
+4. Set the quantity (start with **1** contract)
+5. Turn the strategy on
 
-1. **Double-check all trade parameters** - Ensure position sizes and entry/exit rules are correct
-2. **Verify risk management settings** - Set appropriate stop losses and position sizing
-3. **Ensure your broker connection is active** - Test the connection in our dashboard
-4. **Check that you have sufficient funds** for the automated trades
-5. **Start with small position sizes** - Begin conservatively while learning automation
+The strategy card now shows its symbol, account, and quantity, with a toggle to pause it any time.
 
-### 3.2 Monitoring Your Automated Trades
+## Step 4: Point a TradingView alert at your webhook
 
-Once your automation is live:
+In TradingView (a paid TradingView plan is required for webhook alerts):
 
-- Monitor initial trades closely
-- Keep a trading journal of automated decisions
-- Review performance regularly
+1. Open a chart and create an **Alert** (for a first test, a simple price-crossing alert is fine)
+2. In the alert dialog, open the **Notifications** tab and enable **Webhook URL**
+3. Paste your Atomik webhook URL
+4. Set the alert **Message** to:
 
-## Next Steps in Trading Automation
+```json
+{"action": "BUY"}
+```
 
-Congratulations on setting up your first automated trade! Here's what to explore next:
+That's the minimum payload — Atomik reads the `action` and executes with the quantity you configured in Step 3. For exits, partial exits, and strategy-driven sizing, see the [Webhook Setup Guide](./webhook-setup).
 
-- **[Broker Connection Guide](./broker-connection)** — Connect additional broker accounts
-- **[Trading Strategies](./trading-strategies)** — Explore strategy configuration and management
-- **[Copy Trading](./copy-trading)** — Scale your strategy across multiple accounts
-- **[Security Best Practices](./security)** — Protect your account and API keys
-- **[Webhook Setup](./webhook-setup)** — Deep dive into webhook configuration
-- **[FAQ](./faq)** — Common questions and troubleshooting
+:::tip Fire it manually
+You don't have to wait for the market: you can test the pipeline with any HTTP client. Send a POST with body `{"action": "BUY"}` to your webhook URL and the trade executes immediately.
+:::
 
-## Need Help?
+## Step 5: Watch it execute
 
-If you need assistance with your **automated trading setup**:
+When the alert fires:
 
-- Check the [FAQ](./faq) for common questions
-- Browse the other [guides](/intro) in our documentation
-- Contact our [support team](mailto:support@atomiktrading.io)
+- The **Positions** tab (under the chart) shows the new open position
+- Your paper account card updates its **Open P&L** in real time
+- The **Webhooks** tab shows the delivery in the webhook's logs — this is the first place to look if nothing happened
 
-Remember: **Successful trading automation requires patience, testing, and continuous learning.** Start small, learn the system, and gradually increase your automation complexity.
+To close the position, send the exit payload from another alert (or manually):
+
+```json
+{"action": "SELL", "comment": "EXIT_FINAL"}
+```
+
+## If nothing happened
+
+Check these in order — they cover nearly every first-time miss:
+
+1. **Webhook logs** (Webhooks tab) — did the request arrive? Any error message?
+2. **Strategy is on** — the toggle on the strategy card must be active
+3. **Right account** — the strategy must be linked to the account you're watching
+4. **Payload is valid JSON** — `{"action": "BUY"}`, straight quotes, no trailing comma
+
+More cases in the [FAQ](./faq).
+
+## Where to go next
+
+- **[Webhook Setup](./webhook-setup)** — full payload reference: exits, partial exits, quantity from the alert
+- **[Broker Connection](./broker-connection)** — connect Tradovate or a funded account when you're ready for live
+- **[Paper Trading](./paper-trading)** — how the simulated account works
+- **[Strategy Builder](./strategy-builder)** — have AI write and backtest a strategy for you, no TradingView needed
+- **[Copy Trading](./copy-trading)** — run one strategy across multiple accounts
+
+Start on paper, verify the full loop end to end, and only then point a strategy at a funded or live account with small size.
