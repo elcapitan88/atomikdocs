@@ -133,4 +133,4 @@ Yes. You can cancel anytime before renewal through the billing portal.
 
 - [Your First Automated Trade](./first-trade) — Get started with your new plan
 - [Broker Connection](./broker-connection) — Connect your broker account
-- [Marketplace](./marketplace) — Browse strategies (Starter+) or sell your own (Trader+)
+- [Marketplace](./marketplace) — Browse strategies or sell your own (every plan)

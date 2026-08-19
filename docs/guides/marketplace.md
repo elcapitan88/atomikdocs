@@ -48,7 +48,7 @@ View and manage your marketplace subscriptions in **Strategies**:
 
 To sell strategies on the marketplace, you need:
 
-1. **Trader tier or higher** subscription
+1. An active subscription (every plan can sell — Starter, Pro, and Elite)
 2. **Stripe Connect** account (for receiving payments)
 
 **Setup:**
