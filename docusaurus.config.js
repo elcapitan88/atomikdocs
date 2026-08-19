@@ -236,7 +236,9 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           routeBasePath: '', // Change this to empty string
-          showLastUpdateTime: false,
+          // Freshness signal for readers, crawlers, and LLMs alike.
+          // Needs .git in the build context (it is — no .dockerignore).
+          showLastUpdateTime: true,
           showLastUpdateAuthor: false,
         },
         // Other settings remain the same

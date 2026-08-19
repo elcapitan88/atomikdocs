@@ -2,7 +2,7 @@
 sidebar_position: 7
 title: "Security Best Practices"
 description: "Protect your Atomik Trading account, webhooks, broker connections, and API keys with these security best practices."
-keywords: ["trading security", "webhook security", "account protection", "API key security", "broker security", "2FA"]
+keywords: ["trading security", "webhook security", "account protection", "API key security", "broker security"]
 ---
 
 # Security Best Practices
@@ -18,15 +18,9 @@ This guide covers how to secure your Atomik Trading account, webhooks, and broke
 - Never reuse passwords from other services
 - Use a password manager (1Password, Bitwarden, etc.)
 
-### Two-Factor Authentication (2FA)
+### Sign in with Google
 
-Enable 2FA in **Settings > Security > Two-Factor Authentication**:
-
-- **Authenticator App** (recommended): Google Authenticator, Authy, or Microsoft Authenticator
-- **SMS verification**: Less secure but better than nothing
-- **Hardware security keys**: Most secure option (YubiKey, etc.)
-
-Save your backup recovery codes in a secure location in case you lose access to your 2FA device.
+Atomik supports **Sign in with Google**. If you use it, your Atomik login inherits every protection on your Google account — including Google's two-factor authentication and login alerts. For most people this is the strongest practical account protection available today.
 
 ### Session Security
 
@@ -95,36 +89,33 @@ For additional safety, you can also revoke API access from your broker's own set
 | Read account balances and positions | Change account settings |
 | Monitor open orders | Access other broker accounts |
 
-## API Key Best Practices
+## Credentials You Provide
 
-If you interact with Atomik programmatically:
+Some connections use credentials you supply (for example a TopstepX API key), and connected AI assistants hold scoped access tokens:
 
-- **Rotate keys regularly** — regenerate API credentials monthly
-- **Use separate keys** for different strategies or environments
-- **Never commit keys to version control** — use environment variables
-- **Monitor usage** — check for unexpected API calls in your account activity
-- **Enable IP restrictions** when your automation runs from a fixed IP
+- **Treat broker API keys like passwords** — never paste them anywhere except the Atomik connect dialog, and never commit them to code or notes
+- **Revoke unused keys at the source** — if you stop using a connection, revoke the key on the broker's side too, not just in Atomik
+- **Review connected AI assistants** — anything connected via the [MCP connector](./mcp-connector) is listed under **Settings > Connected Accounts > Connected AIs**, where you can revoke access at any time
 
 ## If Your Account Is Compromised
 
 Take these steps immediately:
 
-1. **Change your password** in Settings > Security
-2. **Regenerate or delete all webhook secrets** — this stops any unauthorized signal execution
+1. **Change your password** immediately
+2. **Delete all webhooks and create new ones** — this rotates the secrets and stops any unauthorized signal execution
 3. **Disconnect all broker accounts** — revokes trading access
-4. **Review recent trades** — check your broker account for unauthorized activity
-5. **Enable 2FA** if not already active
+4. **Revoke connected AI assistants** in Settings > Connected Accounts
+5. **Review recent trades** — check your broker account for unauthorized activity
 6. **Contact support** at [support@atomiktrading.io](mailto:support@atomiktrading.io) for further investigation
 
 ## Security Checklist
 
-- [ ] Strong, unique password with a password manager
-- [ ] 2FA enabled (authenticator app preferred)
+- [ ] Strong, unique password with a password manager (or Sign in with Google)
 - [ ] Webhook secret keys saved securely
 - [ ] IP allowlisting on webhooks (especially for TradingView)
 - [ ] Broker connections reviewed periodically
-- [ ] API keys rotated regularly
-- [ ] No credentials in code repositories
+- [ ] Connected AI assistants reviewed periodically
+- [ ] No credentials in code repositories or notes
 
 ## Next Steps
 

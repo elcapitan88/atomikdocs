@@ -2,12 +2,16 @@
 sidebar_position: 6
 title: "Strategy Marketplace"
 description: "Browse, subscribe to, and sell trading strategies on the Atomik Trading marketplace. Guide for both buyers and creators."
-keywords: ["strategy marketplace", "buy trading strategy", "sell trading strategy", "Stripe Connect", "creator monetization"]
+keywords: ["strategy marketplace", "buy trading strategy", "sell trading strategy", "creator monetization", "verified track record"]
 ---
 
 # Strategy Marketplace
 
 The Atomik Marketplace is where traders discover strategies and creators monetize their edge. Subscribers can activate published strategies on their own broker accounts, and creators earn recurring revenue from subscriptions.
+
+Every stat on a marketplace card is computed by the platform from real live signals — not from backtests or screenshots a seller uploads.
+
+![The Atomik marketplace: live-verified strategy track records](/img/screenshots/marketplace.png)
 
 ## For Subscribers
 
@@ -21,8 +25,8 @@ The Atomik Marketplace is where traders discover strategies and creators monetiz
 
 1. Click **Subscribe** on the strategy page
 2. **Free strategies**: Instant activation — no payment required
-3. **Paid strategies**: Complete Stripe checkout, then the strategy is activated
-4. Go to **Strategies** to link the subscribed strategy to your broker account
+3. **Paid strategies**: Complete checkout, then the strategy is activated
+4. In the dashboard's **Strategies** panel, link the subscribed strategy to your broker account
 
 Once subscribed, signals from the creator's webhook automatically execute on your linked broker account.
 
@@ -49,18 +53,17 @@ View and manage your marketplace subscriptions in **Strategies**:
 To sell strategies on the marketplace, you need:
 
 1. An active subscription (every plan can sell — Starter, Pro, and Elite)
-2. **Stripe Connect** account (for receiving payments)
+2. A creator profile with payouts set up (**Settings > Creator** walks you through onboarding)
 
-**Setup:**
+**Publishing:**
 
-1. Go to **Settings > Creator** in the dashboard
-2. Click **Set Up Stripe Connect** and complete the Stripe onboarding
-3. Once connected, go to **Strategies > Publish**
-4. Configure your listing:
-   - **Name and description** — What the strategy does
-   - **Pricing** — Free, monthly subscription, or yearly subscription
-   - **Trial** — Optionally offer a free trial period
-5. Publish — your strategy appears in the marketplace
+1. Create your strategy in the dashboard's **Strategies** panel (**+ Create**) and choose the **Monetize Strategy** intent — or share it free with the **Share for Free** intent to build a track record first
+2. Configure your listing:
+   - **Name and description** — what the strategy does, what it trades, and the risk profile
+   - **Pricing** — free, or a monthly subscription price you set
+3. Publish — your strategy appears in the [marketplace](https://atomiktrading.io/marketplace) with its live performance tracked by the platform
+
+**Your track record is platform-verified.** Marketplace cards show stats computed from real signals as they happen — subscribers see live results, not screenshots or backtests you upload. A free strategy that performs is the strongest sales page a paid one can have.
 
 ### Pricing Your Strategy
 
@@ -72,22 +75,12 @@ You set the price — Atomik takes a platform fee based on your creator tier:
 | **Silver** | 100–199 subscribers | 15% | 85% |
 | **Gold** | 200+ subscribers | 10% | 90% |
 
-Your creator tier upgrades automatically as your subscriber count grows. Payouts are handled through Stripe Connect.
+Your creator tier upgrades automatically as your subscriber count grows.
 
 **Example:** If you charge $29/month and have 50 subscribers (Bronze tier):
 - Gross: $1,450/month
 - Platform fee (20%): $290
 - Your payout: $1,160/month
-
-### Creator Tier Benefits
-
-| | Bronze | Silver | Gold |
-|---|---|---|---|
-| **Platform Fee** | 20% | 15% | 10% |
-| **Dashboard** | Basic | Enhanced analytics | Advanced analytics |
-| **Support** | Standard | Priority | Premium |
-| **Payouts** | Standard | Faster | Instant |
-| **Listing** | Standard | Standard | Featured placement |
 
 ### Managing Your Strategies
 
@@ -119,7 +112,7 @@ When a subscriber activates a marketplace strategy:
 - **Write clear descriptions** — explain what the strategy does, what instruments it trades, and expected risk
 - **Price competitively** — check what similar strategies charge
 - **Maintain your strategy** — subscribers expect consistent signal quality
-- **Offer a free trial** — it builds trust and increases conversions
+- **Build a public track record first** — a free listing that performs for a few weeks is the best marketing a paid listing can have
 
 ## Next Steps
 

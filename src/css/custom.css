@@ -4,8 +4,14 @@
  * work well for content-centric websites.
  */
 
+/* Inter — the same face the Atomik app uses (self-hosted there via
+   @fontsource/inter; loaded here from Google Fonts). */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
 /* You can override the default Infima variables here. */
 :root {
+  --ifm-font-family-base: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --ifm-heading-font-weight: 700;
   --ifm-color-primary: #00c6e0;
   --ifm-color-primary-dark: #00b2ca;
   --ifm-color-primary-darker: #00a8be;
@@ -143,4 +149,158 @@ button[class*="toggleButton"] {
   background: rgba(0, 198, 224, 0.1);
   border-color: rgba(0, 198, 224, 0.3);
   color: var(--atomik-cyan);
+}
+/* ============================================================
+   Brand-alignment pass (2026-08-19): make doc pages read as
+   Atomik, not stock Docusaurus. CSS only — no swizzled layouts.
+   ============================================================ */
+
+/* Doc content: comfortable measure and breathing room */
+.markdown {
+  line-height: 1.7;
+}
+
+.markdown h1 {
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+
+.markdown h2 {
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  margin-top: 2.4rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.markdown h3 {
+  font-weight: 600;
+  margin-top: 1.8rem;
+}
+
+/* Screenshots and content images: framed like product UI, not pasted */
+.markdown img {
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 0.75rem;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.55);
+  margin: 0.5rem 0 1rem;
+}
+
+/* Tables: glass panel instead of default grid */
+.markdown table {
+  display: table;
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 0.6rem;
+  overflow: hidden;
+}
+
+.markdown table thead tr {
+  background: rgba(0, 198, 224, 0.08);
+  border-bottom: 2px solid rgba(0, 198, 224, 0.35);
+}
+
+.markdown table th {
+  border: none;
+  border-bottom: 1px solid rgba(0, 198, 224, 0.35);
+  font-weight: 600;
+}
+
+.markdown table td {
+  border: none;
+  border-top: 1px solid rgba(255, 255, 255, 0.07);
+}
+
+.markdown table tr {
+  background: rgba(255, 255, 255, 0.02);
+  border: none;
+}
+
+.markdown table tr:nth-child(2n) {
+  background: rgba(255, 255, 255, 0.045);
+}
+
+/* Inline code: subtle cyan tint */
+.markdown code {
+  background: rgba(0, 198, 224, 0.09);
+  border: 1px solid rgba(0, 198, 224, 0.18);
+  color: #7deeff;
+}
+
+.markdown pre code {
+  background: transparent;
+  border: none;
+  color: inherit;
+}
+
+/* Code blocks: framed */
+.theme-code-block {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.35);
+}
+
+/* Sidebar: quieter chrome, clearer active state */
+.theme-doc-sidebar-container {
+  border-right: 1px solid rgba(255, 255, 255, 0.08) !important;
+  background: rgba(255, 255, 255, 0.015);
+}
+
+.menu__link {
+  border-radius: 0.4rem;
+  font-size: 0.92rem;
+}
+
+.menu__link--active:not(.menu__link--sublist) {
+  background: rgba(0, 198, 224, 0.1);
+  font-weight: 600;
+}
+
+.menu__list-item-collapsible .menu__link--sublist {
+  font-weight: 700;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: rgba(255, 255, 255, 0.55);
+}
+
+/* Table of contents: match the sidebar's quiet chrome */
+.table-of-contents {
+  border-left: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.table-of-contents__link--active {
+  color: var(--ifm-color-primary);
+  font-weight: 600;
+}
+
+/* Admonitions (:::tip / :::info / :::warning): glass cards */
+.theme-admonition {
+  border-radius: 0.6rem;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25);
+}
+
+/* Breadcrumbs: quieter */
+.breadcrumbs__link {
+  font-size: 0.85rem;
+}
+
+/* Pagination cards at page bottom: glass */
+.pagination-nav__link {
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 0.6rem;
+  background: rgba(255, 255, 255, 0.03);
+  transition: all 0.2s ease;
+}
+
+.pagination-nav__link:hover {
+  border-color: rgba(0, 198, 224, 0.4);
+  background: rgba(0, 198, 224, 0.05);
+}
+
+/* Footer edge */
+footer {
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
 }
