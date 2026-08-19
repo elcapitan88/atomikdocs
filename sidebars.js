@@ -23,6 +23,16 @@ const sidebars = {
         'guides/faq',
       ],
     },
+    // Comparisons
+    {
+      type: 'category',
+      label: 'Compare',
+      items: [
+        'compare/atomik-vs-pickmytrade',
+        'compare/atomik-vs-traderspost',
+        'compare/best-tradingview-automation-tools',
+      ],
+    },
     // Legal
     {
       type: 'category',
