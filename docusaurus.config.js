@@ -157,6 +157,24 @@ const config = {
           label: 'Documentation',
         },
         {to: '/blog', label: 'Blog', position: 'left'},
+        {
+          href: 'https://atomiktrading.io/marketplace',
+          label: 'Marketplace',
+          position: 'right',
+          className: 'navbar-app-link',
+        },
+        {
+          href: 'https://atomiktrading.io/pricing',
+          label: 'Pricing',
+          position: 'right',
+          className: 'navbar-app-link',
+        },
+        {
+          href: 'https://atomiktrading.io',
+          label: 'Launch App',
+          position: 'right',
+          className: 'navbar-cta-button',
+        },
       ],
     },
     footer: {

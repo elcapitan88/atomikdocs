@@ -10,6 +10,13 @@ const sidebars = {
       type: 'category',
       label: 'Getting Started',
       collapsed: false,
+      link: {
+        type: 'generated-index',
+        title: 'Getting Started',
+        description:
+          'Accounts, brokers, and your first automated trade — start on paper, go live when it works.',
+        slug: '/category/getting-started',
+      },
       items: [
         'guides/first-trade',
         'guides/broker-connection',
@@ -21,6 +28,13 @@ const sidebars = {
       type: 'category',
       label: 'Automation',
       collapsed: false,
+      link: {
+        type: 'generated-index',
+        title: 'Automation',
+        description:
+          'Signals in, executions out: webhooks, strategy activation, and multi-account copy trading.',
+        slug: '/category/automation',
+      },
       items: [
         'guides/webhook-setup',
         'guides/trading-strategies',
@@ -31,6 +45,13 @@ const sidebars = {
       type: 'category',
       label: 'Build & Test',
       collapsed: false,
+      link: {
+        type: 'generated-index',
+        title: 'Build & Test',
+        description:
+          'From idea to validated, backtested strategy — with AI, your own Python, or Claude via MCP.',
+        slug: '/category/build-and-test',
+      },
       items: [
         'guides/strategy-builder',
         'guides/backtesting',
@@ -47,6 +68,12 @@ const sidebars = {
     {
       type: 'category',
       label: 'Account',
+      link: {
+        type: 'generated-index',
+        title: 'Account',
+        description: 'Plans and billing, security, and answers to common questions.',
+        slug: '/category/account',
+      },
       items: [
         'guides/subscription-pricing',
         'guides/security',
@@ -56,6 +83,13 @@ const sidebars = {
     {
       type: 'category',
       label: 'Compare',
+      link: {
+        type: 'generated-index',
+        title: 'Compare',
+        description:
+          'Honest, dated comparisons with the other TradingView automation tools.',
+        slug: '/category/compare',
+      },
       items: [
         'compare/atomik-vs-pickmytrade',
         'compare/atomik-vs-traderspost',
