@@ -1,5 +1,6 @@
 ---
 sidebar_position: 1
+sidebar_label: "First Automated Trade"
 title: "Your First Automated Trade - Complete Beginner Guide"
 description: "Learn how to set up and execute your first automated trade with Atomik Trading. Step-by-step tutorial for trading automation beginners."
 keywords: ["automated trading", "first automated trade", "trading automation tutorial", "beginner trading guide", "TradingView automation"]

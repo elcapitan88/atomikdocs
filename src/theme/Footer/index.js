@@ -43,21 +43,20 @@ function MailIcon() {
 
 function Footer() {
   const productLinks = [
-    { label: 'Features', href: '#features' },
-    { label: 'Security', href: '#security' },
-    { label: 'Pricing', href: '#pricing' },
-    { label: 'Resources', href: '#resources' },
+    { label: 'Atomik App', href: 'https://atomiktrading.io' },
+    { label: 'Pricing', href: 'https://atomiktrading.io/pricing' },
+    { label: 'Marketplace', href: 'https://atomiktrading.io/marketplace' },
   ];
 
   const companyLinks = [
     { label: 'Contact', href: `mailto:${encodeURIComponent('support@atomiktrading.io')}?subject=${encodeURIComponent('[AtomikTrading Support]')}` },
-    { label: 'Partners', href: '/partners' },
   ];
 
   const legalLinks = [
     { label: 'Privacy Policy', href: '/legal/privacy-policy' },
     { label: 'Terms of Service', href: '/legal/terms-of-service' },
     { label: 'Cookie Policy', href: '/legal/cookie-policy' },
+    { label: 'Risk Disclosure', href: '/legal/risk-disclosure' },
   ];
 
   const socialLinks = [

@@ -1,7 +1,7 @@
 // docusaurus.config.js
 const config = {
-  title: 'Atomik Trading Documentation & Learning Center',
-  tagline: 'Complete Documentation, Tutorials & Guides for Trading Automation',
+  title: 'Atomik Docs',
+  tagline: 'Guides and reference for the Atomik Trading automation platform',
   favicon: 'img/favicon.png',
   
   url: 'https://docs.atomiktrading.io',
@@ -130,8 +130,8 @@ const config = {
     // Update social media metadata URLs
     metadata: [
       {property: 'og:type', content: 'website'},
-      {property: 'og:title', content: 'Atomik Trading Documentation & Learning Center'},
-      {property: 'og:description', content: 'Complete documentation, tutorials, and guides for trading automation. From beginner tutorials to advanced reference materials for prop traders and automation experts.'},
+      {property: 'og:title', content: 'Atomik Docs — Trading Automation Documentation'},
+      {property: 'og:description', content: 'Guides and reference for the Atomik Trading platform: webhook execution, broker connections, copy trading, strategy marketplace, and pricing.'},
       {property: 'og:image', content: 'https://docs.atomiktrading.io/img/social-card.png'},
       {property: 'twitter:card', content: 'summary_large_image'},
       {property: 'twitter:site', content: '@atomiktrades'},

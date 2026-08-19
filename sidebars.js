@@ -41,6 +41,8 @@ const sidebars = {
         'legal/privacy-policy',
         'legal/terms-of-service',
         'legal/cookie-policy',
+        'legal/risk-disclosure',
+        'legal/testimonial-disclosure',
       ],
     },
   ],

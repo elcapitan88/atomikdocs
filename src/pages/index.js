@@ -110,7 +110,7 @@ function HomepageHeader() {
             <span className="gradient-text">{siteConfig.title}</span>
           </Heading>
           <p className={styles.heroTagline}>
-            Professional-grade webhook-based trading automation platform documentation
+            Guides and reference for the Atomik Trading automation platform
           </p>
 
           {/* Quick Links moved to header */}
@@ -316,17 +316,17 @@ function DocsStructureSection() {
 function RecentUpdatesSection() {
   const updates = [
     {
-      title: 'New: Broker Connection Guide',
-      date: 'March 2026',
-      url: '/guides/broker-connection',
+      title: 'New: Atomik vs PickMyTrade, vs TradersPost, and the field — honest comparisons',
+      date: 'August 2026',
+      url: '/compare/atomik-vs-pickmytrade',
     },
     {
-      title: 'New: Copy Trading & Marketplace Guides',
-      date: 'March 2026',
-      url: '/guides/copy-trading',
+      title: 'Updated: Subscription & Pricing — current plans, no free trial, 7-day guarantee',
+      date: 'August 2026',
+      url: '/guides/subscription-pricing',
     },
     {
-      title: 'Rewritten: Webhook Setup Guide with Full Payload Reference',
+      title: 'Rewritten: Webhook Setup Guide with full payload reference',
       date: 'March 2026',
       url: '/guides/webhook-setup',
     },
