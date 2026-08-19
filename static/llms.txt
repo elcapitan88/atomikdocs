@@ -10,10 +10,15 @@ Machine-readable overview of the product: https://www.atomiktrading.io/llms.txt
 ## Key documentation pages
 
 - Introduction and platform overview: https://docs.atomiktrading.io/intro
-- Your first automated trade (beginner walkthrough): https://docs.atomiktrading.io/guides/first-trade
-- Broker connection (Tradovate, Interactive Brokers, and more): https://docs.atomiktrading.io/guides/broker-connection
+- Your first automated trade (beginner walkthrough, paper-first): https://docs.atomiktrading.io/guides/first-trade
+- Broker connection (Tradovate, IB, TopstepX beta, built-in paper): https://docs.atomiktrading.io/guides/broker-connection
+- Paper trading (built-in $100k simulated account): https://docs.atomiktrading.io/guides/paper-trading
+- Prop-firm & funded accounts (Tradovate-powered firms, TopstepX beta): https://docs.atomiktrading.io/guides/prop-firms
 - Webhook setup (TradingView alerts → live orders): https://docs.atomiktrading.io/guides/webhook-setup
 - Trading strategies (activation, exits, partial exits): https://docs.atomiktrading.io/guides/trading-strategies
+- AI Strategy Builder (plain English → validated, backtested Python): https://docs.atomiktrading.io/guides/strategy-builder
+- How backtesting works (fill model, pessimistic ambiguity rule): https://docs.atomiktrading.io/guides/backtesting
+- MCP connector (use Claude to build/backtest strategies): https://docs.atomiktrading.io/guides/mcp-connector
 - Copy trading (multi-account execution): https://docs.atomiktrading.io/guides/copy-trading
 - Strategy marketplace (subscribe or sell with verified track records): https://docs.atomiktrading.io/guides/marketplace
 - Subscription & pricing: https://docs.atomiktrading.io/guides/subscription-pricing
@@ -30,7 +35,7 @@ Machine-readable overview of the product: https://www.atomiktrading.io/llms.txt
 
 - Pricing (USD): Starter $89/mo · Pro $129/mo · Elite $349/mo (monthly only). Yearly: Starter $890, Pro $1,290.
 - There is NO free trial. Every plan is full access from day one with a 7-day money-back guarantee.
-- Brokers: Tradovate (demo + live), Interactive Brokers, TopstepX (funded/prop), Binance, Polymarket, plus a built-in paper-trading simulator.
+- Brokers: Tradovate (demo + live; the route in for many prop/funded accounts), Interactive Brokers, TopstepX (private beta), plus a built-in paper-trading simulator ($100k virtual). No crypto exchanges.
 - Non-custodial: Atomik connects to the user's own broker account and never holds funds.
 
 ## Legal

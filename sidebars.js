@@ -1,29 +1,58 @@
 /** @type {import('@docusaurus/plugin-content-docs').SidebarsConfig} */
 const sidebars = {
   tutorialSidebar: [
-    // Introduction
     {
       type: 'doc',
       id: 'intro',
       label: 'Introduction',
     },
-    // Guides
     {
       type: 'category',
-      label: 'Guides',
+      label: 'Getting Started',
+      collapsed: false,
       items: [
         'guides/first-trade',
         'guides/broker-connection',
+        'guides/paper-trading',
+        'guides/prop-firms',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Automation',
+      collapsed: false,
+      items: [
         'guides/webhook-setup',
         'guides/trading-strategies',
         'guides/copy-trading',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Build & Test',
+      collapsed: false,
+      items: [
+        'guides/strategy-builder',
+        'guides/backtesting',
+        'guides/mcp-connector',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Marketplace',
+      items: [
         'guides/marketplace',
-        'guides/security',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Account',
+      items: [
         'guides/subscription-pricing',
+        'guides/security',
         'guides/faq',
       ],
     },
-    // Comparisons
     {
       type: 'category',
       label: 'Compare',
@@ -33,7 +62,6 @@ const sidebars = {
         'compare/best-tradingview-automation-tools',
       ],
     },
-    // Legal
     {
       type: 'category',
       label: 'Legal',
