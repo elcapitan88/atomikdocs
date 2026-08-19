@@ -585,7 +585,7 @@
 }
 
 .heroPrimaryBtn {
-  background: var(--ifm-color-primary);
+  background: rgba(0, 198, 224, 1);
   color: #000;
   font-weight: 700;
   font-size: 1.05rem;
@@ -595,7 +595,7 @@
 }
 
 .heroPrimaryBtn:hover {
-  background: var(--ifm-color-primary-light);
+  background: rgba(13, 228, 255, 1);
   color: #000;
   text-decoration: none;
   transform: translateY(-2px);
@@ -614,7 +614,7 @@
 }
 
 .heroSecondaryBtn:hover {
-  border-color: var(--ifm-color-primary);
-  color: var(--ifm-color-primary);
+  border-color: rgba(0, 198, 224, 1);
+  color: rgba(0, 198, 224, 1);
   text-decoration: none;
 }
