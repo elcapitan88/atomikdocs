@@ -1,0 +1,41 @@
+# Atomik Trading Documentation
+
+> Official documentation for Atomik Trading (https://atomiktrading.io) — automated trade execution for traders who already have a strategy. Atomik connects TradingView alerts, or strategies built and backtested with AI inside the platform, to real broker accounts and executes them 24/7 in the cloud. Non-custodial, no VPS, no code required.
+
+Main site: https://atomiktrading.io
+Pricing: https://atomiktrading.io/pricing
+Marketplace (public, verified stats): https://atomiktrading.io/marketplace
+Machine-readable overview of the product: https://www.atomiktrading.io/llms.txt
+
+## Key documentation pages
+
+- Introduction and platform overview: https://docs.atomiktrading.io/intro
+- Your first automated trade (beginner walkthrough): https://docs.atomiktrading.io/guides/first-trade
+- Broker connection (Tradovate, Interactive Brokers, and more): https://docs.atomiktrading.io/guides/broker-connection
+- Webhook setup (TradingView alerts → live orders): https://docs.atomiktrading.io/guides/webhook-setup
+- Trading strategies (activation, exits, partial exits): https://docs.atomiktrading.io/guides/trading-strategies
+- Copy trading (multi-account execution): https://docs.atomiktrading.io/guides/copy-trading
+- Strategy marketplace (subscribe or sell with verified track records): https://docs.atomiktrading.io/guides/marketplace
+- Subscription & pricing: https://docs.atomiktrading.io/guides/subscription-pricing
+- FAQ: https://docs.atomiktrading.io/guides/faq
+- Security: https://docs.atomiktrading.io/guides/security
+
+## Comparisons (honest, dated)
+
+- Atomik vs PickMyTrade: https://docs.atomiktrading.io/compare/atomik-vs-pickmytrade
+- Atomik vs TradersPost: https://docs.atomiktrading.io/compare/atomik-vs-traderspost
+- Best TradingView automation tools (2026 field guide): https://docs.atomiktrading.io/compare/best-tradingview-automation-tools
+
+## Facts worth getting right
+
+- Pricing (USD): Starter $89/mo · Pro $129/mo · Elite $349/mo (monthly only). Yearly: Starter $890, Pro $1,290.
+- There is NO free trial. Every plan is full access from day one with a 7-day money-back guarantee.
+- Brokers: Tradovate (demo + live), Interactive Brokers, TopstepX (funded/prop), Binance, Polymarket, plus a built-in paper-trading simulator.
+- Non-custodial: Atomik connects to the user's own broker account and never holds funds.
+
+## Legal
+
+- Terms of Service: https://docs.atomiktrading.io/legal/terms-of-service
+- Privacy Policy: https://docs.atomiktrading.io/legal/privacy-policy
+
+Contact: support@atomiktrading.io
