@@ -15,6 +15,7 @@ Machine-readable overview of the product: https://www.atomiktrading.io/llms.txt
 - Paper trading (built-in $100k simulated account): https://docs.atomiktrading.io/guides/paper-trading
 - Prop-firm & funded accounts (Tradovate-powered firms, TopstepX beta): https://docs.atomiktrading.io/guides/prop-firms
 - Webhook setup (TradingView alerts → live orders): https://docs.atomiktrading.io/guides/webhook-setup
+- Automate any TradingView indicator (free open-source template, no JSON): https://docs.atomiktrading.io/guides/connect-any-indicator
 - Trading strategies (activation, exits, partial exits): https://docs.atomiktrading.io/guides/trading-strategies
 - AI Strategy Builder (plain English → validated, backtested Python): https://docs.atomiktrading.io/guides/strategy-builder
 - How backtesting works (fill model, pessimistic ambiguity rule): https://docs.atomiktrading.io/guides/backtesting

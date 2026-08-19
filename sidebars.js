@@ -37,6 +37,7 @@ const sidebars = {
       },
       items: [
         'guides/webhook-setup',
+        'guides/connect-any-indicator',
         'guides/trading-strategies',
         'guides/copy-trading',
       ],

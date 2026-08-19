@@ -47,7 +47,7 @@ Atomik expects a JSON body with these fields:
 
 | Field | Type | Required | Description |
 |-------|------|----------|-------------|
-| `action` | string | Yes | `"BUY"` or `"SELL"` (case-insensitive) |
+| `action` | string | Yes | `"BUY"`, `"SELL"`, or `"EXIT"` (case-insensitive). `EXIT` always closes — sized by the `comment` percentages below, full close if none. |
 | `comment` | string | No | Exit signal type (see below) |
 | `quantity` | number | No | Order size — only read by strategies set to **From the alert JSON** (see [Where the quantity comes from](#where-the-quantity-comes-from)) |
 
