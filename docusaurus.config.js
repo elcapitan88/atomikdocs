@@ -259,7 +259,12 @@ const config = {
           showLastUpdateTime: true,
           showLastUpdateAuthor: false,
         },
-        // Other settings remain the same
+        // Without this, src/css/custom.css is never bundled at all — the
+        // site silently runs on Docusaurus defaults (discovered 2026-08-19:
+        // every brand override in that file had been dead weight forever).
+        theme: {
+          customCss: require.resolve('./src/css/custom.css'),
+        },
       },
     ],
   ],
