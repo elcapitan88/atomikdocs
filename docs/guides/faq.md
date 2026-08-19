@@ -15,7 +15,7 @@ Go to [atomiktrading.io](https://atomiktrading.io), click **Get Started**, choos
 
 ### Is there a free trial?
 
-Yes. All paid plans (Starter, Trader, Unlimited) include a **7-day free trial** with full access. Cancel anytime during the trial and you won't be charged.
+No — Atomik doesn't offer a free trial. Instead, every plan (Starter, Pro, Elite) is **full access from day one with a 7-day money-back guarantee**: if it's not for you, email [support@atomiktrading.io](mailto:support@atomiktrading.io) within 7 days of your first charge for a full refund.
 
 ### What brokers do you support?
 

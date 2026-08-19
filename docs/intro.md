@@ -53,9 +53,9 @@ See [Broker Connection Guide](./guides/broker-connection) for setup instructions
 | **Trade Execution** | Yes | Yes | Yes |
 | **Copy Trading** | No | 3 groups | Unlimited |
 | **Marketplace** | Subscribe + Sell | Subscribe + Sell | Subscribe + Sell |
-| **Free Trial** | 7 days | 7 days | 7 days |
+| **Money-Back Guarantee** | 7 days | 7 days | 7 days |
 
-All paid plans include a 7-day free trial. See [Subscription & Pricing](./guides/subscription-pricing) for full details including yearly discounts.
+There is no free trial — every plan is full access from day one with a 7-day money-back guarantee. See [Subscription & Pricing](./guides/subscription-pricing) for full details including yearly discounts.
 
 ## What's in These Docs
 
@@ -79,7 +79,7 @@ All paid plans include a 7-day free trial. See [Subscription & Pricing](./guides
 
 The fastest path to your first automated trade:
 
-1. [Create an account](https://atomiktrading.io) and start your free trial
+1. [Create an account](https://atomiktrading.io) and pick a plan (7-day money-back guarantee)
 2. [Connect your broker](./guides/broker-connection)
 3. [Create a webhook](./guides/webhook-setup)
 4. [Set up a TradingView alert](./guides/first-trade) pointing to your webhook

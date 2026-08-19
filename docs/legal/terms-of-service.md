@@ -80,7 +80,7 @@ The Service is offered through paid subscription plans. Current plan details, fe
 
 ### 5.2 Free Trial
 
-We may offer a free trial period for new users. The free trial is granted **once per user account**, applies only to your initial subscription, and is not granted again when you upgrade, downgrade, or otherwise change subscription tiers. Switching plans after the trial begins does not restart the trial period or extend it. At the end of the trial, your account will convert to a paid subscription unless you cancel before the trial expires. Trial terms and duration are specified at the time of registration.
+Atomik Trading does **not currently offer a free trial**; new subscriptions are billed from day one and covered by our refund policy (Section 5.7). If we offer a promotional free trial in the future, the following terms will apply. The free trial is granted **once per user account**, applies only to your initial subscription, and is not granted again when you upgrade, downgrade, or otherwise change subscription tiers. Switching plans after the trial begins does not restart the trial period or extend it. At the end of the trial, your account will convert to a paid subscription unless you cancel before the trial expires. Trial terms and duration are specified at the time of registration.
 
 ### 5.3 Billing and Renewal
 

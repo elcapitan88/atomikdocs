@@ -1,13 +1,13 @@
 ---
 sidebar_position: 8
 title: "Subscription & Pricing"
-description: "Atomik Trading subscription tiers, pricing, feature comparison, free trials, and billing management."
-keywords: ["Atomik pricing", "subscription tiers", "trading plan", "free trial", "billing", "upgrade"]
+description: "Atomik Trading subscription tiers, pricing, feature comparison, money-back guarantee, and billing management."
+keywords: ["Atomik pricing", "subscription tiers", "trading plan", "money-back guarantee", "billing", "upgrade"]
 ---
 
 # Subscription & Pricing
 
-Atomik Trading offers three plans designed for different levels of trading automation. All plans include a **7-day free trial**.
+Atomik Trading offers three plans designed for different levels of trading automation. There is **no free trial** — every plan is full access from day one, backed by a **7-day money-back guarantee**.
 
 There is no free tier — marketplace browsing is public, and every account has a plan.
 
@@ -49,14 +49,13 @@ ceiling so a single busy day can't consume the whole month.
 
 **Elite** — For professional traders and firms: 25 accounts, unlimited webhooks and strategies, and unlimited copy trading groups.
 
-## 7-Day Free Trial
+## 7-Day Money-Back Guarantee
 
-All plans (Starter, Pro, Elite) include a 7-day free trial:
+There is no free trial. Instead, every plan (Starter, Pro, Elite) comes with a 7-day money-back guarantee:
 
-- Full access to all features of the selected plan
-- No charge until the trial period ends
-- Cancel anytime during the trial — you won't be billed
-- After the trial, you're automatically billed at the selected plan's rate
+- Full access to all features of your plan from the moment you subscribe
+- If Atomik isn't for you, email [support@atomiktrading.io](mailto:support@atomiktrading.io) within 7 days of your first charge for a full refund
+- Cancel anytime — you keep access through the end of the billing period you've paid for
 
 ## How to Subscribe
 
@@ -111,7 +110,7 @@ Yearly billing saves about 17% compared to monthly — two months free:
 | Plan | Monthly | Yearly (per month) | Annual Savings |
 |------|---------|-------------------|----------------|
 | Starter | $89/mo | $74/mo | $178 |
-| Pro | $129/mo | $166/mo | $398 |
+| Pro | $129/mo | $107/mo | $258 |
 | Elite | $349/mo | — (monthly only) | — |
 
 You can switch between monthly and yearly billing at any time through the billing portal.
@@ -125,7 +124,7 @@ Yes. Upgrades are prorated and take effect immediately. Downgrades apply at the 
 If your new plan has lower limits, excess strategies/webhooks will be deactivated. You choose which ones to keep.
 
 **Is there a refund policy?**
-Contact [support@atomiktrading.io](mailto:support@atomiktrading.io) within 30 days for refund requests.
+Yes — every plan has a 7-day money-back guarantee. Contact [support@atomiktrading.io](mailto:support@atomiktrading.io) within 7 days of your first charge for a full refund. After that, refunds are evaluated case by case.
 
 **Do yearly plans auto-renew?**
 Yes. You can cancel anytime before renewal through the billing portal.
