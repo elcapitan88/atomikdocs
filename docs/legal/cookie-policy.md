@@ -4,7 +4,7 @@ sidebar_position: 3
 
 # Cookie Policy
 
-*Last updated: April 1, 2026*
+*Last updated: September 13, 2026*
 
 ## 1. Introduction
 
@@ -44,13 +44,13 @@ These cookies enable enhanced functionality and personalization.
 | ConfigCat | ConfigCat | Manages feature flag state to control feature availability | Session |
 | Theme Preferences | Atomik Trading | Remembers your display preferences | Persistent |
 
-### 3.4 Affiliate and Tracking Cookies
+### 3.4 Affiliate Referral Tracking
 
-These cookies are used to track referrals through our affiliate program.
+Referral tracking for our [affiliate program](/legal/affiliate-terms) does not use a cookie.
 
-| Cookie | Purpose | Duration |
-|--------|---------|----------|
-| Affiliate Referral | Tracks which affiliate referred you so they receive proper credit | 90 days |
+- **Local storage:** When you open an affiliate link (a link to atomiktrading.io containing `?ref=`), the referral code is saved in your browser's local storage (key `atomik_referral_code`, with its expiry time in `atomik_referral_expiry`) for 30 days on that device.
+- **Your account:** If you create an Atomik Trading account during those 30 days, the referral is recorded on your account.
+- **Click records:** When an affiliate link is opened, we also record the IP address, user agent, referring page, and landing page so we can count clicks.
 
 ## 4. Third-Party Cookies
 
@@ -67,8 +67,9 @@ In addition to cookies, we use your browser's local storage to store certain dat
 - **Authentication tokens** — Your access token is stored in local storage to maintain your session across page loads.
 - **User preferences** — Display settings and UI state preferences.
 - **Strategy Builder state** — Draft strategy configurations are persisted locally so you don't lose work in progress.
+- **Affiliate referral code** — If you open an affiliate link, the referral code (`atomik_referral_code`) and its expiry time (`atomik_referral_expiry`) are stored for 30 days on that device. See section 3.4.
 
-Local storage data does not expire automatically and remains until cleared by you or by the application.
+Except for the affiliate referral code, which expires after 30 days, local storage data does not expire automatically and remains until cleared by you or by the application.
 
 ## 6. Managing Cookies
 

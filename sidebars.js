@@ -106,6 +106,7 @@ const sidebars = {
         'legal/cookie-policy',
         'legal/risk-disclosure',
         'legal/testimonial-disclosure',
+        'legal/affiliate-terms',
       ],
     },
   ],

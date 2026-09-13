@@ -4,7 +4,7 @@ sidebar_position: 5
 
 # Testimonial Disclosure
 
-*Last updated: April 1, 2026*
+*Last updated: September 13, 2026*
 
 ## 1. Purpose
 
@@ -71,6 +71,8 @@ From time to time, we may share, repost, or reference user-generated content fro
 ## 8. Affiliate and Referral Relationships
 
 Atomik Trading operates an affiliate program. If a testimonial or endorsement is provided by someone who participates in our affiliate or referral program and stands to receive a financial benefit from new signups, that material connection will be clearly disclosed alongside the testimonial.
+
+Affiliates must also disclose that they earn a commission when they share their referral link. See our [Affiliate Program Terms](/legal/affiliate-terms).
 
 ## 9. Updates to This Disclosure
 
