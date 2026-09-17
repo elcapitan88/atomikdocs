@@ -41,7 +41,7 @@ Atomik Trading receives trading signals from platforms like TradingView (via web
 | **Tradovate** | Futures (ES, NQ, MNQ, MES, etc.) — including many prop/funded accounts | OAuth 2.0 |
 | **Atomik Paper** | Simulated futures, live market data | Built in — one click |
 | **Interactive Brokers** | Stocks, options, futures, forex | OAuth |
-| **TopstepX** | Funded futures | API key (private beta) |
+| **TopstepX** | Funded futures | API key |
 
 See the [Broker Connection Guide](./guides/broker-connection) for setup instructions and [Prop-Firm Accounts](./guides/prop-firms) for funded-account specifics.
 

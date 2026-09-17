@@ -93,7 +93,12 @@ const sidebars = {
       },
       items: [
         'compare/atomik-vs-pickmytrade',
-        'compare/atomik-vs-traderspost',
+        {
+          // Moved to the main site 2026-09-15 (nginx.conf 301s the old URL).
+          type: 'link',
+          label: 'Atomik vs TradersPost',
+          href: 'https://atomiktrading.io/compare/atomik-vs-traderspost',
+        },
         'compare/best-tradingview-automation-tools',
       ],
     },

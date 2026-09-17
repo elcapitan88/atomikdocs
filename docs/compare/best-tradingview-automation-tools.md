@@ -9,7 +9,7 @@ keywords: ["best TradingView automation tools", "automate TradingView alerts", "
 
 Every tool in this guide does the same core job: a TradingView alert fires a webhook, and the tool places a real order at your broker — cloud-hosted, no VPS, no code. They differ on **brokers, asset classes, pricing model, and what else they do beyond execution**.
 
-This guide is published by Atomik Trading, so yes, we have a horse in this race. We've kept the comparisons factual and we say plainly where a competitor is the better pick. Competitor details are from their public websites as of August 2026 — always confirm current pricing on their sites.
+This guide is published by Atomik Trading, so yes, we have a horse in this race. We've kept the comparisons factual and we say plainly where a competitor is the better pick. Competitor details are from their public websites as of August 2026 (TradersPost's broker and prop-firm lists rechecked September 15, 2026) — always confirm current pricing on their sites.
 
 ## The short answer
 
@@ -26,11 +26,11 @@ This guide is published by Atomik Trading, so yes, we have a horse in this race.
 
 ### Atomik Trading
 
-**What it is:** A trading platform with webhook execution built in, rather than a webhook pipe alone. TradingView alerts (or any HTTP POST) execute on Tradovate (including many prop/funded accounts), Interactive Brokers, or TopstepX (private beta) — and the same product includes an AI strategy builder (plain English in, working code out), backtesting on real historical data, a built-in paper-trading engine on the identical execution pipeline, copy trading with per-follower sizing and auto-flatten protection, and a marketplace where strategy performance is platform-verified from live signals, not vendor backtests.
+**What it is:** A trading platform with webhook execution built in, rather than a webhook pipe alone. TradingView alerts (or any HTTP POST) execute on Tradovate (including many prop/funded accounts), Interactive Brokers, or TopstepX — and the same product includes an AI strategy builder (plain English in, working code out), backtesting on real historical data, a built-in paper-trading engine on the identical execution pipeline, copy trading with per-follower sizing and auto-flatten protection, and a marketplace where strategy performance is platform-verified from live signals, not vendor backtests.
 
 **Pricing:** Starter $89/mo (3 accounts) · Pro $129/mo (10 accounts, copy trading) · Elite $349/mo (25 accounts). No free trial — full access from day one with a 7-day money-back guarantee. Accounts are included in the plan; there are no per-account add-on fees.
 
-**Weaknesses, honestly:** No stocks or options. No crypto exchanges. No Rithmic, TradeStation, or ProjectX connectivity today. Not the cheapest option if execution is all you need.
+**Weaknesses, honestly:** No stocks or options. No crypto exchanges. No Rithmic or TradeStation connectivity today, and on ProjectX only TopstepX. Not the cheapest option if execution is all you need.
 
 **Best for:** Futures and funded-account traders who want the whole workflow — build → backtest → paper → live → (optionally) sell — in one product.
 
@@ -46,11 +46,11 @@ This guide is published by Atomik Trading, so yes, we have a horse in this race.
 
 ### TradersPost
 
-**What it is:** The multi-asset generalist: stocks, options, futures, and crypto across TradeStation, Alpaca, Interactive Brokers, Tradier, Tradovate, Coinbase, Robinhood, and Bybit.
+**What it is:** The multi-asset generalist: stocks, options, futures, and crypto across 18 brokers, including Tradovate, ProjectX, NinjaTrader, Interactive Brokers, TradeStation, tastytrade, Alpaca, Robinhood, Coinbase, and Binance, with 29 prop firms listed.
 
 **Pricing:** Tiered by connected live accounts — roughly $42/mo (1 live account) to $254/mo (6), billed yearly, plus $10/mo per additional live account.
 
-**Weaknesses:** Per-account pricing scales up quickly for multi-account traders; no strategy building or backtesting.
+**Weaknesses:** No built-in strategy building or backtesting, and each extra live account adds $10/mo — though that still works out cheaper than Atomik at most account counts (see the [full Atomik vs TradersPost comparison](https://atomiktrading.io/compare/atomik-vs-traderspost)).
 
 **Best for:** Stock and options automation, or traders spread across many brokers.
 
@@ -84,7 +84,7 @@ This guide is published by Atomik Trading, so yes, we have a horse in this race.
 
 1. **Your broker, exactly.** Broker lists change; confirm your specific broker *and* account type (live, demo, funded/eval) is supported.
 2. **Prop-firm rules.** Automation policies differ by firm. Confirm webhooks/automation are allowed on your account before wiring anything up.
-3. **Multi-account math.** Flat plans (Atomik, PickMyTrade) vs per-account pricing (TradersPost) can differ by hundreds of dollars a month at 5–10 accounts.
+3. **Multi-account math.** Tiered plans with accounts included (Atomik), one flat plan (PickMyTrade) and per-account add-ons (TradersPost) trade places as you add accounts — price your actual account count on each site.
 4. **Partial exits and order management.** If your strategy scales out, confirm the tool supports it — Atomik reads 25% / 50% / final exits straight from alert comments; others vary.
 5. **What happens beyond execution.** If you're still iterating on strategy, a pure pipe means paying separately for backtesting and analytics; a platform like Atomik bundles them.
 6. **Custody and security.** All tools listed here are non-custodial (they never hold funds), but review how each stores broker credentials.
@@ -97,7 +97,7 @@ Yes — webhook alerts require a paid TradingView subscription (Essential or hig
 
 ### Can I automate a funded (prop) account?
 
-Often yes — Atomik (Tradovate-powered firms, plus TopstepX in private beta) and PickMyTrade (Tradovate/ProjectX firms) both target this. The gating factor is your prop firm's automation policy, not the tool.
+Often yes — Atomik (Tradovate-powered firms, plus TopstepX directly) and PickMyTrade (Tradovate/ProjectX firms) both target this. The gating factor is your prop firm's automation policy, not the tool.
 
 ### Do any of these run without my computer on?
 

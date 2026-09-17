@@ -25,9 +25,9 @@ Many futures prop programs provision accounts on **Tradovate** infrastructure an
 
 The account appears in your Accounts panel and works with everything: webhook strategies, engine strategies, copy trading, and the chart's manual trading panel.
 
-### TopstepX (private beta)
+### TopstepX (direct connection)
 
-Direct TopstepX connection via API key is in private beta — it requires an active TopstepX API-access subscription on the Topstep side. Contact [support@atomiktrading.io](mailto:support@atomiktrading.io) if you want early access.
+TopstepX accounts connect directly with an API key: **Dashboard → Accounts panel → + Connect Account → TopstepX**, then enter your TopstepX username and API key. It requires an active TopstepX API-access subscription on the Topstep side, and one key brings in every account behind it (evaluation, combine, funded). Details in the [Broker Connection guide](./broker-connection#topstepx).
 
 ## Running one strategy across multiple funded accounts
 

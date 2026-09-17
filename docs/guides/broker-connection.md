@@ -21,7 +21,7 @@ All connections start in the same place: **Dashboard → Accounts panel → + Co
 | **Tradovate** | Futures (ES, NQ, MNQ, MES, GC, CL, …) | OAuth 2.0, ~2 minutes | Available — most-used broker on Atomik |
 | **Atomik Paper** | Futures (simulated, live market data) | One click | Available |
 | **Interactive Brokers** | Stocks, options, futures, forex | OAuth | Available |
-| **TopstepX** | Funded futures accounts | API key | Private beta — rolling out |
+| **TopstepX** | Funded futures accounts | API key | Available |
 
 There are no per-account fees — your plan's account limit is the only constraint.
 
@@ -52,9 +52,15 @@ Select **Atomik Paper** in the connect dialog and you immediately get a simulate
 
 IB connects via OAuth from the same dialog, with demo, paper, and live environments. IB support is newer than Tradovate's — if you hit an issue connecting or executing, email [support@atomiktrading.io](mailto:support@atomiktrading.io) and we'll get you sorted.
 
-## TopstepX (private beta)
+## TopstepX
 
-Direct TopstepX connection (API key) is in private beta. It requires an active TopstepX API-access subscription on the Topstep side. If you want in, contact [support@atomiktrading.io](mailto:support@atomiktrading.io). Note that many Topstep-ecosystem accounts are also reachable the Tradovate way described above.
+TopstepX evaluation and funded accounts connect directly with an API key:
+
+1. Click **+ Connect Account** and select **TopstepX**
+2. Enter your TopstepX username and API key
+3. The accounts behind that key (evaluation, combine, funded) appear in your Accounts panel
+
+It requires an active TopstepX API-access subscription on the Topstep side. Note that many Topstep-ecosystem accounts are also reachable the Tradovate way described above.
 
 ## Managing multiple accounts
 

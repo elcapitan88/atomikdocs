@@ -22,7 +22,7 @@ No — Atomik doesn't offer a free trial. Instead, every plan (Starter, Pro, Eli
 - **Tradovate** — Futures (ES, NQ, MNQ, MES, etc.) — the most-used broker on Atomik, and the route in for many prop/funded accounts
 - **Atomik Paper** — built-in simulated account, no broker needed
 - **Interactive Brokers** — Stocks, options, futures, forex
-- **TopstepX** — Funded futures accounts (private beta)
+- **TopstepX** — Funded futures accounts (API key)
 
 See the [Broker Connection Guide](./broker-connection) for setup instructions.
 
@@ -32,7 +32,7 @@ Yes, two ways: the built-in **Atomik Paper** account ($100k virtual funds, one c
 
 ### Can Atomik work with my prop firm / funded account?
 
-If your funded account comes with a Tradovate login — as many futures prop programs provide — it connects like any Tradovate account. Direct TopstepX connection is in private beta. See [Prop-Firm Accounts](./prop-firms).
+If your funded account comes with a Tradovate login — as many futures prop programs provide — it connects like any Tradovate account. TopstepX accounts connect directly with an API key. See [Prop-Firm Accounts](./prop-firms).
 
 ## Webhooks
 

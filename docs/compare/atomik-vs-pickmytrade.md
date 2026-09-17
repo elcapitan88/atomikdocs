@@ -23,8 +23,8 @@ If all you want is "TradingView alert in, order out" on as many accounts as poss
 | **Pricing** | $89–$349/mo depending on plan | $50/mo or $500/yr flat |
 | **Free trial** | No — 7-day money-back guarantee | 5-day free trial |
 | **Connected accounts** | 3 (Starter) / 10 (Pro) / 25 (Elite), no per-account fees | Unlimited |
-| **Brokers** | Tradovate, Interactive Brokers, TopstepX (private beta), built-in paper account | Tradovate, Rithmic, Interactive Brokers, TradeStation, TradeLocker, ProjectX, Matchtrader, Tradier |
-| **Prop / funded accounts** | Yes — Tradovate-powered firms + TopstepX (private beta) | Yes — Tradovate/ProjectX-powered firms (Apex, TopStep, Alpha, etc.) |
+| **Brokers** | Tradovate, Interactive Brokers, TopstepX, built-in paper account | Tradovate, Rithmic, Interactive Brokers, TradeStation, TradeLocker, ProjectX, Matchtrader, Tradier |
+| **Prop / funded accounts** | Yes — Tradovate-powered firms + TopstepX (direct, API key) | Yes — Tradovate/ProjectX-powered firms (Apex, TopStep, Alpha, etc.) |
 | **Webhook execution** | Yes — partial exits (25% / 50% / remainder) via alert comments | Yes |
 | **Copy trading** | Built in (Pro+): leader/follower groups, per-follower size ratios, auto-flatten protection | Trade copier: one signal to multiple accounts |
 | **Strategy builder** | Yes — AI builds the code from visual cards, no programming | No |
@@ -38,7 +38,7 @@ If all you want is "TradingView alert in, order out" on as many accounts as poss
 Be clear-eyed about this:
 
 - **Price for pure execution.** $50/month flat with unlimited accounts is cheaper than any Atomik plan if execution is all you need.
-- **Futures broker breadth.** Rithmic, TradeStation, TradeLocker, ProjectX, Matchtrader, and Tradier are supported there and not on Atomik today.
+- **Futures broker breadth.** Rithmic, TradeStation, TradeLocker, Matchtrader, and Tradier are supported there and not on Atomik today, and PickMyTrade reaches ProjectX-powered firms beyond TopstepX.
 - **Free trial** if you want to test without paying first (Atomik instead refunds in full within 7 days).
 
 ## Where Atomik wins
@@ -51,7 +51,7 @@ Be clear-eyed about this:
 
 ## Which should you choose?
 
-**Choose PickMyTrade if** you already have a finished strategy alerting in TradingView, you need Rithmic/ProjectX connectivity or more than 25 accounts, and you want the lowest flat price for execution alone.
+**Choose PickMyTrade if** you already have a finished strategy alerting in TradingView, you need Rithmic connectivity, a ProjectX firm other than TopstepX, or more than 25 accounts, and you want the lowest flat price for execution alone.
 
 **Choose Atomik if** you're still building or refining strategies (the AI builder + backtester replaces separate tools), you want to trade or sell verified strategies through a marketplace, you want copy trading with real risk controls, or you want paper and live trading on the identical pipeline.
 
@@ -59,7 +59,7 @@ Be clear-eyed about this:
 
 ### Can I use either platform with a funded / prop account?
 
-Yes — both. Atomik connects Tradovate-powered evaluations (TopstepX direct connection is in private beta); PickMyTrade covers Tradovate- and ProjectX-powered firms. Always confirm automation is permitted under your specific prop firm's rules.
+Yes — both. Atomik connects Tradovate-powered evaluations and TopstepX accounts directly; PickMyTrade covers Tradovate- and ProjectX-powered firms. Always confirm automation is permitted under your specific prop firm's rules.
 
 ### Does Atomik have a free trial like PickMyTrade?
 
