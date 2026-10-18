@@ -4,6 +4,8 @@ sidebar_position: 2
 
 # Terms of Service
 
+*Last updated: October 18, 2026*
+
 ## 1. Agreement to Terms
 
 These Terms of Service ("Terms") constitute a legally binding agreement between you ("you" or "User") and Atomik Trading LLC ("Atomik Trading," "we," "our," or "us"), a Delaware limited liability company, governing your access to and use of the Atomik Trading platform, website at atomiktrading.io, and all related services (collectively, the "Service").
@@ -76,26 +78,26 @@ We currently support integration with select brokers, exchanges, and prop tradin
 
 ### 5.1 Subscription Plans
 
-The Service is offered through paid subscription plans. Current plan details, features, and pricing are available on our [Pricing page](https://atomiktrading.io/pricing). Prices are listed in US dollars and are subject to change with notice.
+The Service is offered through paid subscription plans and a free plan limited to paper (simulated) trading. Current plan details, features, and pricing are available on our [Pricing page](https://atomiktrading.io/pricing). Prices are listed in US dollars and are subject to change with notice.
 
 ### 5.2 Free Trial
 
-Atomik Trading does **not currently offer a free trial**; new subscriptions are billed from day one and covered by our refund policy (Section 5.7). If we offer a promotional free trial in the future, the following terms will apply. The free trial is granted **once per user account**, applies only to your initial subscription, and is not granted again when you upgrade, downgrade, or otherwise change subscription tiers. Switching plans after the trial begins does not restart the trial period or extend it. At the end of the trial, your account will convert to a paid subscription unless you cancel before the trial expires. Trial terms and duration are specified at the time of registration.
+Atomik Trading does **not currently offer a free trial** of its paid plans. You may use the free paper-trading plan, with simulated money and no payment method, for as long as you like. Paid subscriptions are billed from day one and covered by the 7-day money-back guarantee in Section 5.7. If we offer a promotional free trial in the future, the following terms will apply. The free trial is granted **once per user account**, applies only to your initial subscription, and is not granted again when you upgrade, downgrade, or otherwise change subscription tiers. Switching plans after the trial begins does not restart the trial period or extend it. At the end of the trial, your account will convert to a paid subscription unless you cancel before the trial expires. Trial terms and duration are specified at the time of registration.
 
 ### 5.3 Billing and Renewal
 
 - Subscriptions are billed on a recurring basis (monthly or annually, depending on the plan selected).
-- By subscribing, you authorize Atomik Trading to charge your payment method on file through PayPal, our payment processor, on each billing date.
+- By subscribing, you authorize Atomik Trading to charge your payment method on file through Whop, our payment processor, on each billing date.
 - Subscriptions automatically renew at the end of each billing period unless you cancel before the renewal date.
 
 ### 5.4 Failed Payments and Past-Due Amounts
 
 - You are responsible for maintaining a valid, funded payment method on file for as long as your subscription remains active.
 - If a scheduled payment is declined or otherwise fails to process on the billing date, your subscription **remains active** and the amount owed **remains due**. A failed payment does not, by itself, cancel your subscription, pause your billing, or relieve you of the obligation to pay for the period during which the Service remained available to you.
-- Payments that do not clear on the scheduled billing date may be **automatically reattempted** by PayPal in accordance with the recurring billing agreement you authorized. Any past-due amounts may be **collected together once a payment method successfully processes**, including as a single combined charge covering more than one billing period.
-- We may attempt to notify you of failed payments, but you acknowledge that PayPal's payment-failure and retry notifications, sent to the email associated with your PayPal account, constitute notice of the outstanding balance. It is your responsibility to monitor your payment method and account status.
+- Payments that do not clear on the scheduled billing date may be **automatically reattempted** by our payment processor in accordance with the recurring billing agreement you authorized. Any past-due amounts may be **collected together once a payment method successfully processes**, including as a single combined charge covering more than one billing period.
+- We may attempt to notify you of failed payments, but you acknowledge that our payment processor's payment-failure and retry notifications, sent to the email associated with your account with it, constitute notice of the outstanding balance. It is your responsibility to monitor your payment method and account status.
 - We reserve the right, but are **not obligated**, to suspend or limit access to the Service during any period in which your account has an outstanding balance. Continued access to the Service while a balance is outstanding does not waive the amounts owed.
-- **To stop further billing, you must cancel your subscription** through your account settings or directly through PayPal (see Section 5.6, Cancellation). Allowing a payment to fail is not a substitute for cancellation and will not stop recurring billing.
+- **To stop further billing, you must cancel your subscription** through your account settings or directly with our payment processor (see Section 5.6, Cancellation). Allowing a payment to fail is not a substitute for cancellation and will not stop recurring billing.
 
 ### 5.5 Plan Changes (Upgrades and Downgrades)
 
@@ -117,7 +119,9 @@ You may cancel your subscription at any time through your account settings. Upon
 
 ### 5.7 Refunds
 
-Refund requests are evaluated on a case-by-case basis. To request a refund, contact us at support@atomiktrading.io. We reserve the right to approve or deny refund requests at our sole discretion. Refunds, if approved, will be processed through the original payment method.
+**7-day money-back guarantee.** If you are not satisfied with your first paid subscription, you may cancel it and receive a full refund of your first payment within 7 days of that payment. You can do this yourself in your account settings (Settings → Billing) or by emailing support@atomiktrading.io. The guarantee applies once per account, to its first paid subscription.
+
+Outside the guarantee, refund requests are evaluated on a case-by-case basis. To request a refund, contact us at support@atomiktrading.io. We reserve the right to approve or deny refund requests at our sole discretion. Refunds, if approved, will be processed through the original payment method.
 
 Subscription fees paid for the use of any tier — including amounts charged following a tier upgrade — are **generally non-refundable** once charged, except where required by law. Voluntarily downgrading or canceling a subscription after a charge has been made does not, by itself, entitle you to a full or partial refund of that charge. Atomik Trading may, at its sole discretion, issue partial credits or refunds in cases of duplicate charges, billing errors, or other extenuating circumstances.
 

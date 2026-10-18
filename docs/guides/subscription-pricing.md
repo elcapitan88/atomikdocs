@@ -7,9 +7,7 @@ keywords: ["Atomik pricing", "subscription tiers", "trading plan", "money-back g
 
 # Subscription & Pricing
 
-Atomik Trading offers three plans designed for different levels of trading automation. There is **no free trial** — every plan is full access from day one, backed by a **7-day money-back guarantee**.
-
-There is no free tier — marketplace browsing is public, and every account has a plan.
+Atomik Trading offers three paid plans designed for different levels of trading automation, plus a **free paper-trading plan**. Try it on paper first, free and with no card; when you go live, every paid plan is full access from day one, backed by a **7-day money-back guarantee**.
 
 ## Plan Comparison
 
@@ -51,10 +49,10 @@ ceiling so a single busy day can't consume the whole month.
 
 ## 7-Day Money-Back Guarantee
 
-There is no free trial. Instead, every plan (Starter, Pro, Elite) comes with a 7-day money-back guarantee:
+Every paid plan (Starter, Pro, Elite) comes with a 7-day money-back guarantee:
 
 - Full access to all features of your plan from the moment you subscribe
-- If Atomik isn't for you, email [support@atomiktrading.io](mailto:support@atomiktrading.io) within 7 days of your first charge for a full refund
+- If Atomik isn't for you, refund your first payment within 7 days of it from **Settings → Billing**, or email [support@atomiktrading.io](mailto:support@atomiktrading.io)
 - Cancel anytime — you keep access through the end of the billing period you've paid for
 
 ## How to Subscribe
@@ -124,7 +122,7 @@ Yes. Upgrades are prorated and take effect immediately. Downgrades apply at the 
 If your new plan has lower limits, excess strategies/webhooks will be deactivated. You choose which ones to keep.
 
 **Is there a refund policy?**
-Yes — every plan has a 7-day money-back guarantee. Contact [support@atomiktrading.io](mailto:support@atomiktrading.io) within 7 days of your first charge for a full refund. After that, refunds are evaluated case by case.
+Yes — every paid plan has a 7-day money-back guarantee on your first payment: refund it from **Settings → Billing** within 7 days, or contact [support@atomiktrading.io](mailto:support@atomiktrading.io). After that, refunds are evaluated case by case.
 
 **Do yearly plans auto-renew?**
 Yes. You can cancel anytime before renewal through the billing portal.
