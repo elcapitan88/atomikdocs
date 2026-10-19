@@ -26,7 +26,7 @@ This guide is published by Atomik Trading, so yes, we have a horse in this race.
 
 ### Atomik Trading
 
-**What it is:** A trading platform with webhook execution built in, rather than a webhook pipe alone. TradingView alerts (or any HTTP POST) execute on Tradovate (including many prop/funded accounts) or TopstepX (Interactive Brokers is in testing), and the same product includes an AI strategy builder (plain English in, working code out), backtesting on real historical data, a built-in paper-trading engine on the identical execution pipeline, copy trading with per-follower sizing and auto-flatten protection, and a marketplace where each strategy's record comes from its own live signals, losing trades included, not from vendor backtests.
+**What it is:** A trading platform with webhook execution built in, rather than a webhook pipe alone. TradingView alerts (or any HTTP POST) execute on Tradovate (including many prop/funded accounts), TopstepX or Interactive Brokers, and the same product includes an AI strategy builder (plain English in, working code out), backtesting on real historical data, a built-in paper-trading engine on the identical execution pipeline, copy trading with per-follower sizing and auto-flatten protection, and a marketplace where each strategy's record comes from its own live signals, losing trades included, not from vendor backtests.
 
 **Pricing:** Starter $89/mo (3 accounts) · Pro $129/mo (10 accounts, copy trading) · Elite $349/mo (25 accounts). Yearly: $890 / $1,290 / $3,490. Try it on paper first, free and with no card; a 7-day money-back guarantee when you go live. Accounts are included in the plan; there are no per-account add-on fees.
 

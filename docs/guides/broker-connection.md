@@ -21,7 +21,7 @@ All connections start in the same place: **Dashboard → Accounts panel → + Co
 | **Tradovate** | Futures (ES, NQ, MNQ, MES, GC, CL, …) | OAuth 2.0, ~2 minutes | Available — most-used broker on Atomik |
 | **Atomik Paper** | Futures (simulated, live market data) | One click | Available |
 | **TopstepX** | Funded futures accounts | API key | Available |
-| **Interactive Brokers** | Futures | IB username and password | Testing — connects, not yet available for automated orders |
+| **Interactive Brokers** | Futures | IB username and password | Available |
 
 There are no per-account fees — your plan's account limit is the only constraint. Live broker connections need a paid plan; the free plan runs on paper.
 
@@ -56,11 +56,15 @@ TopstepX evaluation and funded accounts connect directly with an API key:
 2. Enter your TopstepX username and API key
 3. The accounts behind that key (evaluation, combine, funded) appear in your Accounts panel
 
-It requires an active TopstepX API-access subscription on the Topstep side. Topstep sets its own rules on automation, so check them before you switch anything on. Note that many Topstep-ecosystem accounts are also reachable the Tradovate way described above.
+It requires an active TopstepX API-access subscription on the Topstep side. Your firm's rules on automated trading are between you and the firm, so check them before you switch anything on. Note that many Topstep-ecosystem accounts are also reachable the Tradovate way described above.
 
 ## Interactive Brokers
 
-Interactive Brokers is in testing. It appears in the connect dialog and connects with your IB username and password (IB asks you to approve the login with IB Key about once a week), but it isn't available for automated orders yet. If you'd like to be told when it is, email [support@atomiktrading.io](mailto:support@atomiktrading.io).
+1. Click **+ Connect Account** and select **Interactive Brokers**
+2. Enter your IB username and password
+3. Approve the login in IB Key
+
+A second IB username just for Atomik keeps it from signing you out of your own IB apps. IB asks you to approve the login in IB Key about once a week.
 
 ## Managing multiple accounts
 

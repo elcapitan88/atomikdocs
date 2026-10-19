@@ -23,7 +23,7 @@ If all you want is "TradingView alert in, order out" on as many accounts as poss
 | **Pricing** | $89–$349/mo depending on plan | $50/mo or $500/yr flat |
 | **Try before you pay** | Free paper account, no card; 7-day money-back guarantee when you go live | 5-day free trial |
 | **Connected accounts** | 3 (Starter) / 10 (Pro) / 25 (Elite), no per-account fees | Unlimited |
-| **Brokers** | Tradovate, TopstepX, built-in paper account (Interactive Brokers in testing) | Tradovate, Rithmic, Interactive Brokers, TradeStation, TradeLocker, ProjectX, Matchtrader, Tradier |
+| **Brokers** | Tradovate, TopstepX, Interactive Brokers, built-in paper account | Tradovate, Rithmic, Interactive Brokers, TradeStation, TradeLocker, ProjectX, Matchtrader, Tradier |
 | **Prop / funded accounts** | Yes — Tradovate-powered firms + TopstepX (direct, API key) | Yes — Tradovate/ProjectX-powered firms (Apex, TopStep, Alpha, etc.) |
 | **Webhook execution** | Yes — partial exits (25% / 50% / remainder) via alert comments | Yes |
 | **Copy trading** | Built in (Pro+): leader/follower groups, per-follower size ratios, auto-flatten protection | Trade copier: one signal to multiple accounts |

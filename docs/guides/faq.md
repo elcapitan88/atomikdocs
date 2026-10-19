@@ -21,8 +21,8 @@ Yes, on paper. The free plan gives you a paper account with simulated money and 
 
 - **Tradovate** — Futures (ES, NQ, MNQ, MES, etc.) — the most-used broker on Atomik, and the route in for many prop/funded accounts
 - **Atomik Paper** — built-in simulated account, no broker needed
-- **TopstepX** — Funded futures accounts (API key). Topstep sets its own rules on automation, so check them before you switch anything on
-- **Interactive Brokers** — In testing: it connects, but isn't available for automated orders yet
+- **TopstepX** — Funded futures accounts (API key). Your firm's rules on automated trading are between you and the firm, so check them before you switch anything on
+- **Interactive Brokers** — Futures (IB username and password)
 
 See the [Broker Connection Guide](./broker-connection) for setup instructions.
 

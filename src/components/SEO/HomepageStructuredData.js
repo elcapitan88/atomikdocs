@@ -43,7 +43,7 @@ export default function HomepageStructuredData() {
       {
         "@type": "TechArticle",
         "headline": "Broker Connection Guide",
-        "description": "Connect a Tradovate or TopstepX account, or start on the built-in paper account.",
+        "description": "Connect a Tradovate, TopstepX or Interactive Brokers account, or start on the built-in paper account.",
         "url": "https://docs.atomiktrading.io/guides/broker-connection"
       },
       {

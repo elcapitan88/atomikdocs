@@ -40,10 +40,10 @@ You pick a strategy from the marketplace by its record, build your own with AI, 
 |---------|---------|------------|
 | **Tradovate** | Futures (ES, NQ, MNQ, MES, etc.) — including many prop/funded accounts | OAuth 2.0 |
 | **Atomik Paper** | Simulated futures, live market data | Built in — one click |
-| **Interactive Brokers** | Futures | Testing: it connects, but isn't available for automated orders yet |
+| **Interactive Brokers** | Futures | IB username and password |
 | **TopstepX** | Funded futures | API key |
 
-Topstep sets its own rules on automation, so check them before you switch anything on. See the [Broker Connection Guide](./guides/broker-connection) for setup instructions and [Prop-Firm Accounts](./guides/prop-firms) for funded-account specifics.
+Your firm's rules on automated trading are between you and the firm, so check them before you switch anything on. See the [Broker Connection Guide](./guides/broker-connection) for setup instructions and [Prop-Firm Accounts](./guides/prop-firms) for funded-account specifics.
 
 ## Subscription Tiers
 
