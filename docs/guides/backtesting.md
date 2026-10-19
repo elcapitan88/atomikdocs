@@ -54,4 +54,4 @@ Backtests are metered per calendar month by plan — Starter 30, Pro 200, Elite 
 
 - [Strategy Builder](./strategy-builder) — build and test without writing code
 - [Paper Trading](./paper-trading) — the next gate after a good backtest
-- [Marketplace](./marketplace) — where *live-verified* results, not backtests, are what's displayed
+- [Marketplace](./marketplace) — where each strategy's record comes from its live signals, not from a backtest

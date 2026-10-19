@@ -125,7 +125,7 @@ function StartHereSection() {
     },
     {
       title: 'Connect a Broker',
-      text: 'Tradovate, funded accounts, IB — or the built-in paper account.',
+      text: 'Tradovate, TopstepX, funded accounts — or the free paper account.',
       cta: 'Connect',
       link: '/guides/broker-connection',
     },
@@ -245,6 +245,11 @@ function DocsStructureSection() {
 
 function RecentUpdatesSection() {
   const updates = [
+    {
+      title: "New: How each marketplace strategy's record is kept",
+      date: 'October 2026',
+      url: '/guides/marketplace#how-the-record-is-kept',
+    },
     {
       title: 'New: Strategy Builder, Backtesting, Paper Trading, Prop-Firm, and MCP Connector guides',
       date: 'August 2026',

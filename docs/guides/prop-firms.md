@@ -8,11 +8,11 @@ keywords: ["prop firm automation", "funded account automation", "TopstepX automa
 
 # Prop-Firm & Funded Accounts
 
-Funded traders are some of Atomik's heaviest users, for a simple reason: prop accounts multiply. One trader passes an evaluation, gets funded, buys two more evaluations — and suddenly the same strategy needs to execute identically on four accounts. That's exactly what Atomik is built for.
+If you trade evaluation or funded futures accounts, Atomik can run a strategy on them the same way it does on any account in your name. With copy trading, one strategy can run across several of them, each at its own size. First, check that your firm allows it.
 
 ## Check your firm's rules first
 
-Before automating anything: **confirm automation is permitted under your specific program's rules.** Policies differ between firms, and between evaluation and funded stages at the same firm. Some allow full automation, some allow semi-automation, some prohibit it. Atomik executes what you tell it to — staying inside your firm's rules is on you. When in doubt, ask your firm in writing.
+Before automating anything: **confirm automation is permitted under your specific program's rules.** Policies differ between firms, and between evaluation and funded stages at the same firm. Some allow full automation, some allow semi-automation, some prohibit it. If your firm prohibits automation, don't connect that account to Atomik. Atomik executes what you tell it to — staying inside your firm's rules is on you. When in doubt, ask your firm in writing.
 
 ## How funded accounts connect
 
@@ -41,7 +41,7 @@ Per-account sizing matters here: an evaluation with a $2,000 trailing drawdown a
 
 Copy trading requires the Pro plan or higher (Pro: 10 accounts; Elite: 25).
 
-## Practical advice from funded traders
+## Practical advice
 
 - **Rehearse the full loop on paper first.** A webhook misfire that costs nothing on a [paper account](./paper-trading) costs an evaluation fee on a real one.
 - **Respect the daily loss limit in your strategy, not just your head.** Build exits and a flatten time into the automation (see [exit comments](./webhook-setup#exit-comment-types)) so a runaway day can't breach your firm's limit while you're away from the screen.

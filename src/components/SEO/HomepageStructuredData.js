@@ -43,13 +43,13 @@ export default function HomepageStructuredData() {
       {
         "@type": "TechArticle",
         "headline": "Broker Connection Guide",
-        "description": "Connect your Tradovate, Interactive Brokers, Binance, or Polymarket broker account.",
+        "description": "Connect a Tradovate or TopstepX account, or start on the built-in paper account.",
         "url": "https://docs.atomiktrading.io/guides/broker-connection"
       },
       {
         "@type": "TechArticle",
         "headline": "Copy Trading Guide",
-        "description": "Replicate your strategy across multiple broker accounts simultaneously.",
+        "description": "Run one strategy across several of your broker accounts at once.",
         "url": "https://docs.atomiktrading.io/guides/copy-trading"
       },
       {

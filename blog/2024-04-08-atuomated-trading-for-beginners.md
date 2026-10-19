@@ -233,7 +233,7 @@ Automated trading represents one of the most significant opportunities for indiv
 
 The most successful practitioners aren't necessarily the most technically advanced—they're the ones who approach the process with patience, continuous learning, and proper risk management.
 
-**Ready to take your first steps into algorithmic trading?** Visit [Atomik Trading](https://atomiktrading.io) for specialized resources designed specifically for beginners entering the world of automated trading.
+**Ready to take your first steps into algorithmic trading?** On [Atomik Trading](https://atomiktrading.io) you can run automated futures strategies on a free paper account, with simulated money and no card, before you put real money behind any of them.
 
 Remember: Your first algorithm doesn't need to be complex—it just needs to work consistently and protect your capital while you learn.
 

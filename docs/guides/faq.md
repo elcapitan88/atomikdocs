@@ -11,18 +11,18 @@ keywords: ["Atomik FAQ", "trading automation FAQ", "webhook help", "broker conne
 
 ### How do I create an account?
 
-Go to [atomiktrading.io](https://atomiktrading.io), click **Get Started**, choose a plan, and complete checkout. Your account is immediately activated.
+Go to [atomiktrading.io](https://atomiktrading.io) and start free on paper, with no card. Or choose a plan on the [pricing page](https://atomiktrading.io/pricing) and complete checkout; your account is activated right away.
 
-### Is there a free trial?
+### Can I try Atomik before I pay?
 
-No — Atomik doesn't offer a free trial. Instead, every plan (Starter, Pro, Elite) is **full access from day one with a 7-day money-back guarantee**: if it's not for you, email [support@atomiktrading.io](mailto:support@atomiktrading.io) within 7 days of your first charge for a full refund.
+Yes, on paper. The free plan gives you a paper account with simulated money and real market prices, for as long as you like, with no card. When you go live, every paid plan (Starter, Pro, Elite) is **full access from day one with a 7-day money-back guarantee**: within 7 days of your first payment, refund it from **Settings → Billing**, or email [support@atomiktrading.io](mailto:support@atomiktrading.io).
 
 ### What brokers do you support?
 
 - **Tradovate** — Futures (ES, NQ, MNQ, MES, etc.) — the most-used broker on Atomik, and the route in for many prop/funded accounts
 - **Atomik Paper** — built-in simulated account, no broker needed
-- **Interactive Brokers** — Stocks, options, futures, forex
-- **TopstepX** — Funded futures accounts (API key)
+- **TopstepX** — Funded futures accounts (API key). Topstep sets its own rules on automation, so check them before you switch anything on
+- **Interactive Brokers** — In testing: it connects, but isn't available for automated orders yet
 
 See the [Broker Connection Guide](./broker-connection) for setup instructions.
 
@@ -85,7 +85,7 @@ For Tradovate: The Token Refresh Service automatically keeps connections alive. 
 2. Clear browser cookies
 3. Reconnect via OAuth
 
-For other connections: reconnect via OAuth (IB) or verify your API key hasn't been revoked (TopstepX).
+For TopstepX: check that your API key hasn't been revoked and your TopstepX API access is still active.
 
 ### Can Atomik withdraw funds from my broker account?
 
@@ -121,13 +121,17 @@ Yes — this is [copy trading](./copy-trading). Activate the same webhook on mul
 
 ### How do I subscribe to a marketplace strategy?
 
-Go to **Marketplace**, find a strategy, and click **Subscribe**. Free strategies activate instantly. Paid strategies require Stripe checkout first. Then link the strategy to your broker account in **Strategies**.
+Open the strategy's record on the [Marketplace](https://atomiktrading.io/marketplace). A free strategy that's open for paper shows **Try it on paper**; a paid one shows **Subscribe** and goes through checkout first. Then link the strategy to the account it should trade in **Strategies**.
 
-Requires Starter tier or higher.
+Any plan can subscribe. On the free plan, strategies run on paper only.
+
+### Where do the marketplace numbers come from?
+
+From each strategy's own live signals, recorded when the signal fires, at the signal price. Not from a backtest, and not from subscribers' broker fills. Each record follows one fixed market, at 1 contract and before fees and slippage, and losing trades and losing weeks stay on it. Details in [How the record is kept](./marketplace#how-the-record-is-kept).
 
 ### How do I sell my strategy?
 
-Every plan can sell on the marketplace. You need a creator profile with payouts set up:
+Every paid plan (Starter, Pro, Elite) can sell on the marketplace. You need a creator profile with payouts set up:
 1. Go to **Settings > Creator** and complete creator onboarding
 2. Set up payouts
 3. Publish your strategy with pricing
@@ -156,7 +160,7 @@ You get a grace period with full access while we retry. If unresolved, you'll re
 
 ### Can I get a refund?
 
-Every plan has a **7-day money-back guarantee**: email [support@atomiktrading.io](mailto:support@atomiktrading.io) within 7 days of your first charge for a full refund. For billing problems outside that window (duplicate charges, errors), contact support and we'll make it right.
+Every paid plan has a **7-day money-back guarantee**: within 7 days of your first payment, refund it from **Settings → Billing**, or email [support@atomiktrading.io](mailto:support@atomiktrading.io). For billing problems outside that window (duplicate charges, errors), contact support and we'll make it right.
 
 ### Do yearly plans auto-renew?
 

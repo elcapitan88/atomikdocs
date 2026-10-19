@@ -83,7 +83,7 @@ function Footer() {
               AtomikTrading
             </Link>
             <p className={styles.companyDescription}>
-              Professional-grade webhook-based trading automation platform. Connect your favorite broker and automate your trading strategies with ease.
+              The strategy you choose works the market. You go about your day.
             </p>
           </div>
 
