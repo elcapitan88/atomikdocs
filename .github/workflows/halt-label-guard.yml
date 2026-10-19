@@ -1,0 +1,29 @@
+name: Halt label guard
+
+# The daily halt job (cloud routine "Halt merge + deploy") merges every open PR
+# labeled `halt-ready`. The label means "the founder reviewed THIS code". When new
+# commits land on a labeled PR, this removes the label so unreviewed commits never
+# ship. Re-add the label after reviewing the new head.
+
+on:
+  pull_request:
+    types: [synchronize]
+
+permissions:
+  pull-requests: write
+  issues: write
+
+jobs:
+  unlabel:
+    if: contains(github.event.pull_request.labels.*.name, 'halt-ready')
+    runs-on: ubuntu-latest
+    steps:
+      - name: Remove halt-ready
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+          PR: ${{ github.event.pull_request.number }}
+          SHA: ${{ github.event.pull_request.head.sha }}
+        run: |
+          gh pr edit "$PR" --repo "$REPO" --remove-label halt-ready
+          gh pr comment "$PR" --repo "$REPO" --body "New commits were pushed after \`halt-ready\` was added (head is now ${SHA::7}), so the label was removed and the halt job will skip this PR. Re-add \`halt-ready\` once you've reviewed the new code."
