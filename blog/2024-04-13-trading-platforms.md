@@ -369,7 +369,7 @@ The traders who thrive in 2025's markets understand that platform selection is a
 
 **Remember**: There is no universally "best" platform—only the best platform for your specific trading style, preferences, and goals. By following the systematic evaluation process outlined in this guide, you'll be well-positioned to make this critical decision with confidence.
 
-Ready to transform your trading with the right platform? At [Atomik Trading](https://atomiktrading.io), we offer specialized guidance on platform selection tailored to your unique trading approach. Our platform compatibility assessment helps match your specific requirements to the optimal technology solution.
+Ready to transform your trading with the right platform? If you trade futures, you can try [Atomik Trading](https://atomiktrading.io) on a free paper account, with simulated money and no card, and compare it against your checklist before you pay for anything.
 
 ---
 

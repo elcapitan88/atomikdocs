@@ -1,16 +1,16 @@
 ---
 sidebar_position: 5
 title: "Copy Trading Guide"
-description: "Learn how to use Atomik Trading's copy trading to replicate your strategy across multiple broker accounts simultaneously."
+description: "Learn how to use Atomik Trading's copy trading to run one strategy across several of your broker accounts at once."
 keywords: ["copy trading", "multi-account trading", "trade replication", "leader follower", "scale trading"]
 ---
 
 # Copy Trading
 
-Copy trading in Atomik Trading means replicating **your own strategy** across multiple broker accounts simultaneously. One signal, multiple executions — scaling your edge without increasing per-account risk.
+Copy trading in Atomik Trading means running one strategy across **several of your own broker accounts** at once. One signal, several executions, each account at its own size.
 
 :::info This is not social trading
-Atomik's copy trading is about multiplying your own proven strategy, not following other traders. You control the strategy — copy trading just scales the execution.
+Atomik's copy trading works only across your own accounts. You choose the strategy, whether you built it or picked it from the marketplace; copy trading repeats its trades on the accounts you add.
 :::
 
 ## How It Works
@@ -73,9 +73,9 @@ Exit signals (`EXIT_50`, `EXIT_25`, `EXIT_FINAL`) apply to each account independ
 
 ## Use Cases
 
-### Scale Your Edge
+### One Strategy, Several Accounts
 
-If your strategy consistently makes $500/day on one 2-contract account, running it across 5 accounts multiplies your potential without increasing per-account exposure.
+Run the strategy you chose on several accounts, each at its own size, instead of raising the size on one account. Losses repeat across accounts just as gains do, so size each account for the strategy's worst stretch.
 
 ### Broker Diversification
 
@@ -84,9 +84,9 @@ Spread execution across multiple brokers to protect against:
 - Per-account position limits
 - Execution quality differences
 
-### Prop Firm Accounts
+### Funded Accounts
 
-Run the same strategy on multiple prop firm evaluation or funded accounts. Each account maintains its own position sizing and risk limits.
+If your firm's rules allow automation, run the same strategy on several evaluation or funded accounts. Each account keeps its own position sizing and risk limits. Check the rules first: some firms don't allow automated trading or copying between accounts.
 
 ### Strategy Variants
 

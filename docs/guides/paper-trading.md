@@ -8,7 +8,7 @@ keywords: ["paper trading", "simulated trading account", "practice futures tradi
 
 # Paper Trading
 
-Atomik has a built-in simulated broker: the **Atomik Paper** account. One click gives you **$100,000 in virtual funds** trading against live market data — no broker signup, no API keys, no risk.
+Atomik has a built-in simulated broker: the **Atomik Paper** account. One click gives you **$100,000 in virtual funds** trading against live market data — no broker signup, no API keys, no risk. It's free: the free plan includes one paper account, with no card.
 
 ## What makes it useful
 
@@ -19,14 +19,14 @@ Use it to:
 - **Verify your automation end to end** — TradingView alert → webhook → fill, before any real account is involved
 - **Forward-test a strategy** that backtested well, on live data it has never seen
 - **Trade manually** from the chart with the BUY/SELL panel, to learn the platform
-- **Try marketplace strategies** before pointing them at real money
+- **Try a marketplace strategy** before running it with real money. Free strategies that are open for paper show **Try it on paper** on their record
 
 ## Setting one up
 
 1. **Dashboard → Accounts panel → + Connect Account**
 2. Choose **Atomik Paper**
 
-The account appears instantly as `ATMK-…` with a `PAPER` badge and a $100,000 balance. Paper accounts count toward your plan's account limit like any other account, and you can create more than one — handy for running two strategy candidates side by side.
+The account appears instantly as `ATMK-…` with a `PAPER` badge and a $100,000 balance. Paper accounts have their own allowance, separate from live accounts: 1 on the free plan, 3 on every paid plan. More than one is handy for running two strategies side by side.
 
 ## Using it
 

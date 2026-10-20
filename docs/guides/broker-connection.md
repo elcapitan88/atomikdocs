@@ -2,7 +2,7 @@
 sidebar_position: 2
 sidebar_label: "Broker Connection"
 title: "Broker Connection Guide"
-description: "Connect your broker account to Atomik Trading — Tradovate via OAuth, funded/prop accounts, Interactive Brokers, TopstepX, and the built-in paper account."
+description: "Connect your broker account to Atomik Trading — Tradovate via OAuth, funded accounts, TopstepX, the built-in paper account, and where Interactive Brokers stands."
 keywords: ["broker connection", "Tradovate setup", "prop firm automation", "TopstepX", "connect broker", "futures trading account"]
 ---
 
@@ -20,10 +20,10 @@ All connections start in the same place: **Dashboard → Accounts panel → + Co
 |---------|---------|------------|--------|
 | **Tradovate** | Futures (ES, NQ, MNQ, MES, GC, CL, …) | OAuth 2.0, ~2 minutes | Available — most-used broker on Atomik |
 | **Atomik Paper** | Futures (simulated, live market data) | One click | Available |
-| **Interactive Brokers** | Stocks, options, futures, forex | OAuth | Available |
 | **TopstepX** | Funded futures accounts | API key | Available |
+| **Interactive Brokers** | Futures | IB username and password | Available |
 
-There are no per-account fees — your plan's account limit is the only constraint.
+There are no per-account fees — your plan's account limit is the only constraint. Live broker connections need a paid plan; the free plan runs on paper.
 
 ## Connecting Tradovate (recommended)
 
@@ -48,10 +48,6 @@ If your evaluation or funded account comes with a **Tradovate login** — as man
 
 Select **Atomik Paper** in the connect dialog and you immediately get a simulated account with **$100,000 in virtual funds** — no broker signup, no API keys. It trades against live market data through the same execution pipeline as real accounts. Full details in the [Paper Trading guide](./paper-trading).
 
-## Interactive Brokers
-
-IB connects via OAuth from the same dialog, with demo, paper, and live environments. IB support is newer than Tradovate's — if you hit an issue connecting or executing, email [support@atomiktrading.io](mailto:support@atomiktrading.io) and we'll get you sorted.
-
 ## TopstepX
 
 TopstepX evaluation and funded accounts connect directly with an API key:
@@ -60,7 +56,15 @@ TopstepX evaluation and funded accounts connect directly with an API key:
 2. Enter your TopstepX username and API key
 3. The accounts behind that key (evaluation, combine, funded) appear in your Accounts panel
 
-It requires an active TopstepX API-access subscription on the Topstep side. Note that many Topstep-ecosystem accounts are also reachable the Tradovate way described above.
+It requires an active TopstepX API-access subscription on the Topstep side. Your firm's rules on automated trading are between you and the firm, so check them before you switch anything on. Note that many Topstep-ecosystem accounts are also reachable the Tradovate way described above.
+
+## Interactive Brokers
+
+1. Click **+ Connect Account** and select **Interactive Brokers**
+2. Enter your IB username and password
+3. Approve the login in IB Key
+
+A second IB username just for Atomik keeps it from signing you out of your own IB apps. IB asks you to approve the login in IB Key about once a week.
 
 ## Managing multiple accounts
 
@@ -74,11 +78,12 @@ Every connected account shows in the Accounts panel with its balance, status, an
 
 ### Account limits by plan
 
-| Plan | Connected accounts |
-|------|-------------------|
-| Starter ($89/mo) | 3 |
-| Pro ($129/mo) | 10 |
-| Elite ($349/mo) | 25 |
+| Plan | Live accounts | Paper accounts |
+|------|---------------|----------------|
+| Free | — | 1 |
+| Starter ($89/mo) | 3 | 3 |
+| Pro ($129/mo) | 10 | 3 |
+| Elite ($349/mo) | 25 | 3 |
 
 ## Disconnecting an account
 

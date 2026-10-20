@@ -107,4 +107,4 @@ This lets you scale one strategy across multiple accounts without increasing per
 - [Webhook Setup](./webhook-setup) — Create and configure webhooks
 - [Copy Trading](./copy-trading) — Scale across multiple accounts
 - [Marketplace](./marketplace) — Browse and subscribe to published strategies
-- [Your First Automated Trade](./first-trade) — End-to-end beginner walkthrough
+- [Your First Automated Trade](./first-trade) — End-to-end walkthrough, on a paper account

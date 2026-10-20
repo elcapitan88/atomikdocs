@@ -7,24 +7,25 @@ keywords: ["Atomik pricing", "subscription tiers", "trading plan", "money-back g
 
 # Subscription & Pricing
 
-Atomik Trading offers three paid plans designed for different levels of trading automation, plus a **free paper-trading plan**. Try it on paper first, free and with no card; when you go live, every paid plan is full access from day one, backed by a **7-day money-back guarantee**.
+Atomik Trading has a **free paper-trading plan** and three paid plans. Try it on paper first, free and with no card. When you go live, every paid plan is full access from day one, with a **7-day money-back guarantee**. Prices are flat: no per-trade fees and no share of your results.
 
 ## Plan Comparison
 
-| | Starter | Pro | Elite |
-|---|---|---|---|
-| **Monthly Price** | $89 | $129 | $349 |
-| **Yearly Price** | $890 ($74/mo) | $1,290 ($107/mo) | — (monthly only) |
-| **Connected Accounts** | 3 | 10 | 25 |
-| **Active Webhooks** | 3 | 10 | Unlimited |
-| **Active Strategies** | 3 | 15 | Unlimited |
-| **Trade Execution** | Yes | Yes | Yes |
-| **AI credits / month** | 75 | 300 | 600 |
-| **Backtests / month** | 30 | 200 | 500 |
-| **Premium AI model** | No | Yes | Yes |
-| **Marketplace (Subscribe)** | Yes | Yes | Yes |
-| **Marketplace (Sell)** | Yes | Yes | Yes |
-| **Copy Trading** | No | Yes (3 groups, 10 followers) | Yes (Unlimited) |
+| | Free | Starter | Pro | Elite |
+|---|---|---|---|---|
+| **Monthly Price** | $0 | $89 | $129 | $349 |
+| **Yearly Price** | — | $890 ($74/mo) | $1,290 ($107/mo) | $3,490 ($291/mo), arranged by email |
+| **Live Accounts** | — | 3 | 10 | 25 |
+| **Paper Accounts** | 1 | 3 | 3 | 3 |
+| **Active Webhooks** | — | 3 | 10 | Unlimited |
+| **Active Strategies** | 2 | 3 | 15 | Unlimited |
+| **Trade Execution** | Paper only | Yes | Yes | Yes |
+| **AI credits / month** | 15 | 75 | 300 | 600 |
+| **Backtests / month** | 10 | 30 | 200 | 500 |
+| **Premium AI model** | No | No | Yes | Yes |
+| **Marketplace (Subscribe)** | Yes, on paper | Yes | Yes | Yes |
+| **Marketplace (Sell)** | No | Yes | Yes | Yes |
+| **Copy Trading** | No | No | Yes (3 groups, 10 followers) | Yes (Unlimited) |
 
 ### AI credits
 
@@ -41,11 +42,13 @@ ceiling so a single busy day can't consume the whole month.
 
 ## Which Plan Is Right for You?
 
-**Starter** — For individual traders automating up to three strategies across three broker accounts. Includes the AI Strategy Builder and marketplace selling.
+**Free** — Run strategies on a paper account, with simulated money and real market prices, for as long as you like. No card needed.
 
-**Pro** — For traders running a stack of funded or evaluation accounts. Copy trading fans one signal out across all ten, and the premium AI model handles longer, more intricate strategies.
+**Starter** — Up to three strategies running at once, across up to three live accounts. Includes the AI Strategy Builder and marketplace selling.
 
-**Elite** — For professional traders and firms: 25 accounts, unlimited webhooks and strategies, and unlimited copy trading groups.
+**Pro** — Up to ten live accounts and fifteen strategies. Copy trading sends one account's trades to your others, and the premium AI model handles longer, more intricate strategies.
+
+**Elite** — For when you'd rather not do the setup or the watching yourself. We set it up with you on a call, follow up on order problems on your account, send a weekly report on your strategies, and you get a direct line to the founder. Plus 25 accounts, unlimited webhooks and strategies, and unlimited copy trading groups.
 
 ## 7-Day Money-Back Guarantee
 
@@ -57,10 +60,12 @@ Every paid plan (Starter, Pro, Elite) comes with a 7-day money-back guarantee:
 
 ## How to Subscribe
 
-1. Go to [atomiktrading.io](https://atomiktrading.io) and click **Get Started**
+1. Go to [atomiktrading.io/pricing](https://atomiktrading.io/pricing)
 2. Choose your plan and billing cycle (monthly or yearly)
 3. Complete checkout (credit/debit card)
 4. Your account is immediately activated with full access
+
+Elite yearly ($3,490) has no online checkout: email [support@atomiktrading.io](mailto:support@atomiktrading.io?subject=Elite%20yearly) and we'll arrange it with you.
 
 ## Managing Your Subscription
 
@@ -82,7 +87,7 @@ Upgrades take effect immediately. Downgrades take effect at the end of your curr
 
 ### Billing Portal
 
-Click **Manage Subscription** to access the Stripe billing portal where you can:
+Billing runs through Whop, our payment processor. Click **Manage Subscription** to open your Whop billing page, where you can:
 
 - Update payment method
 - View invoice history
@@ -109,7 +114,7 @@ Yearly billing saves about 17% compared to monthly — two months free:
 |------|---------|-------------------|----------------|
 | Starter | $89/mo | $74/mo | $178 |
 | Pro | $129/mo | $107/mo | $258 |
-| Elite | $349/mo | — (monthly only) | — |
+| Elite | $349/mo | $291/mo ($3,490/yr, arranged by email) | $698 |
 
 You can switch between monthly and yearly billing at any time through the billing portal.
 
