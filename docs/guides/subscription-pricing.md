@@ -55,7 +55,7 @@ Builder doesn't include marketplace strategies (subscribing to or buying anyone 
 
 **Pro: add strategies with a live record you can check.** Everything in Builder, plus marketplace strategies: each one has a record of every trade from its own live signals, and Atomik's engine runs it in your account. Pro also adds up to 10 live accounts, 10 webhook strategies, 15 strategies running at once, copy trading with 3 groups and 10 followers, ARIA Research, Interactive Brokers, selling on the marketplace, and the premium AI model for longer, more intricate strategies.
 
-**Elite: done for you.** For when you'd rather not do the setup or the watching yourself. We set it up with you on a call, follow up on order problems on your account, send a weekly report on your strategies, and you get a direct line to the founder. Plus 25 accounts, unlimited webhook strategies and strategies, and unlimited copy trading groups.
+**Elite: done for you.** For when you'd rather not do the setup or the watching yourself. We set it up with you on a call, follow up on order problems on your account, send a weekly report on your strategies, and you get a direct line to the founder. Plus 25 accounts, unlimited webhook strategies and strategies, and unlimited copy trading groups. The done-for-you service comes with a paid monthly or yearly Elite plan; lifetime memberships include Elite's limits without it.
 
 ## 7-day money-back guarantee
 
