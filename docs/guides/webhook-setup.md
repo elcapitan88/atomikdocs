@@ -203,7 +203,7 @@ Additionally, a **1-second idempotency window** (Redis-backed) prevents duplicat
 
 | Tier | Active Webhooks |
 |------|----------------|
-| Starter ($89/mo) | 3 |
+| Builder ($49/mo) | 3 |
 | Pro ($129/mo) | 10 |
 | Elite ($349/mo) | Unlimited |
 

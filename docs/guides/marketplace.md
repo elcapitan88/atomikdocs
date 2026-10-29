@@ -7,7 +7,7 @@ keywords: ["strategy marketplace", "buy trading strategy", "sell trading strateg
 
 # Strategy Marketplace
 
-The Atomik Marketplace is where you pick a strategy to run in a futures account in your name, and where creators list strategies for others to run. Members switch a published strategy on in their own account; creators can charge a monthly price for theirs.
+The Atomik Marketplace is where you pick a strategy to run in a futures account in your name, and where creators list strategies for others to run. Pro and Elite members switch a published strategy on in their own account; creators can charge a monthly price for theirs.
 
 Each strategy has one record, with every trade on it. The record comes from the strategy's own live signals, not from a backtest and not from anything a creator uploads. [How the record is kept](#how-the-record-is-kept) explains exactly what it counts.
 
@@ -18,19 +18,21 @@ Each strategy has one record, with every trade on it. The record comes from the 
 ### Browsing Strategies
 
 1. Go to the [Marketplace](https://atomiktrading.io/marketplace). You don't need an account to look.
-2. Browse the rows at the top (**Steadiest right now**, **Free to try on paper**, one row per market, **Building a record**), or use **All strategies** to filter by market, how often it trades, and price, sorted steadiest first, smallest drawdown, longest record, or newest
+2. Browse the rows at the top (**Steadiest right now**, one row per market, **Building a record**), or use **All strategies** to filter by market, how often it trades, and price, sorted steadiest first, smallest drawdown, longest record, or newest
 3. Open a strategy to see its full record: weeks up, net result, worst stretch, trades, win rate, typical hold, and price
 
-### Trying a Strategy on Paper
+### Who can run marketplace strategies
 
-A free strategy that is still trading and has at least 10 trades on its record shows **Try it on paper**. It runs on a free paper account, with simulated money and real market prices. No card needed. A free strategy that isn't open for paper yet says so on its record.
+Marketplace strategies, free or paid, come with the **Pro** and **Elite** plans. Builder is for automating your own signals, so it doesn't include them. Anyone can browse the marketplace and read every record before choosing a plan.
 
-Paid strategies can't be tried on paper from the marketplace. They show **See the record** instead, so you can read every trade before you decide.
+### Running a Strategy on Paper First
+
+Every plan includes a paper account, with simulated money and real market prices. On Pro or Elite, you can link a marketplace strategy to your paper account first and watch how it trades before you point it at a live account. Paid strategies show **See the record** before you subscribe, so you can read every trade before you decide.
 
 ### Subscribing to a Strategy
 
-1. Open the strategy's record and click **Subscribe** (paid strategies) or **Try it on paper** (free ones)
-2. **Paid strategies**: complete checkout, and the strategy is added to your account
+1. Open the strategy's record and click **Subscribe** (on Pro or Elite)
+2. **Paid strategies**: complete checkout, and the strategy is added to your account. Free ones are added right away
 3. In the dashboard's **Strategies** panel, link the strategy to the account it should trade and set the quantity
 
 Once it's linked and switched on, the strategy you chose trades that account on its own. You don't need to watch it.
@@ -48,9 +50,8 @@ View and manage your marketplace subscriptions in **Strategies**:
 | Action | Required Tier |
 |--------|--------------|
 | Browse marketplace | Anyone — no account needed |
-| Try a free strategy on paper | Anyone — free, no card |
-| Subscribe to strategies | Any plan (on the free plan, paper accounts only) |
-| Sell strategies | Starter, Pro, or Elite |
+| Run marketplace strategies (free or paid, paper or live) | Pro or Elite |
+| Sell strategies | Pro or Elite |
 
 ## For Creators
 
@@ -58,7 +59,7 @@ View and manage your marketplace subscriptions in **Strategies**:
 
 To sell strategies on the marketplace, you need:
 
-1. A paid plan (Starter, Pro, and Elite can all sell; the free paper plan can't)
+1. A Pro or Elite plan (Builder can't sell)
 2. A creator profile with payouts set up (**Settings > Creator** walks you through onboarding)
 
 **Publishing:**
@@ -123,7 +124,7 @@ When a subscriber activates a marketplace strategy:
 
 ### For Subscribers
 - **Read the whole record** before subscribing to a paid strategy, worst stretch included
-- **Try a free strategy on paper first** to see how marketplace execution works
+- **Run it on your paper account first** to see how marketplace execution works
 - **Start at 1 contract** until you're comfortable with how the strategy you chose behaves
 - **Check in now and then** — the dashboard shows every trade, so you can confirm it matches what you expect
 

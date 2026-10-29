@@ -20,31 +20,31 @@ If all you want is "TradingView alert in, order out" on as many accounts as poss
 
 | | Atomik | PickMyTrade |
 |---|---|---|
-| **Pricing** | $89–$349/mo depending on plan | $50/mo or $500/yr flat |
-| **Try before you pay** | Free paper account, no card; 7-day money-back guarantee when you go live | 5-day free trial |
-| **Connected accounts** | 3 (Starter) / 10 (Pro) / 25 (Elite), no per-account fees | Unlimited |
-| **Brokers** | Tradovate, TopstepX, Interactive Brokers, built-in paper account | Tradovate, Rithmic, Interactive Brokers, TradeStation, TradeLocker, ProjectX, Matchtrader, Tradier |
+| **Pricing** | $49–$349/mo depending on plan (Builder $49, Pro $129, Elite $349) | $50/mo or $500/yr flat |
+| **Try before you pay** | No free plan or trial; 7-day money-back guarantee on your first payment, and a paper account on every plan | 5-day free trial |
+| **Connected accounts** | 3 (Builder) / 10 (Pro) / 25 (Elite), no per-account fees | Unlimited |
+| **Brokers** | Tradovate, TopstepX, Interactive Brokers (Pro and Elite), built-in paper account | Tradovate, Rithmic, Interactive Brokers, TradeStation, TradeLocker, ProjectX, Matchtrader, Tradier |
 | **Prop / funded accounts** | Yes — Tradovate-powered firms + TopstepX (direct, API key) | Yes — Tradovate/ProjectX-powered firms (Apex, TopStep, Alpha, etc.) |
 | **Webhook execution** | Yes — partial exits (25% / 50% / remainder) via alert comments | Yes |
-| **Copy trading** | Built in (Pro+): leader/follower groups, per-follower size ratios, auto-flatten protection | Trade copier: one signal to multiple accounts |
+| **Copy trading** | Built in: 1 leader to 2 followers on Builder, more groups on Pro and Elite; per-follower size ratios, auto-flatten protection | Trade copier: one signal to multiple accounts |
 | **Strategy builder** | Yes — AI builds the code from visual cards, no programming | No |
 | **Backtesting** | Yes — tick-accurate, in-platform (30–500 runs/mo by plan) | No |
 | **Paper trading** | Built-in simulated broker ($100k virtual account, same execution pipeline as live) | Via broker demo accounts |
-| **Strategy marketplace** | Yes — subscribe to or sell strategies; each has one record from its live signals, losing trades included | No |
+| **Strategy marketplace** | Yes (Pro and Elite) — subscribe to or sell strategies; each has one record from its live signals, losing trades included | No |
 | **Custody** | Non-custodial — connects to your broker account, never holds funds | Non-custodial |
 
 ## Where PickMyTrade wins
 
 Be clear-eyed about this:
 
-- **Price for pure execution.** $50/month flat with unlimited accounts is cheaper than any Atomik plan if execution is all you need.
+- **Price per account for pure execution.** $50/month flat with unlimited accounts beats Atomik if execution on many accounts is all you need. Atomik's Builder plan is $49/month, but for 3 live accounts.
 - **Futures broker breadth.** Rithmic, TradeStation, TradeLocker, Matchtrader, and Tradier are supported there and not on Atomik today, and PickMyTrade reaches ProjectX-powered firms beyond TopstepX.
-- **A 5-day free trial.** Atomik takes a different route: try it on paper for free, with no card, and get your first payment back in full within 7 days of going live if it isn't for you.
+- **A 5-day free trial.** Atomik takes a different route: no trial, but full access from day one and your first payment back in full within 7 days if it isn't for you.
 
 ## Where Atomik wins
 
 - **You get the whole stack, not just the pipe.** Strategy building (AI-generated code from visual cards), tick-accurate backtesting, one-click paper or live activation, and live performance tracking are all in the same product that executes your webhooks.
-- **A marketplace with one record per strategy.** Each listed strategy's record comes from its own live signals, on one fixed market, at 1 contract and before fees. It is not a vendor-supplied backtest, and losing weeks stay on it. Every paid plan can both subscribe and sell.
+- **A marketplace with one record per strategy.** Each listed strategy's record comes from its own live signals, on one fixed market, at 1 contract and before fees. It is not a vendor-supplied backtest, and losing weeks stay on it. Pro and Elite can both subscribe and sell.
 - **Copy trading with guardrails.** Per-follower size ratios (0.1x–10x), max-position caps, and automatic follower flattening when the leader goes flat.
 - **Partial exit vocabulary.** Scale out 25% / 50% / remainder straight from TradingView alert comments.
 - **Built-in paper engine.** Test the full execution pipeline against a virtual $100k account without opening a broker demo.
@@ -63,7 +63,7 @@ Yes — both. Atomik connects Tradovate-powered evaluations and TopstepX account
 
 ### Can I try Atomik before I pay?
 
-Yes, on paper. The free plan gives you a paper account with simulated money and real market prices, for as long as you like, with no card. When you go live, every paid plan has a 7-day money-back guarantee. See [Subscription & Pricing](../guides/subscription-pricing).
+There's no free plan or trial. Every plan has a 7-day money-back guarantee on your first payment, and every plan includes a paper account with simulated money and real market prices, so you can test before you trade a live account. See [Subscription & Pricing](../guides/subscription-pricing).
 
 ### Do both work without a VPS?
 
@@ -71,4 +71,4 @@ Yes. Both are cloud-hosted — alerts execute even with your computer off.
 
 ---
 
-*Ready to try it? [Start free on paper](https://atomiktrading.io), with no card, and get a 7-day money-back guarantee when you go live. Or start with the [first automated trade guide](../guides/first-trade).*
+*Ready to try it? [Pick a plan](https://atomiktrading.io/pricing): Builder automates your own signals, Pro adds strategies with a live record you can check, and your first payment has a 7-day money-back guarantee. Or start with the [first automated trade guide](../guides/first-trade).*

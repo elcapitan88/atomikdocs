@@ -23,7 +23,7 @@ All connections start in the same place: **Dashboard → Accounts panel → + Co
 | **TopstepX** | Funded futures accounts | API key | Available |
 | **Interactive Brokers** | Futures | IB username and password | Available |
 
-There are no per-account fees — your plan's account limit is the only constraint. Live broker connections need a paid plan; the free plan runs on paper.
+There are no per-account fees — your plan's account limit is the only constraint. Interactive Brokers comes with the Pro and Elite plans; Tradovate, TopstepX and the paper account work on every plan.
 
 ## Connecting Tradovate (recommended)
 
@@ -60,6 +60,8 @@ It requires an active TopstepX API-access subscription on the Topstep side. Your
 
 ## Interactive Brokers
 
+Interactive Brokers comes with the Pro and Elite plans.
+
 1. Click **+ Connect Account** and select **Interactive Brokers**
 2. Enter your IB username and password
 3. Approve the login in IB Key
@@ -80,8 +82,7 @@ Every connected account shows in the Accounts panel with its balance, status, an
 
 | Plan | Live accounts | Paper accounts |
 |------|---------------|----------------|
-| Free | — | 1 |
-| Starter ($89/mo) | 3 | 3 |
+| Builder ($49/mo) | 3 | 3 |
 | Pro ($129/mo) | 10 | 3 |
 | Elite ($349/mo) | 25 | 3 |
 

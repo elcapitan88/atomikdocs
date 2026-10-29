@@ -39,7 +39,7 @@ This is [copy trading](./copy-trading), and it's the core funded-trader workflow
 
 Per-account sizing matters here: an evaluation with a $2,000 trailing drawdown and a funded account with a $4,500 limit shouldn't trade the same size. Set each account's quantity to respect *its* risk parameters.
 
-Copy trading requires the Pro plan or higher (Pro: 10 accounts; Elite: 25).
+Builder includes copy trading inside its 3 live accounts (one leader copying to two followers). For more accounts, Pro covers 3 groups and 10 followers across up to 10 accounts; Elite, 25 accounts.
 
 ## Practical advice
 
@@ -50,7 +50,7 @@ Copy trading requires the Pro plan or higher (Pro: 10 accounts; Elite: 25).
 
 ## Costs
 
-There are no per-account fees on Atomik — a Pro plan at $129/mo covers up to 10 connected accounts, which is the practical difference between Atomik and per-account-priced tools when you're stacking evaluations. See [Subscription & Pricing](./subscription-pricing).
+There are no per-account fees on Atomik — a Builder plan at $49/mo covers 3 live accounts and a Pro plan at $129/mo up to 10, which is the practical difference between Atomik and per-account-priced tools when you're stacking evaluations. See [Subscription & Pricing](./subscription-pricing).
 
 ## Next steps
 

@@ -90,7 +90,7 @@ This lets you scale one strategy across multiple accounts without increasing per
 
 | Tier | Active Strategies |
 |------|------------------|
-| Starter ($89/mo) | 3 |
+| Builder ($49/mo) | 3 (your own) |
 | Pro ($129/mo) | 15 |
 | Elite ($349/mo) | Unlimited |
 

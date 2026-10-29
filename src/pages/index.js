@@ -125,7 +125,7 @@ function StartHereSection() {
     },
     {
       title: 'Connect a Broker',
-      text: 'Tradovate, TopstepX, Interactive Brokers — or the free paper account.',
+      text: 'Tradovate, TopstepX, Interactive Brokers — or the built-in paper account.',
       cta: 'Connect',
       link: '/guides/broker-connection',
     },
