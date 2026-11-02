@@ -212,7 +212,7 @@ Here's your concrete plan for the next month:
 ### Week 1: Foundation Building
 - Day 1-2: Create accounts on TradingView and a broker with API capabilities
 - Day 3-5: Complete basic courses on technical analysis and trading fundamentals
-- Day 6-7: Study 3 simple, proven algorithmic strategies
+- Day 6-7: Study 3 simple, widely used algorithmic strategies
 
 ### Week 2: Strategy Development
 - Day 8-10: Design your first simple strategy (moving average crossover is ideal for beginners)

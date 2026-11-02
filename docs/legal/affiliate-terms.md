@@ -4,7 +4,7 @@ sidebar_position: 6
 
 # Affiliate Program Terms
 
-*Last updated: September 13, 2026*
+*Last updated: November 1, 2026*
 
 ## 1. Overview
 
@@ -31,9 +31,9 @@ By applying to or taking part in the Program, you agree to these Terms, our [Ter
 
 - **Rate:** 30% of each payment, as calculated by Whop.
 - **Eligible plans:**
-  - Starter — monthly and yearly
+  - Builder — monthly and yearly
   - Pro — monthly and yearly
-  - Elite — monthly
+  - Elite — monthly and yearly
 - **Duration:** commission is paid on every payment a referred customer makes on an eligible plan, for as long as that customer keeps paying and you remain an approved affiliate.
 
 ## 5. What Doesn't Earn Commission

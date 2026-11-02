@@ -69,7 +69,7 @@ The most beginner-friendly approach, where trading platforms like TradingView ge
 
 ### 2. Strategy Automation
 
-Pre-built trading strategies that run automatically based on backtested rules. Many platforms offer libraries of proven strategies that beginners can deploy immediately.
+Pre-built trading strategies that run automatically based on backtested rules. Many platforms offer libraries of tested strategies that beginners can deploy immediately.
 
 **Best for**: Traders who want to use established strategies without developing their own.
 
@@ -124,7 +124,7 @@ Sign up for an automation platform like Atomik Trading that bridges TradingView 
 
 ### Step 4: Create Your First Automated Strategy (Day 3, 45 minutes)
 
-Start with a simple, proven strategy to understand the mechanics:
+Start with a simple, well-tested strategy to understand the mechanics:
 
 #### Example Strategy - RSI Oversold Bounce
 
