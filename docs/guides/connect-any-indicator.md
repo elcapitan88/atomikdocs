@@ -25,7 +25,7 @@ Your indicator's plot → Atomik Template (session / risk / brackets)
 | Requirement | Why |
 |---|---|
 | A TradingView **paid plan** (Essential or higher) | Webhook notifications on alerts are a paid TradingView feature |
-| An Atomik plan with trade execution (any paid tier) | The Free tier can't create webhooks or execute — see [pricing](./subscription-pricing) |
+| An Atomik plan (Builder, Pro or Elite) | Every plan includes webhook strategies: 3 on Builder, 10 on Pro, unlimited on Elite — see [pricing](./subscription-pricing) |
 | A connected broker or paper account | Start with the [built-in paper account](./paper-trading) — always |
 | An indicator that **plots** its signal | See the compatibility rules below — this is the one real constraint |
 

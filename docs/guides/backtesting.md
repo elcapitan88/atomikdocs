@@ -48,7 +48,7 @@ A good backtest earns the strategy a [paper trading](./paper-trading) run — li
 
 ## Quotas
 
-Backtests are metered per calendar month by plan — Starter 30, Pro 200, Elite 500 — with per-backtest date-range caps (90 days / 1 year / 5 years). Symbol availability by plan is listed in the [Strategy Builder guide](./strategy-builder#symbols-and-data).
+Backtests are metered per calendar month by plan — Builder 30, Pro 200, Elite 500 — with per-backtest date-range caps (90 days / 1 year / 5 years). Symbol availability by plan is listed in the [Strategy Builder guide](./strategy-builder#symbols-and-data).
 
 ## Next steps
 

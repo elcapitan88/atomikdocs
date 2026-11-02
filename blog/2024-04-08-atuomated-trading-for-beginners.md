@@ -212,7 +212,7 @@ Here's your concrete plan for the next month:
 ### Week 1: Foundation Building
 - Day 1-2: Create accounts on TradingView and a broker with API capabilities
 - Day 3-5: Complete basic courses on technical analysis and trading fundamentals
-- Day 6-7: Study 3 simple, proven algorithmic strategies
+- Day 6-7: Study 3 simple, widely used algorithmic strategies
 
 ### Week 2: Strategy Development
 - Day 8-10: Design your first simple strategy (moving average crossover is ideal for beginners)
@@ -233,7 +233,7 @@ Automated trading represents one of the most significant opportunities for indiv
 
 The most successful practitioners aren't necessarily the most technically advanced—they're the ones who approach the process with patience, continuous learning, and proper risk management.
 
-**Ready to take your first steps into algorithmic trading?** On [Atomik Trading](https://atomiktrading.io) you can run automated futures strategies on a free paper account, with simulated money and no card, before you put real money behind any of them.
+**Ready to take your first steps into algorithmic trading?** On [Atomik Trading](https://atomiktrading.io) you can run automated futures strategies on the paper account every plan includes, with simulated money, before you put real money behind any of them. Your first payment has a 7-day money-back guarantee.
 
 Remember: Your first algorithm doesn't need to be complex—it just needs to work consistently and protect your capital while you learn.
 

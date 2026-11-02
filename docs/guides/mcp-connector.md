@@ -51,7 +51,7 @@ You can see and revoke connected AI assistants any time in **Settings → Connec
 ## Quotas and requirements
 
 - Requires an **active Atomik subscription** (any plan)
-- Backtests from chat consume the **same monthly quota** as the web Builder (Starter 30 / Pro 200 / Elite 500), with the same symbol and date-range limits by plan — see [Strategy Builder](./strategy-builder#symbols-and-data)
+- Backtests from chat consume the **same monthly quota** as the web Builder (Builder 30 / Pro 200 / Elite 500), with the same symbol and date-range limits by plan — see [Strategy Builder](./strategy-builder#symbols-and-data)
 - Validation is free and unmetered — Claude is instructed to validate before ever spending a backtest
 
 ## Why this beats copy-pasting code

@@ -11,11 +11,15 @@ keywords: ["Atomik FAQ", "trading automation FAQ", "webhook help", "broker conne
 
 ### How do I create an account?
 
-Go to [atomiktrading.io](https://atomiktrading.io) and start free on paper, with no card. Or choose a plan on the [pricing page](https://atomiktrading.io/pricing) and complete checkout; your account is activated right away.
+Choose a plan on the [pricing page](https://atomiktrading.io/pricing) and complete checkout; your account is activated right away. Every plan includes a paper account.
 
 ### Can I try Atomik before I pay?
 
-Yes, on paper. The free plan gives you a paper account with simulated money and real market prices, for as long as you like, with no card. When you go live, every paid plan (Starter, Pro, Elite) is **full access from day one with a 7-day money-back guarantee**: within 7 days of your first payment, refund it from **Settings → Billing**, or email [support@atomiktrading.io](mailto:support@atomiktrading.io).
+There's no free plan and no trial. Instead, every plan (Builder, Pro, Elite) is **full access from day one with a 7-day money-back guarantee**: within 7 days of your first payment, refund it from **Settings → Billing**, or email [support@atomiktrading.io](mailto:support@atomiktrading.io). Every plan includes a paper account, with simulated money and real market prices, so you can test before you trade a live account.
+
+### Builder or Pro?
+
+Builder automates your own signals: strategies you build with AI and signals you send from TradingView or anywhere else. Pro adds strategies with a live record you can check, from the marketplace. See [Subscription & Pricing](./subscription-pricing).
 
 ### What brokers do you support?
 
@@ -94,7 +98,7 @@ No. Atomik's broker access is limited to the **trading** scope — it can place/
 ### I hit my account limit. What do I do?
 
 Either disconnect an unused account or upgrade your plan:
-- Starter: 3 accounts
+- Builder: 3 accounts
 - Pro: 10 accounts
 - Elite: 25 accounts
 
@@ -121,9 +125,9 @@ Yes — this is [copy trading](./copy-trading). Activate the same webhook on mul
 
 ### How do I subscribe to a marketplace strategy?
 
-Open the strategy's record on the [Marketplace](https://atomiktrading.io/marketplace). A free strategy that's open for paper shows **Try it on paper**; a paid one shows **Subscribe** and goes through checkout first. Then link the strategy to the account it should trade in **Strategies**.
+Open the strategy's record on the [Marketplace](https://atomiktrading.io/marketplace) and click **Subscribe**; a paid strategy goes through checkout first. Then link the strategy to the account it should trade in **Strategies**, your paper account or a live one.
 
-Any plan can subscribe. On the free plan, strategies run on paper only.
+Marketplace strategies, free or paid, come with the Pro and Elite plans. Builder doesn't include them.
 
 ### Where do the marketplace numbers come from?
 
@@ -131,7 +135,7 @@ From each strategy's own live signals, recorded when the signal fires, at the si
 
 ### How do I sell my strategy?
 
-Every paid plan (Starter, Pro, Elite) can sell on the marketplace. You need a creator profile with payouts set up:
+Pro and Elite can sell on the marketplace. You need a creator profile with payouts set up:
 1. Go to **Settings > Creator** and complete creator onboarding
 2. Set up payouts
 3. Publish your strategy with pricing
@@ -160,7 +164,7 @@ You get a grace period with full access while we retry. If unresolved, you'll re
 
 ### Can I get a refund?
 
-Every paid plan has a **7-day money-back guarantee**: within 7 days of your first payment, refund it from **Settings → Billing**, or email [support@atomiktrading.io](mailto:support@atomiktrading.io). For billing problems outside that window (duplicate charges, errors), contact support and we'll make it right.
+Every plan has a **7-day money-back guarantee** on your first payment: within 7 days of it, refund it from **Settings → Billing**, or email [support@atomiktrading.io](mailto:support@atomiktrading.io). For billing problems outside that window (duplicate charges, errors), contact support and we'll make it right.
 
 ### Do yearly plans auto-renew?
 
@@ -189,7 +193,7 @@ See the [Security Guide](./security) for full details.
 
 ### Can Atomik write a trading strategy for me?
 
-Yes — the [Strategy Builder](./strategy-builder) turns a plain-English description into working Python strategy code, validates it, and backtests it against up to two years of real market data. Building costs 3 AI credits, adjustments cost 1, and questions about your strategy are always free.
+Yes — the [Strategy Builder](./strategy-builder) turns a plain-English description into working Python strategy code, validates it, and backtests it against up to two years of real market data. Building costs 3 AI credits, adjustments cost 1, and questions about your strategy cost nothing.
 
 ### Can I use Claude or another AI assistant with Atomik?
 

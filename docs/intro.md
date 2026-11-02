@@ -18,16 +18,16 @@ You pick a strategy from the marketplace by its record, build your own with AI, 
 - **Webhook Automation** — Receive signals from TradingView or any HTTP source and execute trades instantly
 - **AI Strategy Builder** — Describe a strategy in plain English; Atomik writes the Python, validates it, and backtests it
 - **Backtesting** — Test strategies against up to two years of real futures data before risking money
-- **Paper Trading** — A free simulated account ($100k virtual) running the same execution pipeline as live
+- **Paper Trading** — A simulated account ($100k virtual) on every plan, running the same execution pipeline as live
 - **Copy Trading** — Run one strategy across several of your accounts at once
-- **Strategy Marketplace** — Browse, subscribe to, or sell strategies. Each has one record, with every trade from its live signals
+- **Strategy Marketplace** — Browse, subscribe to, or sell strategies (Pro and Elite). Each has one record, with every trade from its live signals
 - **AI Assistant & MCP** — ARIA in the dashboard, plus an [MCP connector](./guides/mcp-connector) so Claude can build and backtest strategies on your account
 - **Real-Time Dashboard** — Chart, positions, P&L, and execution status live
 
 ## How It Works
 
 ```
-1. Sign Up        → Start free on paper, or choose a plan
+1. Sign Up        → Choose a plan (7-day money-back guarantee)
 2. Connect Account  → Link Tradovate or TopstepX, or start on the built-in paper account
 3. Create Webhook → Get a unique URL for receiving trading signals
 4. Send Signals   → Configure TradingView alerts (or any source) to hit your webhook
@@ -47,18 +47,20 @@ Your firm's rules on automated trading are between you and the firm, so check th
 
 ## Subscription Tiers
 
-| | Free | Starter | Pro | Elite |
-|---|---|---|---|---|
-| **Price** | $0 | $89/mo | $129/mo | $349/mo |
-| **Live Accounts** | — | 3 | 10 | 25 |
-| **Paper Accounts** | 1 | 3 | 3 | 3 |
-| **Webhooks** | — | 3 | 10 | Unlimited |
-| **Trade Execution** | Paper only | Yes | Yes | Yes |
-| **Copy Trading** | No | No | 3 groups | Unlimited |
-| **Marketplace** | Subscribe (on paper) | Subscribe + Sell | Subscribe + Sell | Subscribe + Sell |
-| **Money-Back Guarantee** | — | 7 days | 7 days | 7 days |
+| | Builder | Pro | Elite |
+|---|---|---|---|
+| **Price** | $49/mo | $129/mo | $349/mo |
+| **Live Accounts** | 3 | 10 | 25 |
+| **Paper Accounts** | 3 | 3 | 3 |
+| **Webhook Strategies** | 3 | 10 | Unlimited |
+| **Your Own Strategies on Atomik's Engine** | 3 | 15 | Unlimited |
+| **Copy Trading** | 1 leader, 2 followers | 3 groups | Unlimited |
+| **Marketplace** | No | Subscribe + Sell | Subscribe + Sell |
+| **ARIA Research & Interactive Brokers** | No | Yes | Yes |
+| **Done for You** | No | No | Yes |
+| **Money-Back Guarantee** | 7 days | 7 days | 7 days |
 
-Try it on paper first, free and with no card. When you go live, every paid plan comes with a 7-day money-back guarantee. See [Subscription & Pricing](./guides/subscription-pricing) for full details, including yearly prices.
+Builder automates your own signals. Pro adds strategies with a live record you can check. Every plan includes a paper account, and your first payment has a 7-day money-back guarantee. See [Subscription & Pricing](./guides/subscription-pricing) for full details, including yearly prices.
 
 ## What's in These Docs
 
@@ -88,12 +90,12 @@ Try it on paper first, free and with no card. When you go live, every paid plan 
 **Run a strategy from the marketplace:**
 
 1. Open the [marketplace](https://atomiktrading.io/marketplace) and read a strategy's record
-2. Click **Try it on paper** on a free one: free, no card
-3. When you're ready to use your own account, pick a plan (7-day money-back guarantee) and [connect your broker](./guides/broker-connection)
+2. Pick a Pro or Elite plan (7-day money-back guarantee); marketplace strategies come with Pro and Elite
+3. Run the strategy on your paper account first, then [connect your broker](./guides/broker-connection) when you're ready
 
 **Send your own TradingView signals:**
 
-1. [Create an account](https://atomiktrading.io) and pick a plan (webhooks come with the paid plans)
+1. [Create an account](https://atomiktrading.io) and pick a plan (Builder covers your own signals)
 2. [Connect your broker](./guides/broker-connection), or use the built-in paper account
 3. [Create a webhook](./guides/webhook-setup)
 4. [Set up a TradingView alert](./guides/first-trade) pointing to your webhook

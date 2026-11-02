@@ -28,7 +28,7 @@ This guide is published by Atomik Trading, so yes, we have a horse in this race.
 
 **What it is:** A trading platform with webhook execution built in, rather than a webhook pipe alone. TradingView alerts (or any HTTP POST) execute on Tradovate (including many prop/funded accounts), TopstepX or Interactive Brokers, and the same product includes an AI strategy builder (plain English in, working code out), backtesting on real historical data, a built-in paper-trading engine on the identical execution pipeline, copy trading with per-follower sizing and auto-flatten protection, and a marketplace where each strategy's record comes from its own live signals, losing trades included, not from vendor backtests.
 
-**Pricing:** Starter $89/mo (3 accounts) · Pro $129/mo (10 accounts, copy trading) · Elite $349/mo (25 accounts). Yearly: $890 / $1,290 / $3,490. Try it on paper first, free and with no card; a 7-day money-back guarantee when you go live. Accounts are included in the plan; there are no per-account add-on fees.
+**Pricing:** Builder $49/mo (3 accounts, your own signals and strategies) · Pro $129/mo (10 accounts, marketplace strategies, Interactive Brokers) · Elite $349/mo (25 accounts, done for you). Yearly: $490 / $1,290 / $3,490. No free plan or trial; every plan includes a paper account, and your first payment has a 7-day money-back guarantee. Accounts are included in the plan; there are no per-account add-on fees.
 
 **Weaknesses, honestly:** No stocks or options. No crypto exchanges. No Rithmic or TradeStation connectivity today, and on ProjectX only TopstepX. Not the cheapest option if execution is all you need.
 
@@ -109,4 +109,4 @@ Whichever you pick, start on paper or demo. Atomik ships a built-in $100k paper 
 
 ---
 
-*Want the build-to-live workflow in one place? [Start free on paper with Atomik](https://atomiktrading.io), with no card and a 7-day money-back guarantee when you go live, or walk through [your first automated trade](../guides/first-trade).*
+*Want the build-to-live workflow in one place? [Pick an Atomik plan](https://atomiktrading.io/pricing), from $49/mo with a 7-day money-back guarantee on your first payment, or walk through [your first automated trade](../guides/first-trade).*
