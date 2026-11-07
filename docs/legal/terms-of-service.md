@@ -8,7 +8,7 @@ sidebar_position: 2
 
 ## 1. Agreement to Terms
 
-These Terms of Service ("Terms") constitute a legally binding agreement between you ("you" or "User") and Atomik Trading LLC ("Atomik Trading," "we," "our," or "us"), a Delaware limited liability company, governing your access to and use of the Atomik Trading platform, website at atomiktrading.io, and all related services (collectively, the "Service").
+These Terms of Service ("Terms") constitute a legally binding agreement between you ("you" or "User") and Atomik Trading Inc ("Atomik Trading," "we," "our," or "us"), a Delaware corporation, governing your access to and use of the Atomik Trading platform, website at atomiktrading.io, and all related services (collectively, the "Service").
 
 By creating an account, accessing, or using the Service, you agree to be bound by these Terms and our [Privacy Policy](/legal/privacy-policy). If you do not agree to these Terms, do not use the Service.
 
@@ -372,5 +372,5 @@ Your continued use of the Service after changes take effect constitutes acceptan
 If you have questions about these Terms, contact us at:
 
 - **Email:** support@atomiktrading.io
-- **Company:** Atomik Trading LLC
+- **Company:** Atomik Trading Inc
 - **Jurisdiction:** State of Delaware, United States
