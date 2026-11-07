@@ -8,7 +8,7 @@ sidebar_position: 3
 
 ## 1. Introduction
 
-This Cookie Policy explains how Atomik Trading LLC ("Atomik Trading," "we," "our," or "us") uses cookies and similar tracking technologies when you visit our website at atomiktrading.io and use our platform (collectively, the "Service"). This policy should be read alongside our [Privacy Policy](/legal/privacy-policy).
+This Cookie Policy explains how Atomik Trading Inc ("Atomik Trading," "we," "our," or "us") uses cookies and similar tracking technologies when you visit our website at atomiktrading.io and use our platform (collectively, the "Service"). This policy should be read alongside our [Privacy Policy](/legal/privacy-policy).
 
 ## 2. What Are Cookies
 
@@ -104,5 +104,5 @@ We may update this Cookie Policy from time to time to reflect changes in our pra
 If you have questions about our use of cookies, contact us at:
 
 - **Email:** support@atomiktrading.io
-- **Company:** Atomik Trading LLC
+- **Company:** Atomik Trading Inc
 - **Jurisdiction:** State of Delaware, United States

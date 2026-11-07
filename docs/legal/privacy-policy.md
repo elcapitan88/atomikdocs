@@ -8,7 +8,7 @@ sidebar_position: 1
 
 ## 1. Introduction
 
-Atomik Trading LLC ("Atomik Trading," "we," "our," or "us") operates the Atomik Trading platform, a trade automation service that enables users to connect trading alerts to brokerage and exchange accounts. This Privacy Policy explains how we collect, use, disclose, store, and protect your personal information when you access or use our website at atomiktrading.io, our platform, and any related services (collectively, the "Service").
+Atomik Trading Inc ("Atomik Trading," "we," "our," or "us") operates the Atomik Trading platform, a trade automation service that enables users to connect trading alerts to brokerage and exchange accounts. This Privacy Policy explains how we collect, use, disclose, store, and protect your personal information when you access or use our website at atomiktrading.io, our platform, and any related services (collectively, the "Service").
 
 By creating an account or using the Service, you acknowledge that you have read and understood this Privacy Policy. If you do not agree with these practices, please do not use the Service.
 
@@ -195,6 +195,6 @@ Your continued use of the Service after any changes indicates your acceptance of
 If you have questions, concerns, or requests regarding this Privacy Policy or our data practices, contact us at:
 
 - **Email:** support@atomiktrading.io
-- **Company:** Atomik Trading LLC
+- **Company:** Atomik Trading Inc
 
 For data protection inquiries from the EEA or UK, you may also contact us at the email address above with the subject line "GDPR Request."

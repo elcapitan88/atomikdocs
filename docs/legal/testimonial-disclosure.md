@@ -8,7 +8,7 @@ sidebar_position: 5
 
 ## 1. Purpose
 
-This Testimonial Disclosure is provided by Atomik Trading LLC ("Atomik Trading," "we," "our," or "us") in accordance with the Federal Trade Commission's (FTC) Guides Concerning the Use of Endorsements and Testimonials in Advertising (16 CFR Part 255). This disclosure applies to all testimonials, reviews, endorsements, and user feedback displayed on our website, social media channels, marketing materials, and any other communications.
+This Testimonial Disclosure is provided by Atomik Trading Inc ("Atomik Trading," "we," "our," or "us") in accordance with the Federal Trade Commission's (FTC) Guides Concerning the Use of Endorsements and Testimonials in Advertising (16 CFR Part 255). This disclosure applies to all testimonials, reviews, endorsements, and user feedback displayed on our website, social media channels, marketing materials, and any other communications.
 
 ## 2. Testimonials Are Real
 
@@ -83,5 +83,5 @@ We may update this Testimonial Disclosure from time to time. When we make change
 If you have questions about this Testimonial Disclosure or believe a testimonial on our platform is inaccurate or misleading, contact us at:
 
 - **Email:** support@atomiktrading.io
-- **Company:** Atomik Trading LLC
+- **Company:** Atomik Trading Inc
 - **Jurisdiction:** State of Delaware, United States

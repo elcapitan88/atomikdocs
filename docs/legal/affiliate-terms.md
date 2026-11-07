@@ -8,7 +8,7 @@ sidebar_position: 6
 
 ## 1. Overview
 
-These Affiliate Program Terms ("Terms") govern the Atomik Trading affiliate program (the "Program"), run by Atomik Trading LLC ("Atomik Trading," "we," "our," or "us"). Approved affiliates earn a commission when people they refer to [www.atomiktrading.io](https://www.atomiktrading.io) pay for eligible Atomik plans.
+These Affiliate Program Terms ("Terms") govern the Atomik Trading affiliate program (the "Program"), run by Atomik Trading Inc ("Atomik Trading," "we," "our," or "us"). Approved affiliates earn a commission when people they refer to [www.atomiktrading.io](https://www.atomiktrading.io) pay for eligible Atomik plans.
 
 Commissions are calculated and paid by Whop ([whop.com](https://whop.com)), not by Atomik Trading.
 
@@ -123,5 +123,5 @@ Atomik Trading previously ran its own in-house affiliate program, which paid a 2
 If you have questions about these Terms or the Program, contact us at:
 
 - **Email:** support@atomiktrading.io
-- **Company:** Atomik Trading LLC
+- **Company:** Atomik Trading Inc
 - **Jurisdiction:** State of Delaware, United States
