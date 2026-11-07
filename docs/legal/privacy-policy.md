@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Privacy Policy
 
-*Last updated: January 30, 2026*
+*Last updated: November 6, 2026*
 
 ## 1. Introduction
 
@@ -170,7 +170,18 @@ The Service is not intended for individuals under the age of 18. We do not knowi
 
 The Service may contain links to third-party websites or services, including broker platforms, TradingView, and our documentation site. We are not responsible for the privacy practices of these third parties. We encourage you to review the privacy policies of any third-party service you access through or in connection with the platform.
 
-## 11. Changes to This Privacy Policy
+## 11. YouTube API Services
+
+Atomik Trading uses YouTube API Services (the YouTube Data API) in an internal publishing tool that uploads Atomik Trading's own educational videos to the Atomik Trading YouTube channel. Atomik Trading customers are never asked to connect a YouTube account, and the Service does not read, store or share YouTube data about our users or viewers.
+
+- **What the tool accesses:** Only the Atomik Trading channel's basic information (to confirm which channel it is connected to) and permission to upload videos to that channel. It does not access viewing history, comments, subscriptions or any other YouTube account data.
+- **YouTube Terms of Service:** By using any part of the Service that uses YouTube API Services, you agree to be bound by the [YouTube Terms of Service](https://www.youtube.com/t/terms).
+- **Google Privacy Policy:** YouTube API Services are provided by Google. How Google handles data is described in the [Google Privacy Policy](http://www.google.com/policies/privacy).
+- **What we store:** Only the authorization that lets the tool upload to the Atomik Trading channel, kept encrypted on Atomik Trading's own computer. It is never shared with third parties and is not used for any other purpose.
+- **Revoking access:** The authorization can be revoked at any time on Google's security settings page: [https://security.google.com/settings/security/permissions](https://security.google.com/settings/security/permissions).
+- **Deletion:** When access is revoked, or on request to support@atomiktrading.io, we delete the stored authorization within 7 days. We do not keep any other data obtained through YouTube API Services.
+
+## 12. Changes to This Privacy Policy
 
 We may update this Privacy Policy from time to time to reflect changes in our practices, technology, legal requirements, or other factors. When we make material changes, we will:
 
@@ -179,7 +190,7 @@ We may update this Privacy Policy from time to time to reflect changes in our pr
 
 Your continued use of the Service after any changes indicates your acceptance of the updated Privacy Policy.
 
-## 12. Contact Us
+## 13. Contact Us
 
 If you have questions, concerns, or requests regarding this Privacy Policy or our data practices, contact us at:
 
