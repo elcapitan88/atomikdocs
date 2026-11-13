@@ -265,6 +265,16 @@ const config = {
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
+        // Google Analytics 4, the SAME property as the main site ("Atomik Website", 469159358; the
+        // G- id is the one inside the main site's GTM container GTM-KF3PNRZG). Added 2026-11-13 so
+        // visitors to the blog and guides, including those sent by ChatGPT, Claude and Google's AI
+        // answers, get counted. Reports tell the two sites apart by hostName; the ops connector
+        // counts homepage traffic on the main site only (atomik-ops-mcp ga4.MAIN_HOSTS).
+        // anonymizeIP matches the privacy policy ("IP address (anonymized)").
+        gtag: {
+          trackingID: 'G-XJMNQ4F6PJ',
+          anonymizeIP: true,
+        },
       },
     ],
   ],
