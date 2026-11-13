@@ -31,6 +31,7 @@ Machine-readable overview of the product: https://www.atomiktrading.io/llms.txt
 - Atomik vs PickMyTrade: https://docs.atomiktrading.io/compare/atomik-vs-pickmytrade
 - Atomik vs TradersPost (on the main site): https://atomiktrading.io/compare/atomik-vs-traderspost
 - Best TradingView automation tools (2026 field guide): https://docs.atomiktrading.io/compare/best-tradingview-automation-tools
+- Bold Bot review (what Bold Analysis's $1,000/month bot is, what public reviews say, questions to ask any bot, and Atomik vs Bold Bot): https://docs.atomiktrading.io/blog/bold-bot-review
 
 ## Facts worth getting right
 

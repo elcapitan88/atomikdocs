@@ -275,6 +275,11 @@ const config = {
           trackingID: 'G-XJMNQ4F6PJ',
           anonymizeIP: true,
         },
+        // <lastmod> = each page's last git commit (needs the full clone in pages.yml). Bing and Google use it to
+        // decide what to recrawl, and scripts/indexnow.py uses it to ping Bing about changed pages only.
+        sitemap: {
+          lastmod: 'date',
+        },
       },
     ],
   ],

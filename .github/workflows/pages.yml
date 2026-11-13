@@ -9,6 +9,11 @@ on:
     branches:
       - main
   workflow_dispatch:
+    inputs:
+      indexnow_all:
+        description: "Send EVERY page to IndexNow (Bing), not only new/changed ones"
+        type: boolean
+        default: false
 
 permissions:
   contents: read
@@ -22,14 +27,25 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    outputs:
+      indexnow_urls: ${{ steps.indexnow.outputs.urls }}
     steps:
       - uses: actions/checkout@v4
+        with:
+          # Full history: each page's "Last updated" date and its sitemap <lastmod> come from its own last
+          # commit. A shallow clone (the default) stamped EVERY page with the deploy commit's date.
+          fetch-depth: 0
       - uses: actions/setup-node@v4
         with:
           node-version: 22
           cache: npm
       - run: npm ci
       - run: npm run build
+      # Before deploying, while the old site is still live: which pages are new or changed (scripts/indexnow.py).
+      - id: indexnow
+        run: echo "urls=$(python3 scripts/indexnow.py diff build/sitemap.xml $ALL)" >> "$GITHUB_OUTPUT"
+        env:
+          ALL: ${{ inputs.indexnow_all && '--all' || '' }}
       - uses: actions/upload-pages-artifact@v3
         with:
           path: build
@@ -43,3 +59,17 @@ jobs:
     steps:
       - id: deployment
         uses: actions/deploy-pages@v4
+
+  # Ping Bing & co. once the new pages are live, so a new post can be indexed (and cited by Copilot / ChatGPT
+  # search) the same day. Never fails the deploy: a missed ping just means the next normal crawl finds it.
+  indexnow:
+    needs: [build, deploy]
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: scripts
+      - run: python3 scripts/indexnow.py submit "$URLS"
+        env:
+          URLS: ${{ needs.build.outputs.indexnow_urls }}
