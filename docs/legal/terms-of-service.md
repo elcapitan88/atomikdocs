@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # Terms of Service
 
-*Last updated: October 18, 2026*
+*Last updated: November 13, 2026*
 
 ## 1. Agreement to Terms
 
@@ -78,11 +78,11 @@ We currently support integration with select brokers, exchanges, and prop tradin
 
 ### 5.1 Subscription Plans
 
-The Service is offered through paid subscription plans and a free plan limited to paper (simulated) trading. Current plan details, features, and pricing are available on our [Pricing page](https://atomiktrading.io/pricing). Prices are listed in US dollars and are subject to change with notice.
+The Service is offered through paid subscription plans. Every plan includes a paper (simulated) trading account. The free plan, which was limited to paper trading, closed on October 31, 2026, at 11:59 PM ET. Current plan details, features, and pricing are available on our [Pricing page](https://atomiktrading.io/pricing). Prices are listed in US dollars and are subject to change with notice.
 
 ### 5.2 Free Trial
 
-Atomik Trading does **not currently offer a free trial** of its paid plans. You may use the free paper-trading plan, with simulated money and no payment method, for as long as you like. Paid subscriptions are billed from day one and covered by the 7-day money-back guarantee in Section 5.7. If we offer a promotional free trial in the future, the following terms will apply. The free trial is granted **once per user account**, applies only to your initial subscription, and is not granted again when you upgrade, downgrade, or otherwise change subscription tiers. Switching plans after the trial begins does not restart the trial period or extend it. At the end of the trial, your account will convert to a paid subscription unless you cancel before the trial expires. Trial terms and duration are specified at the time of registration.
+Atomik Trading does **not currently offer a free trial** of its paid plans, or a free plan. The free paper-trading plan closed on October 31, 2026, at 11:59 PM ET; every paid plan includes a paper (simulated) trading account instead. Paid subscriptions are billed from day one and covered by the 7-day money-back guarantee in Section 5.7. If we offer a promotional free trial in the future, the following terms will apply. The free trial is granted **once per user account**, applies only to your initial subscription, and is not granted again when you upgrade, downgrade, or otherwise change subscription tiers. Switching plans after the trial begins does not restart the trial period or extend it. At the end of the trial, your account will convert to a paid subscription unless you cancel before the trial expires. Trial terms and duration are specified at the time of registration.
 
 ### 5.3 Billing and Renewal
 
