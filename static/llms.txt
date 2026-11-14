@@ -11,7 +11,7 @@ Machine-readable overview of the product: https://www.atomiktrading.io/llms.txt
 
 - Introduction and platform overview: https://docs.atomiktrading.io/intro
 - Your first automated trade (step-by-step walkthrough, paper-first): https://docs.atomiktrading.io/guides/first-trade
-- Broker connection (Tradovate, TopstepX, Interactive Brokers, built-in paper): https://docs.atomiktrading.io/guides/broker-connection
+- Broker connection (Tradovate, NinjaTrader, TopstepX, Interactive Brokers, built-in paper): https://docs.atomiktrading.io/guides/broker-connection
 - Paper trading (built-in $100k simulated account, on every plan): https://docs.atomiktrading.io/guides/paper-trading
 - Prop-firm & funded accounts (Tradovate-powered firms, TopstepX direct): https://docs.atomiktrading.io/guides/prop-firms
 - Webhook setup (TradingView alerts → live orders): https://docs.atomiktrading.io/guides/webhook-setup
@@ -39,7 +39,7 @@ Machine-readable overview of the product: https://www.atomiktrading.io/llms.txt
 - Builder automates your own signals: AI Strategy Builder, backtests, paper trading, Manual trading, up to 3 of your own strategies on Atomik's engine, 3 live broker accounts, 3 webhook strategies, copy trading 1 leader to 2 followers. Builder does not include marketplace strategies, marketplace selling, ARIA Research or Interactive Brokers.
 - Pro adds strategies with a live record you can check (marketplace strategies run by Atomik's engine), 10 live accounts, 10 webhook strategies, 15 strategies, copy trading 3 groups / 10 followers, ARIA Research, Interactive Brokers and the premium AI model. Elite is the done-for-you plan (setup call, order follow-up, weekly report, direct line to the founder) with 25 accounts.
 - Every plan includes a paper account. Every plan has a 7-day money-back guarantee on the member's first payment; that is the trial.
-- Brokers: Tradovate (demo + live; the route in for many prop/funded accounts), TopstepX (direct, API key), Interactive Brokers (IB username and password; Pro and Elite), plus a built-in paper-trading simulator ($100k virtual). No crypto exchanges.
+- Brokers: Tradovate (demo + live; the route in for many prop/funded accounts), NinjaTrader accounts (same login as Tradovate, which NinjaTrader owns; Atomik doesn't run inside the NinjaTrader desktop program, but a NinjaScript strategy can send its signals to Atomik by webhook), TopstepX (direct, API key), Interactive Brokers (IB username and password; Pro and Elite), plus a built-in paper-trading simulator ($100k virtual). No crypto exchanges.
 - Marketplace records: each strategy has one record, from its own live signals at the signal price (not a backtest, not subscribers' broker fills), on one fixed market (the one it has traded most, never switched; a creator can declare one going forward only), at 1 contract, before fees and slippage. Rows that can't be real trades are left out. Losing trades and weeks stay. A strategy is ranked "Steadiest" only with 8+ weeks and 20+ trades on the record and a positive net; newer ones are tagged "Building a record". Real fills can differ.
 - Non-custodial: Atomik connects to the user's own broker account and never holds funds.
 
