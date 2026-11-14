@@ -38,7 +38,7 @@ This guide is published by Atomik Trading, so yes, we have a horse in this race.
 
 **What it is:** A no-code executor focused on futures, with the widest futures-broker list in this guide: Tradovate, Rithmic, Interactive Brokers, TradeStation, TradeLocker, ProjectX, Matchtrader, and Tradier. Includes a trade copier and supports Tradovate/ProjectX-powered prop firms (Apex, TopStep, Alpha Futures, and others).
 
-**Pricing:** $50/mo or $500/yr flat, unlimited accounts and alerts; 5-day free trial.
+**Pricing:** $50/mo or $500/yr flat, unlimited accounts and alerts; 7-day free trial with no card (rechecked November 13, 2026).
 
 **Weaknesses:** Execution only — no strategy building, backtesting, or marketplace.
 

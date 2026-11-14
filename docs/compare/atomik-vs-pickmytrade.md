@@ -14,14 +14,14 @@ Both platforms execute TradingView webhook alerts on real futures broker account
 
 If all you want is "TradingView alert in, order out" on as many accounts as possible for the least money, PickMyTrade is a strong choice. If you also want to build, backtest, paper trade, copy trade, or sell strategies inside the same product, that's what Atomik is.
 
-*Competitor details below are taken from PickMyTrade's public website as of August 2026 — check [their site](https://pickmytrade.trade/) for current numbers.*
+*Competitor details below are taken from PickMyTrade's public website as of August 2026 (free trial rechecked November 13, 2026) — check [their site](https://pickmytrade.trade/) for current numbers.*
 
 ## Side-by-side
 
 | | Atomik | PickMyTrade |
 |---|---|---|
 | **Pricing** | $49–$349/mo depending on plan (Builder $49, Pro $129, Elite $349) | $50/mo or $500/yr flat |
-| **Try before you pay** | No free plan or trial; 7-day money-back guarantee on your first payment, and a paper account on every plan | 5-day free trial |
+| **Try before you pay** | No free plan or trial; 7-day money-back guarantee on your first payment, and a paper account on every plan | 7-day free trial, no card needed |
 | **Connected accounts** | 3 (Builder) / 10 (Pro) / 25 (Elite), no per-account fees | Unlimited |
 | **Brokers** | Tradovate, TopstepX, Interactive Brokers (Pro and Elite), built-in paper account | Tradovate, Rithmic, Interactive Brokers, TradeStation, TradeLocker, ProjectX, Matchtrader, Tradier |
 | **Prop / funded accounts** | Yes — Tradovate-powered firms + TopstepX (direct, API key) | Yes — Tradovate/ProjectX-powered firms (Apex, TopStep, Alpha, etc.) |
@@ -39,7 +39,7 @@ Be clear-eyed about this:
 
 - **Price per account for pure execution.** $50/month flat with unlimited accounts beats Atomik if execution on many accounts is all you need. Atomik's Builder plan is $49/month, but for 3 live accounts.
 - **Futures broker breadth.** Rithmic, TradeStation, TradeLocker, Matchtrader, and Tradier are supported there and not on Atomik today, and PickMyTrade reaches ProjectX-powered firms beyond TopstepX.
-- **A 5-day free trial.** Atomik takes a different route: no trial, but full access from day one and your first payment back in full within 7 days if it isn't for you.
+- **A 7-day free trial with no card.** Atomik takes a different route: no trial, but full access from day one and your first payment back in full within 7 days if it isn't for you.
 
 ## Where Atomik wins
 
