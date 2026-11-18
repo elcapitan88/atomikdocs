@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # Terms of Service
 
-*Last updated: November 13, 2026*
+*Last updated: November 17, 2026*
 
 ## 1. Agreement to Terms
 
@@ -82,7 +82,7 @@ The Service is offered through paid subscription plans. Every plan includes a pa
 
 ### 5.2 Free Trial
 
-Atomik Trading does **not currently offer a free trial** of its paid plans, or a free plan. The free paper-trading plan closed on October 31, 2026, at 11:59 PM ET; every paid plan includes a paper (simulated) trading account instead. Paid subscriptions are billed from day one and covered by the 7-day money-back guarantee in Section 5.7. If we offer a promotional free trial in the future, the following terms will apply. The free trial is granted **once per user account**, applies only to your initial subscription, and is not granted again when you upgrade, downgrade, or otherwise change subscription tiers. Switching plans after the trial begins does not restart the trial period or extend it. At the end of the trial, your account will convert to a paid subscription unless you cancel before the trial expires. Trial terms and duration are specified at the time of registration.
+Atomik Trading does **not currently offer a free trial** of its paid plans, or a free plan. The free paper-trading plan closed on October 31, 2026, at 11:59 PM ET; every paid plan includes a paper (simulated) trading account instead. Paid subscriptions are billed from day one and covered by the 7-day money-back guarantee in Section 5.7, subject to its eligibility conditions. If we offer a promotional free trial in the future, the following terms will apply. The free trial is granted **once per user account**, applies only to your initial subscription, and is not granted again when you upgrade, downgrade, or otherwise change subscription tiers. Switching plans after the trial begins does not restart the trial period or extend it. At the end of the trial, your account will convert to a paid subscription unless you cancel before the trial expires. Trial terms and duration are specified at the time of registration.
 
 ### 5.3 Billing and Renewal
 
@@ -119,9 +119,22 @@ You may cancel your subscription at any time through your account settings. Upon
 
 ### 5.7 Refunds
 
-**7-day money-back guarantee.** If you are not satisfied with your first paid subscription, you may cancel it and receive a full refund of your first payment within 7 days of that payment. You can do this yourself in your account settings (Settings → Billing) or by emailing support@atomiktrading.io. The guarantee applies once per account, to its first paid subscription.
+**7-day money-back guarantee.** If you are not satisfied with your first paid subscription, you may cancel it and receive a full refund of your first payment within 7 days of that payment, provided you meet the eligibility conditions below. To request it, use your account settings (Settings → Billing) or email support@atomiktrading.io within those 7 days. The guarantee applies once per account, to its first paid subscription.
 
-Outside the guarantee, refund requests are evaluated on a case-by-case basis. To request a refund, contact us at support@atomiktrading.io. We reserve the right to approve or deny refund requests at our sole discretion. Refunds, if approved, will be processed through the original payment method.
+To be eligible for the 7-day money-back guarantee:
+
+- **You ran a strategy as designed.** Within the 7 days, you ran at least one strategy on Atomik Trading, on a paper or live account, the way it was designed to run. That means the strategy:
+  - ran on the market, timeframe and settings it was built for (for a Marketplace strategy, the settings its creator published; for your own strategy, the settings you saved);
+  - kept its stops, targets and exits in place;
+  - had its trades left to the strategy, not closed, changed or overridden manually, and was not turned off while it had a position open; and
+  - ran on an account that stayed connected and had the funds or margin to take its trades.
+
+  An account that never ran a strategy, or whose strategies did not run as designed (for example, because their settings were changed or their trades were managed manually), is not eligible. If a strategy could not run as designed because of a fault on Atomik Trading's side, that fault does not count against your eligibility.
+- **Your purchase was a subscription, not a lifetime purchase.** Lifetime purchases, including lifetime memberships and any other one-time payment for lifetime access, are **not eligible** for the 7-day money-back guarantee.
+
+We may review your account's strategy and trade activity to confirm eligibility.
+
+Outside the guarantee, and for purchases that are not eligible for it, refund requests are evaluated on a case-by-case basis. To request a refund, contact us at support@atomiktrading.io. We reserve the right to approve or deny refund requests at our sole discretion. Refunds, if approved, will be processed through the original payment method.
 
 Subscription fees paid for the use of any tier — including amounts charged following a tier upgrade — are **generally non-refundable** once charged, except where required by law. Voluntarily downgrading or canceling a subscription after a charge has been made does not, by itself, entitle you to a full or partial refund of that charge. Atomik Trading may, at its sole discretion, issue partial credits or refunds in cases of duplicate charges, billing errors, or other extenuating circumstances.
 
