@@ -132,7 +132,7 @@ To be eligible for the 7-day money-back guarantee:
   An account that never ran a strategy, or whose strategies did not run as designed (for example, because their settings were changed or their trades were managed manually), is not eligible. If a strategy could not run as designed because of a fault on Atomik Trading's side, that fault does not count against your eligibility.
 - **Your purchase was a subscription, not a lifetime purchase.** Lifetime purchases, including lifetime memberships and any other one-time payment for lifetime access, are **not eligible** for the 7-day money-back guarantee.
 
-We may review your account's strategy and trade activity to confirm eligibility. These eligibility conditions apply to purchases made on or after November 17, 2026.
+We may review your account's strategy and trade activity to confirm eligibility.
 
 Outside the guarantee, and for purchases that are not eligible for it, refund requests are evaluated on a case-by-case basis. To request a refund, contact us at support@atomiktrading.io. We reserve the right to approve or deny refund requests at our sole discretion. Refunds, if approved, will be processed through the original payment method.
 
