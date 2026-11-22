@@ -92,7 +92,7 @@ Two more things separate the products: **where the bot runs** (in the cloud, or 
 
 **What it can't do:** It runs the strategies you already have; it doesn't build, backtest or offer strategies.
 
-**Best for:** Traders with a finished strategy who want the lowest flat price on many accounts. We compare it with Atomik in [Atomik vs PickMyTrade](https://docs.atomiktrading.io/compare/atomik-vs-pickmytrade).
+**Best for:** Traders with a finished strategy who want the lowest flat price on many accounts. We compare it with Atomik in [Atomik vs PickMyTrade](https://www.atomiktrading.io/compare/atomik-vs-pickmytrade).
 
 ### CrossTrade
 

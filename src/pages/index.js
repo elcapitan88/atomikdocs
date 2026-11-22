@@ -258,7 +258,7 @@ function RecentUpdatesSection() {
     {
       title: 'New: Atomik vs PickMyTrade, vs TradersPost, and the field — honest comparisons',
       date: 'August 2026',
-      url: '/compare/atomik-vs-pickmytrade',
+      url: 'https://www.atomiktrading.io/compare/atomik-vs-pickmytrade',
     },
     {
       title: 'Rewritten: First Automated Trade — real UI, real screenshots, paper-first',
