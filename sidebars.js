@@ -92,7 +92,22 @@ const sidebars = {
         slug: '/category/compare',
       },
       items: [
-        'compare/atomik-vs-pickmytrade',
+        {
+          // Moved to the main site 2026-11-22 (static/compare/atomik-vs-pickmytrade redirects the old URL).
+          type: 'link',
+          label: 'Atomik vs PickMyTrade',
+          href: 'https://www.atomiktrading.io/compare/atomik-vs-pickmytrade',
+        },
+        {
+          type: 'link',
+          label: 'Atomik vs TradingConnector',
+          href: 'https://www.atomiktrading.io/compare/atomik-vs-tradingconnector',
+        },
+        {
+          type: 'link',
+          label: 'Atomik vs WebhookTrade',
+          href: 'https://www.atomiktrading.io/compare/atomik-vs-webhooktrade',
+        },
         {
           // Moved to the main site 2026-09-15 (nginx.conf 301s the old URL).
           type: 'link',
