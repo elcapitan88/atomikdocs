@@ -1,26 +1,27 @@
 ---
 sidebar_position: 3
 title: "Best TradingView Automation Tools"
-description: "An honest 2026 guide to automating TradingView alerts into real broker orders: Atomik, PickMyTrade, TradersPost, Copygram, AlertDragon, Autoview, and CrossTrade compared for futures, prop firms, stocks, and crypto."
-keywords: ["best TradingView automation tools", "automate TradingView alerts", "TradingView to Tradovate", "TradingView webhook bot", "futures trading automation", "prop firm automation 2026"]
+description: "An honest 2026 guide to automating TradingView alerts into real broker orders: Atomik, PickMyTrade, TradersPost, Copygram, AlertDragon, Autoview, CrossTrade, WebhookTrade and TradingConnector compared for futures, prop firms, MetaTrader, stocks, and crypto."
+keywords: ["best TradingView automation tools", "automate TradingView alerts", "TradingView to Tradovate", "TradingView webhook bot", "futures trading automation", "prop firm automation 2026", "PickMyTrade alternative", "TradingConnector alternative", "WebhookTrade alternative"]
 ---
 
 # Best TradingView Automation Tools (2026)
 
 Every tool in this guide does the same core job: a TradingView alert fires a webhook, and the tool places a real order at your broker — cloud-hosted, no VPS, no code. They differ on **brokers, asset classes, pricing model, and what else they do beyond execution**.
 
-This guide is published by Atomik Trading, so yes, we have a horse in this race. We've kept the comparisons factual and we say plainly where a competitor is the better pick. Competitor details are from their public websites as of August 2026 (TradersPost's broker and prop-firm lists rechecked September 15, 2026) — always confirm current pricing on their sites.
+This guide is published by Atomik Trading, so yes, we have a horse in this race. We've kept the comparisons factual and we say plainly where a competitor is the better pick. Competitor details are from their public websites as of August 2026 (TradersPost's broker and prop-firm lists rechecked September 15, 2026; PickMyTrade, WebhookTrade and TradingConnector rechecked November 22, 2026). Always confirm current pricing on their sites. For side-by-side tables and costs by account count, see the [full comparisons](#full-comparisons).
 
 ## The short answer
 
 | You are... | Best fit |
 |---|---|
 | A futures trader who also wants to **build, backtest, and paper trade** strategies in the same platform | **Atomik** |
-| Running **many prop/funded accounts** and want flat pricing + copy trading | **Atomik** (10 accounts on one $129 plan) or **PickMyTrade** (unlimited accounts, $50) |
+| Running **many prop/funded accounts** and want flat pricing + copy trading | **Atomik** (10 accounts on one $129 plan) or **PickMyTrade** ($50/mo per broker login, unlimited accounts under it) |
 | A pure executor shopper: finished strategy, want the **cheapest reliable pipe** | **PickMyTrade** or **Copygram** |
 | Trading **stocks and options**, not just futures | **TradersPost** |
 | Automating **crypto exchanges** primarily | **Autoview** |
 | A **NinjaTrader** user | **CrossTrade** |
+| On **MetaTrader 4 or 5** (forex, CFDs, MetaTrader prop firms) | **WebhookTrade** (cloud) or **TradingConnector** (runs on your PC) |
 
 ## The tools
 
@@ -36,11 +37,11 @@ This guide is published by Atomik Trading, so yes, we have a horse in this race.
 
 ### PickMyTrade
 
-**What it is:** A no-code executor focused on futures, with the widest futures-broker list in this guide: Tradovate, Rithmic, Interactive Brokers, TradeStation, TradeLocker, ProjectX, Matchtrader, and Tradier. Includes a trade copier and supports Tradovate/ProjectX-powered prop firms (Apex, TopStep, Alpha Futures, and others).
+**What it is:** A no-code executor focused on futures, with the widest futures-broker list in this guide: Tradovate, Rithmic, Interactive Brokers, TradeStation, TradeLocker, ProjectX, Matchtrader, and Tradier. Includes a trade copier (one leader to followers under the same broker login) and daily loss limits, and lists 27+ prop firm integrations (Topstep, E8, FundedNext and others).
 
-**Pricing:** $50/mo or $500/yr flat, unlimited accounts and alerts; 7-day free trial with no card (rechecked November 13, 2026).
+**Pricing:** $50/mo, $135/quarter or $500/yr per broker login, with unlimited accounts under that login; each extra broker login is its own subscription. On sale until December 15, 2026: $120/quarter or $300/yr. 7-day free trial with no card (rechecked November 22, 2026).
 
-**Weaknesses:** Execution only — no strategy building, backtesting, or marketplace.
+**Weaknesses:** Execution only: no strategy building, backtesting, or marketplace. See the [full Atomik vs PickMyTrade comparison](https://atomiktrading.io/compare/atomik-vs-pickmytrade).
 
 **Best for:** Traders with a finished strategy who want maximum futures-broker coverage and unlimited accounts at the lowest flat price.
 
@@ -80,6 +81,26 @@ This guide is published by Atomik Trading, so yes, we have a horse in this race.
 
 **Best for:** NinjaTrader users.
 
+### WebhookTrade
+
+**What it is:** A cloud service that routes TradingView alerts to MetaTrader 4 and 5, plus Capital.com directly, for forex, indices and commodities, with no VPS, EA or always-on PC. It works with MetaTrader prop firm accounts where the firm allows the connection.
+
+**Pricing:** Per MetaTrader connection: $14.99/mo for one, up to $99/mo for ten, and less per connection on 3-month or yearly billing. 3-day free trial; their terms say payments are non-refundable (checked November 22, 2026).
+
+**Weaknesses:** MetaTrader only, so no futures brokers such as Tradovate. No strategy building, backtesting, copy trading or marketplace listed.
+
+**Best for:** MetaTrader traders who want cloud execution at a low price per account. See the [full Atomik vs WebhookTrade comparison](https://atomiktrading.io/compare/atomik-vs-webhooktrade).
+
+### TradingConnector
+
+**What it is:** Windows software (a Chrome extension, a desktop app and a MetaTrader plugin) that sends TradingView alerts and Telegram signals to MetaTrader 4 or 5, or to Interactive Brokers TWS. It runs on your own PC or VPS, which has to stay on.
+
+**Pricing:** $14.99/mo or $149/yr for one account; $49.99/mo or $499/yr for several accounts on one PC; $299/mo for accounts on remote computers. 7-day free trial on the monthly single-account plan (checked November 22, 2026).
+
+**Weaknesses:** Not cloud-hosted: an alert fired while your computer is off is lost. No backtesting or marketplace, and copying manual trades isn't supported.
+
+**Best for:** MetaTrader traders who want Telegram signals executed or detailed trade management written into each alert. See the [full Atomik vs TradingConnector comparison](https://atomiktrading.io/compare/atomik-vs-tradingconnector).
+
 ## What to check before you pick any of them
 
 1. **Your broker, exactly.** Broker lists change; confirm your specific broker *and* account type (live, demo, funded/eval) is supported.
@@ -88,6 +109,16 @@ This guide is published by Atomik Trading, so yes, we have a horse in this race.
 4. **Partial exits and order management.** If your strategy scales out, confirm the tool supports it — Atomik reads 25% / 50% / final exits straight from alert comments; others vary.
 5. **What happens beyond execution.** If you're still iterating on strategy, a pure pipe means paying separately for backtesting and analytics; a platform like Atomik bundles them.
 6. **Custody and security.** All tools listed here are non-custodial (they never hold funds), but review how each stores broker credentials.
+
+## Full comparisons
+
+Side-by-side tables, costs by account count, and when the other tool is the better pick:
+
+- [Atomik vs PickMyTrade](https://atomiktrading.io/compare/atomik-vs-pickmytrade)
+- [Atomik vs TradersPost](https://atomiktrading.io/compare/atomik-vs-traderspost)
+- [Atomik vs TradingConnector](https://atomiktrading.io/compare/atomik-vs-tradingconnector)
+- [Atomik vs WebhookTrade](https://atomiktrading.io/compare/atomik-vs-webhooktrade)
+- [All comparisons](https://atomiktrading.io/compare)
 
 ## FAQ
 
@@ -101,7 +132,7 @@ Often yes — Atomik (Tradovate-powered firms, plus TopstepX directly) and PickM
 
 ### Do any of these run without my computer on?
 
-All of the cloud tools here (Atomik, PickMyTrade, TradersPost, Copygram, AlertDragon, Autoview) execute server-side 24/7. CrossTrade depends on your NinjaTrader setup.
+All of the cloud tools here (Atomik, PickMyTrade, TradersPost, Copygram, AlertDragon, Autoview, WebhookTrade) execute server-side 24/7. PickMyTrade's Interactive Brokers route is the exception: it runs through TWS on your computer. TradingConnector runs on your own Windows PC or VPS, and CrossTrade depends on your NinjaTrader setup.
 
 ### Which is safest to start with?
 
