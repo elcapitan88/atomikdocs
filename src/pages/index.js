@@ -88,6 +88,9 @@ function HomepageHeader() {
           <p className={styles.heroTagline}>
             {siteConfig.tagline}
           </p>
+          <p className={styles.heroIntro}>
+            Atomik is an automated futures trading platform. Build a strategy in plain English, backtest it, and run it automatically in your own broker account, or pick one from a marketplace where every strategy has a live record.
+          </p>
 
           <div className={styles.heroCtas}>
             <Link to="/intro" className={styles.heroPrimaryBtn}>

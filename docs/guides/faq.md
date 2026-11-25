@@ -1,13 +1,25 @@
 ---
 sidebar_position: 9
 title: "FAQ"
-description: "Frequently asked questions about Atomik Trading — account setup, webhooks, broker connections, subscriptions, and troubleshooting."
-keywords: ["Atomik FAQ", "trading automation FAQ", "webhook help", "broker connection help", "subscription help"]
+description: "Frequently asked questions about Atomik, the automated futures trading platform: what it is, paper trading, NinjaTrader, VPS, the money-back guarantee, webhooks, broker connections, and billing."
+keywords: ["Atomik FAQ", "what is Atomik", "automated futures trading platform", "automate NinjaTrader", "paper trade strategy", "trading bot VPS", "money-back guarantee", "webhook help", "broker connection help"]
 ---
 
 # Frequently Asked Questions
 
 ## Account & Getting Started
+
+### What is Atomik?
+
+Atomik is an automated futures trading platform. Build a strategy in plain English, backtest it, and run it automatically in your own broker account, or pick one from a marketplace where every strategy has a live record. It's made by Atomik Trading Inc. Plans are Builder ($49 a month), Pro ($129) and Elite ($349). See [Subscription & Pricing](./subscription-pricing).
+
+### Do I need a VPS or to leave my computer on?
+
+No. Strategies run on Atomik's servers, and orders are placed from there at your broker, so nothing runs on your computer. You can close your laptop and your strategies keep running.
+
+### Can I paper trade a strategy before going live?
+
+Yes. Every plan includes a paper account with simulated money and real market prices. Activate a strategy on the paper account first, watch how it trades, then switch it to a live account when you're ready. See [Paper Trading](./paper-trading).
 
 ### How do I create an account?
 
@@ -23,10 +35,10 @@ Builder automates your own signals: strategies you build with AI and signals you
 
 ### What brokers do you support?
 
-- **Tradovate** — Futures (ES, NQ, MNQ, MES, etc.) — the most-used broker on Atomik, and the route in for many prop/funded accounts
+- **Tradovate and NinjaTrader** — Futures (ES, NQ, MNQ, MES, etc.). NinjaTrader owns Tradovate, and NinjaTrader accounts use the same login. The most-used connection on Atomik, and the route in for many prop/funded accounts
 - **Atomik Paper** — built-in simulated account, no broker needed
 - **TopstepX** — Funded futures accounts (API key). Your firm's rules on automated trading are between you and the firm, so check them before you switch anything on
-- **Interactive Brokers** — Futures (IB username and password)
+- **Interactive Brokers** — Futures (IB username and password), on the Pro and Elite plans
 
 See the [Broker Connection Guide](./broker-connection) for setup instructions.
 
@@ -81,6 +93,10 @@ Webhooks allow **10 requests per second**. Exceeding this returns `429 Too Many 
 Yes. Any system that can send an HTTP POST request with a JSON body can trigger an Atomik webhook. This includes custom scripts, other trading platforms, and automation tools like Zapier.
 
 ## Broker Connections
+
+### Can I automate NinjaTrader?
+
+Yes, your NinjaTrader account. NinjaTrader owns Tradovate, and NinjaTrader accounts use the same login, so you connect it through the Tradovate connection (see the [Broker Connection Guide](./broker-connection#connecting-tradovate-recommended)) and Atomik places your strategy's orders in it from Atomik's servers. Atomik doesn't run inside the NinjaTrader desktop program. If you already have a NinjaScript strategy, it can send its signals to Atomik by [webhook](./webhook-setup), and Atomik places the orders.
 
 ### My broker connection keeps disconnecting.
 
@@ -161,6 +177,10 @@ Go to **Settings > Billing > Manage Subscription**. Upgrades take effect immedia
 ### What happens if my payment fails?
 
 You get a grace period with full access while we retry. If unresolved, you'll receive warning emails, and eventually your account is suspended. Update your payment method in Settings to restore access immediately.
+
+### Does Atomik have a money-back guarantee?
+
+Yes. Every plan has a **7-day money-back guarantee** on your first payment, once per member. There's no free plan and no trial, so this is how you can try it: see [Can I get a refund?](#can-i-get-a-refund) for how to claim it.
 
 ### Can I get a refund?
 

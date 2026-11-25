@@ -1,7 +1,7 @@
 // docusaurus.config.js
 const config = {
   title: 'Atomik Docs',
-  tagline: 'Guides and reference for the Atomik Trading automation platform',
+  tagline: 'Guides and reference for Atomik, the automated futures trading platform',
   favicon: 'img/favicon.png',
   
   url: 'https://docs.atomiktrading.io',
@@ -131,7 +131,7 @@ const config = {
     metadata: [
       {property: 'og:type', content: 'website'},
       {property: 'og:title', content: 'Atomik Docs — Trading Automation Documentation'},
-      {property: 'og:description', content: 'Guides and reference for the Atomik Trading platform: webhook execution, broker connections, copy trading, strategy marketplace, and pricing.'},
+      {property: 'og:description', content: 'Guides and reference for Atomik, the automated futures trading platform: the AI strategy builder, backtesting, broker connections, TradingView webhooks, copy trading, the strategy marketplace, and pricing.'},
       {property: 'og:image', content: 'https://docs.atomiktrading.io/img/social-card.png'},
       {property: 'twitter:card', content: 'summary_large_image'},
       {property: 'twitter:site', content: '@atomiktrades'},
