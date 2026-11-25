@@ -9,6 +9,10 @@ keywords: ["webhook setup", "TradingView webhook", "trading automation webhook",
 
 Webhooks are the core of Atomik Trading's automation. They let external platforms like TradingView send trading signals directly to your connected broker accounts — executing trades in milliseconds without manual intervention.
 
+:::tip New to TradingView automation?
+For the short version (how it works, which brokers connect and what each plan includes), see [TradingView automation on Atomik](https://atomiktrading.io/tradingview-automation). This guide is the full reference.
+:::
+
 ## How Webhooks Work
 
 ```
@@ -244,5 +248,6 @@ The trade is processed asynchronously — check your dashboard or broker account
 ## Next Steps
 
 - [Your First Automated Trade](./first-trade) — End-to-end walkthrough
+- [TradingView automation on Atomik](https://atomiktrading.io/tradingview-automation) — Overview, brokers and plans
 - [Trading Strategies](./trading-strategies) — Strategy types and configuration
 - [Security Best Practices](./security) — Full security hardening guide
