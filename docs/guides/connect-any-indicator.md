@@ -123,6 +123,7 @@ For reference, the payloads the template emits — already matching Atomik's [ac
 ## Next steps
 
 - [Webhook Setup Guide](./webhook-setup) — payload format, security, logs
+- [TradingView automation on Atomik](https://atomiktrading.io/tradingview-automation) — overview, brokers and plans
 - [Paper Trading](./paper-trading) — where every new setup should run first
 - [Prop Firms & Funded Accounts](./prop-firms) — running automation on funded accounts
 - [Copy Trading](./copy-trading) — mirroring the same signals across multiple accounts

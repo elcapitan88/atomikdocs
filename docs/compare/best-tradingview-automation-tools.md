@@ -33,7 +33,7 @@ This guide is published by Atomik Trading, so yes, we have a horse in this race.
 
 **Weaknesses, honestly:** No stocks or options. No crypto exchanges. No Rithmic or TradeStation connectivity today, and on ProjectX only TopstepX. Not the cheapest option if execution is all you need.
 
-**Best for:** Futures and funded-account traders who want the whole workflow — build → backtest → paper → live → (optionally) sell — in one product.
+**Best for:** Futures and funded-account traders who want the whole workflow — build → backtest → paper → live → (optionally) sell — in one product. See [how TradingView automation works on Atomik](https://atomiktrading.io/tradingview-automation).
 
 ### PickMyTrade
 
