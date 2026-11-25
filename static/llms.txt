@@ -1,6 +1,6 @@
 # Atomik Trading Documentation
 
-> Official documentation for Atomik Trading (https://atomiktrading.io) — software that runs automated trading strategies in futures accounts customers hold in their own name. A customer picks a strategy from the marketplace by its record, builds one with AI inside the platform, or sends TradingView alerts; Atomik's servers place the orders at the customer's broker, 24/7. Non-custodial, no VPS, no code required. Futures trading carries a substantial risk of loss; nothing here promises results.
+> Atomik Trading (https://atomiktrading.io) is an automated futures trading platform. Build a strategy in plain English, backtest it, and run it automatically in your own broker account, or pick one from a marketplace where every strategy has a live record. This is its official documentation. Atomik runs automated trading strategies in futures accounts customers hold in their own name. A customer picks a strategy from the marketplace by its record, builds one with AI inside the platform, or sends TradingView alerts; Atomik's servers place the orders at the customer's broker, 24/7. Non-custodial, no VPS, no code required. Futures trading carries a substantial risk of loss; nothing here promises results.
 
 Main site: https://atomiktrading.io
 Pricing: https://atomiktrading.io/pricing
